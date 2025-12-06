@@ -1,0 +1,38 @@
+# Insightify Configuration
+
+# Timezone for scheduling (Pakistan Standard Time)
+timezone: "Asia/Karachi"
+
+# Data storage
+data_directory: "data"
+
+# GitHub settings
+github:
+  # Fetch commits from these hours ago (24 = last day)
+  hours_lookback: 24
+  # Include private repos
+  include_private: true
+
+# Gemini AI settings
+gemini:
+  model: "gemini-1.5-flash"  # Updated to latest Gemini model (Dec 2025)
+  temperature: 0.7
+  max_tokens: 1000
+
+# Discord notification settings
+discord:
+  enabled: true
+  include_charts: false  # Set to true when charts are ready
+
+# Email settings
+email:
+  enabled: true
+  subject_prefix: "[Insightify]"
+  include_charts: true
+
+# Reporting
+reporting:
+  # Languages to track (empty = all)
+  tracked_languages: []
+  # Minimum commits to consider a day active
+  min_commits_for_active_day: 1

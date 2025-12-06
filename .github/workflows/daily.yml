@@ -1,0 +1,53 @@
+name: Daily Progress Tracker
+
+on:
+  schedule:
+    # Runs at midnight PKT (19:00 UTC, since PKT is UTC+5)
+    - cron: '0 19 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  daily-tracker:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # Required to commit data files
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch all history for proper tracking
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install PyYAML
+      
+      - name: Run daily progress script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python scripts/daily_progress.py
+      
+      - name: Commit and push daily data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/*.json
+          git diff --staged --quiet || git commit -m "📊 Daily progress data: $(date +'%Y-%m-%d')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
