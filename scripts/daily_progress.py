@@ -33,15 +33,15 @@ def main():
     load_dotenv()
     
     # Get required credentials
-    github_token = os.getenv('GITHUB_TOKEN')
-    github_username = os.getenv('GITHUB_USERNAME')
+    github_token = os.getenv('GH_TOKEN')
+    github_username = os.getenv('GH_USERNAME')
     gemini_api_key = os.getenv('GEMINI_API_KEY')
     discord_webhook = os.getenv('DISCORD_WEBHOOK_URL')
     
     # Validate credentials
     if not all([github_token, github_username, gemini_api_key]):
         print("❌ Error: Missing required environment variables!")
-        print("Please ensure GITHUB_TOKEN, GITHUB_USERNAME, and GEMINI_API_KEY are set.")
+        print("Please ensure GH_TOKEN, GH_USERNAME, and GEMINI_API_KEY are set.")
         sys.exit(1)
     
     # Load configuration
