@@ -121,6 +121,7 @@ def aggregate_monthly_data(daily_data: list) -> dict:
     monthly['commits_by_week'] = dict(monthly['commits_by_week'])
     
     # Calculate additional metrics
+    monthly['total_days'] = len(daily_data)  # Total days in the month (with data)
     monthly['total_hours'] = round(monthly['total_hours'], 2)
     monthly['avg_commits_per_day'] = round(
         monthly['total_commits'] / len(daily_data) if daily_data else 0, 2
@@ -374,6 +375,9 @@ def main():
         insights = gemini_client.generate_monthly_insights(monthly_data)
         print("✅ Insights generated")
         print("\n" + "─" * 60)
+        print(f"Insights length: {len(insights)} characters")
+        print(f"Insights preview: {insights[:200]}...")
+        print("Full insights:")
         print(insights)
         print("─" * 60)
     except Exception as e:

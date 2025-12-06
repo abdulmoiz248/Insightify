@@ -1,0 +1,152 @@
+{
+  "date": "2025-11-22",
+  "total_commits": 8,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 4,
+      "language": "TypeScript",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "u2v3w4x",
+          "message": "test: add integration tests for search API",
+          "timestamp": "2025-11-22T16:20:30+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/u2v3w4x"
+        },
+        {
+          "sha": "y5z6a7b",
+          "message": "fix: query performance issues with large datasets",
+          "timestamp": "2025-11-22T13:45:15+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/y5z6a7b"
+        },
+        {
+          "sha": "c8d9e0f",
+          "message": "update config",
+          "timestamp": "2025-11-22T11:10:40+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/c8d9e0f"
+        },
+        {
+          "sha": "g1h2i3j",
+          "message": "refactor: extract common test utilities",
+          "timestamp": "2025-11-22T09:35:25+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/g1h2i3j"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 3,
+      "language": "TypeScript",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "k4l5m6n",
+          "message": "perf: optimize search results rendering",
+          "timestamp": "2025-11-22T15:30:45+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/k4l5m6n"
+        },
+        {
+          "sha": "o7p8q9r",
+          "message": "fix bugs",
+          "timestamp": "2025-11-22T12:20:20+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/o7p8q9r"
+        },
+        {
+          "sha": "s0t1u2v",
+          "message": "style: improve search filter mobile responsiveness",
+          "timestamp": "2025-11-22T10:45:10+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/s0t1u2v"
+        }
+      ]
+    },
+    "Insightify": {
+      "commits_count": 1,
+      "language": "Python",
+      "url": "https://github.com/abdulmoiz248/Insightify",
+      "commits": [
+        {
+          "sha": "w3x4y5z",
+          "message": "feat: add chart generation for monthly reports",
+          "timestamp": "2025-11-22T17:40:55+00:00",
+          "url": "https://github.com/abdulmoiz248/Insightify/commit/w3x4y5z"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 7,
+    "Python": 1
+  },
+  "commits_by_hour": {
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "15": 1,
+    "16": 1,
+    "17": 1
+  },
+  "commit_messages": [
+    {
+      "repo": "Insightify",
+      "sha": "w3x4y5z",
+      "message": "feat: add chart generation for monthly reports",
+      "timestamp": "2025-11-22T17:40:55+00:00",
+      "url": "https://github.com/abdulmoiz248/Insightify/commit/w3x4y5z"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "u2v3w4x",
+      "message": "test: add integration tests for search API",
+      "timestamp": "2025-11-22T16:20:30+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/u2v3w4x"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "k4l5m6n",
+      "message": "perf: optimize search results rendering",
+      "timestamp": "2025-11-22T15:30:45+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/k4l5m6n"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "y5z6a7b",
+      "message": "fix: query performance issues with large datasets",
+      "timestamp": "2025-11-22T13:45:15+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/y5z6a7b"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "o7p8q9r",
+      "message": "fix bugs",
+      "timestamp": "2025-11-22T12:20:20+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/o7p8q9r"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "c8d9e0f",
+      "message": "update config",
+      "timestamp": "2025-11-22T11:10:40+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/c8d9e0f"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "s0t1u2v",
+      "message": "style: improve search filter mobile responsiveness",
+      "timestamp": "2025-11-22T10:45:10+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/s0t1u2v"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "g1h2i3j",
+      "message": "refactor: extract common test utilities",
+      "timestamp": "2025-11-22T09:35:25+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/g1h2i3j"
+    }
+  ],
+  "time_range": {
+    "start": "2025-11-22T00:00:00+05:00",
+    "end": "2025-11-23T00:00:00+05:00"
+  },
+  "estimated_hours": 3.9
+}

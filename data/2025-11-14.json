@@ -1,0 +1,138 @@
+{
+  "date": "2025-11-14",
+  "total_commits": 7,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 3,
+      "language": "TypeScript",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "o0p1q2r",
+          "message": "test: add unit tests for auth controller",
+          "timestamp": "2025-11-14T15:20:30+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/o0p1q2r"
+        },
+        {
+          "sha": "s3t4u5v",
+          "message": "fix tests",
+          "timestamp": "2025-11-14T12:45:15+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/s3t4u5v"
+        },
+        {
+          "sha": "w6x7y8z",
+          "message": "refactor: extract validation logic to separate module",
+          "timestamp": "2025-11-14T10:10:50+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/w6x7y8z"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 2,
+      "language": "TypeScript",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "a9b0c1d",
+          "message": "feat: add user settings page with theme toggle",
+          "timestamp": "2025-11-14T14:35:40+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/a9b0c1d"
+        },
+        {
+          "sha": "e2f3g4h",
+          "message": "update components",
+          "timestamp": "2025-11-14T11:20:25+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/e2f3g4h"
+        }
+      ]
+    },
+    "Insightify": {
+      "commits_count": 2,
+      "language": "Python",
+      "url": "https://github.com/abdulmoiz248/Insightify",
+      "commits": [
+        {
+          "sha": "i5j6k7l",
+          "message": "feat: implement GitHub API rate limit handling",
+          "timestamp": "2025-11-14T16:50:10+00:00",
+          "url": "https://github.com/abdulmoiz248/Insightify/commit/i5j6k7l"
+        },
+        {
+          "sha": "m8n9o0p",
+          "message": "fix: discord webhook formatting issues",
+          "timestamp": "2025-11-14T13:15:55+00:00",
+          "url": "https://github.com/abdulmoiz248/Insightify/commit/m8n9o0p"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 5,
+    "Python": 2
+  },
+  "commits_by_hour": {
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "13": 1,
+    "14": 1,
+    "15": 1,
+    "16": 1
+  },
+  "commit_messages": [
+    {
+      "repo": "Insightify",
+      "sha": "i5j6k7l",
+      "message": "feat: implement GitHub API rate limit handling",
+      "timestamp": "2025-11-14T16:50:10+00:00",
+      "url": "https://github.com/abdulmoiz248/Insightify/commit/i5j6k7l"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "o0p1q2r",
+      "message": "test: add unit tests for auth controller",
+      "timestamp": "2025-11-14T15:20:30+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/o0p1q2r"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "a9b0c1d",
+      "message": "feat: add user settings page with theme toggle",
+      "timestamp": "2025-11-14T14:35:40+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/a9b0c1d"
+    },
+    {
+      "repo": "Insightify",
+      "sha": "m8n9o0p",
+      "message": "fix: discord webhook formatting issues",
+      "timestamp": "2025-11-14T13:15:55+00:00",
+      "url": "https://github.com/abdulmoiz248/Insightify/commit/m8n9o0p"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "s3t4u5v",
+      "message": "fix tests",
+      "timestamp": "2025-11-14T12:45:15+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/s3t4u5v"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "e2f3g4h",
+      "message": "update components",
+      "timestamp": "2025-11-14T11:20:25+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/e2f3g4h"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "w6x7y8z",
+      "message": "refactor: extract validation logic to separate module",
+      "timestamp": "2025-11-14T10:10:50+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/w6x7y8z"
+    }
+  ],
+  "time_range": {
+    "start": "2025-11-14T00:00:00+05:00",
+    "end": "2025-11-15T00:00:00+05:00"
+  },
+  "estimated_hours": 3.4
+}

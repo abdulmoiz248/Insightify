@@ -151,74 +151,50 @@ class DiscordNotifier:
         return embed
     
     def _build_monthly_embed(self, data: Dict[str, Any], insights: str) -> Dict:
-        """Build Discord embed for monthly summary."""
-        total_commits = data.get('total_commits', 0)
-        total_hours = data.get('total_hours', 0)
-        active_days = data.get('active_days', 0)
-        streak = data.get('longest_streak', 0)
+        """Build Discord embed for monthly summary - AI analysis only."""
         
-        embed = {
-            "title": f"📅 Monthly Report - {data.get('month', 'N/A')}",
-            "color": 0x9b59b6,  # Purple for monthly reports
-            "description": "Here's your comprehensive monthly coding summary!",
-            "fields": [
-                {
-                    "name": "📊 Total Commits",
-                    "value": f"**{total_commits}**",
-                    "inline": True
-                },
-                {
-                    "name": "⏰ Total Time",
-                    "value": f"**{total_hours}** hours",
-                    "inline": True
-                },
-                {
-                    "name": "📆 Active Days",
-                    "value": f"**{active_days}** days",
-                    "inline": True
-                },
-                {
-                    "name": "🔥 Longest Streak",
-                    "value": f"**{streak}** days",
-                    "inline": True
-                },
-                {
-                    "name": "📈 Avg Commits/Day",
-                    "value": f"**{data.get('avg_commits_per_day', 0)}**",
-                    "inline": True
-                },
-                {
-                    "name": "📚 Repositories",
-                    "value": f"**{data.get('total_repos', 0)}**",
-                    "inline": True
+        # Handle empty insights
+        if not insights or len(insights.strip()) == 0:
+            insights = "⚠️ AI analysis failed to generate. Please check the logs."
+        
+        # Discord description limit is 4096 characters
+        # If insights are too long, we'll use description + fields
+        if len(insights) <= 4000:
+            embed = {
+                "title": f"🤖 Monthly AI Analysis - {data.get('month', 'N/A')}",
+                "color": 0x2C3E50,
+                "description": insights,
+                "timestamp": datetime.utcnow().isoformat(),
+                "footer": {
+                    "text": "Insightify - AI-Powered Code Analysis"
                 }
-            ],
-            "timestamp": datetime.utcnow().isoformat()
-        }
-        
-        # Add language breakdown
-        languages = data.get('languages', {})
-        if languages:
-            lang_text = "\n".join([f"• {lang}: {count} commits" for lang, count in 
-                                  sorted(languages.items(), key=lambda x: x[1], reverse=True)[:5]])
-            embed["fields"].append({
-                "name": "💻 Top Languages",
-                "value": lang_text,
-                "inline": False
-            })
-        
-        # Add AI insights (split if too long)
-        if insights:
-            # Discord has a 6000 character limit for entire embed
-            insights_truncated = insights[:1500] + "..." if len(insights) > 1500 else insights
-            embed["fields"].append({
-                "name": "🤖 AI Analysis",
-                "value": insights_truncated,
-                "inline": False
-            })
-        
-        embed["footer"] = {
-            "text": "Insightify - Monthly Progress Report"
-        }
+            }
+        else:
+            # Split into description and fields for longer content
+            embed = {
+                "title": f"🤖 Monthly AI Analysis - {data.get('month', 'N/A')}",
+                "color": 0x2C3E50,
+                "description": insights[:2000],
+                "fields": [
+                    {
+                        "name": "Continued...",
+                        "value": insights[2000:4000] if len(insights) > 2000 else "",
+                        "inline": False
+                    }
+                ],
+                "timestamp": datetime.utcnow().isoformat(),
+                "footer": {
+                    "text": "Insightify - AI-Powered Code Analysis"
+                }
+            }
+            
+            # Add more fields if needed
+            remaining = insights[4000:]
+            if remaining and len(remaining) > 0:
+                embed["fields"].append({
+                    "name": "More...",
+                    "value": remaining[:1024],
+                    "inline": False
+                })
         
         return embed

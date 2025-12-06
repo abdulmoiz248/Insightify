@@ -1,40 +1,114 @@
 {
-  "total_commits": 9,
-  "total_hours": 4.24,
-  "active_days": 1,
+  "total_commits": 96,
+  "total_hours": 45.64,
+  "active_days": 12,
   "languages": {
-    "TypeScript": 6,
-    "Python": 3
+    "TypeScript": 81,
+    "Python": 12,
+    "Java": 3
   },
   "repositories": {
-    "Hygieia-Backend": 2,
-    "Hygieia-Frontend": 4,
-    "Insightify": 3
+    "Hygieia-Backend": 45,
+    "Hygieia-Frontend": 36,
+    "Insightify": 12,
+    "leetcode-daily": 3
   },
   "commits_by_day": {
-    "2025-12-07": 9
+    "2025-11-05": 6,
+    "2025-12-07": 9,
+    "2025-11-09": 8,
+    "2025-11-12": 9,
+    "2025-11-14": 7,
+    "2025-11-15": 5,
+    "2025-11-16": 10,
+    "2025-11-20": 12,
+    "2025-11-22": 8,
+    "2025-11-25": 9,
+    "2025-11-27": 7,
+    "2025-11-29": 6
   },
   "commits_by_week": {
-    "Week 49": 9
+    "Week 45": 14,
+    "Week 49": 9,
+    "Week 46": 31,
+    "Week 47": 20,
+    "Week 48": 22
   },
   "daily_breakdown": [
+    {
+      "date": "2025-11-05",
+      "commits": 6,
+      "hours": 3.2
+    },
     {
       "date": "2025-12-07",
       "commits": 9,
       "hours": 4.24
+    },
+    {
+      "date": "2025-11-09",
+      "commits": 8,
+      "hours": 3.8
+    },
+    {
+      "date": "2025-11-12",
+      "commits": 9,
+      "hours": 4.3
+    },
+    {
+      "date": "2025-11-14",
+      "commits": 7,
+      "hours": 3.4
+    },
+    {
+      "date": "2025-11-15",
+      "commits": 5,
+      "hours": 2.6
+    },
+    {
+      "date": "2025-11-16",
+      "commits": 10,
+      "hours": 4.7
+    },
+    {
+      "date": "2025-11-20",
+      "commits": 12,
+      "hours": 5.5
+    },
+    {
+      "date": "2025-11-22",
+      "commits": 8,
+      "hours": 3.9
+    },
+    {
+      "date": "2025-11-25",
+      "commits": 9,
+      "hours": 4.2
+    },
+    {
+      "date": "2025-11-27",
+      "commits": 7,
+      "hours": 3.3
+    },
+    {
+      "date": "2025-11-29",
+      "commits": 6,
+      "hours": 2.5
     }
   ],
-  "avg_commits_per_day": 9.0,
-  "total_repos": 3,
+  "total_days": 12,
+  "avg_commits_per_day": 8.0,
+  "total_repos": 4,
   "top_repositories": [
+    "Hygieia-Backend",
     "Hygieia-Frontend",
     "Insightify",
-    "Hygieia-Backend"
+    "leetcode-daily"
   ],
-  "longest_streak": 1,
+  "longest_streak": 3,
   "month": "November 2025",
   "month_str": "2025-11",
-  "ai_insights": "Here's a comprehensive analysis of the developer's GitHub activity for November 2025:\n\n### Developer Productivity Analysis: November 2025\n\n**1. Overall Productivity Assessment**\nThe developer's GitHub activity for November indicates a very low level of engagement. With only 9 total commits and 4.24 hours of coding time spread across a single active day for the entire month, contributions were minimal. While the average of 9 commits on that active day shows a burst of activity, the lack of sustained effort across the month points to a significant opportunity for increased contribution and consistent presence.\n\n**2. Key Achievements and Milestones**\nDespite the overall low activity, the developer successfully made contributions across three distinct repositories: Hygieia-Frontend, Insightify, and Hygieia-Backend. This demonstrates involvement in multiple projects and potentially both frontend and backend domains. The ability to complete 9 commits in a single session also highlights efficiency and focus when actively engaged.\n\n**3. Technology Focus and Diversification Analysis**\nThe developer shows a clear primary focus on TypeScript (6 commits), suggesting significant work within the JavaScript/TypeScript ecosystem, likely involving web development (frontend or Node.js backend). The remaining 3 commits in Python indicate valuable versatility and a diversified skill set, allowing contributions to different types of projects or different layers of a full-stack application. This language distribution aligns with their work on both Hygieia-Frontend and Hygieia-Backend, implying full-stack exposure.\n\n**4. Consistency and Streak Analysis**\nConsistency is the most significant area for improvement. The developer recorded only 1 active day and a longest streak of 1 day for the entire month. All activity was concentrated in Week 49, indicating a lack of regular engagement throughout November. This pattern suggests sporadic contributions rather than a steady workflow, which can impact project momentum and team collaboration.\n\n**5. Actionable Recommendations for the Next Month**\n\n1.  **Prioritize Consistent Engagement:** Aim to increase the number of active days significantly. Even small, incremental contributions (e.g., 1-2 commits) on 3-4 days a week can drastically improve consistency and build momentum. Consider breaking down larger tasks into smaller, more manageable commits to facilitate this.\n2.  **Allocate Dedicated \"Coding Sprints\":** Given the developer's ability to complete 9 commits in a single session, schedule regular, focused coding blocks throughout the week. This could be 1-2 hours daily or a few longer sessions weekly, ensuring dedicated time for code contribution beyond just a single day.\n3.  **Explore Diverse Contribution Types:** Beyond direct code commits, consider other ways to contribute to projects, such as reviewing pull requests, triaging issues, updating documentation, or participating in discussions. These activities also count as valuable contributions and can help maintain engagement even when not actively coding new features.",
+  "ai_insights": "## Performance Reality Check\nYour engagement for November was a mere 40%, with only 12 out of 30 days showing activity. This is subpar. Your 96 commits over 45.64 hours translates to a highly inefficient 2.1 commits/hour, far below professional standards and indicative of significant wasted time during logged \"coding hours.\" The longest commit streak of 3 days, despite 12 active days, clearly highlights a critical lack of sustained consistency.\n\n## Technical Depth & Focus\nWhile TypeScript shows primary focus with 81 commits, the distribution across four repositories - Hygieia-Backend, Hygieia-Frontend, Insightify, and leetcode-daily - suggests a critical lack of dedicated focus. Spreading 96 commits thinly across this many projects, especially with secondary contributions to Python (12 commits) and Java (3 commits), raises concerns that you are not effectively driving any single project to completion. This pattern implies jumping between tasks rather than deep, impactful work.\n\n## Critical Issues\n*   **Consistency Gaps:** Your active day count of 12/30 days (40%) combined with a 3-day longest streak demonstrates severe irregularity. The weekly commit trend from Week 46 (31 commits) to Week 49 (9 commits) further confirms a decaying, inconsistent effort throughout the month.\n*   **Productivity Concerns:** A rate of 2.1 commits/hour is unacceptably low. This implies either significant unproductive time during reported coding hours or an unhealthy habit of batching large amounts of work into single, infrequent commits, which hinders continuous integration and review processes.\n*   **Scope/Focus Problems:** Distributing a low total of 96 commits across four distinct repositories, particularly Hygieia-Backend, Hygieia-Frontend, and Insightify, dilutes your impact. This indicates an inability to prioritize and commit meaningfully to primary project objectives.\n\n## What Needs to Change\n*   Increase your active days to at least 20 per month (66%+ engagement) by committing daily, even for minor changes.\n*   Boost commit frequency to a minimum of 4 commits/hour, ensuring smaller, more atomic commits that facilitate continuous integration and code review.\n*   Consolidate your efforts immediately. Focus exclusively on Hygieia-Backend and Hygieia-Frontend; any work on Insightify or leetcode-daily must cease until the core product work demonstrates consistent, high-quality progress.",
   "chart_paths": [
     "C:\\Users\\Admin\\Desktop\\Insightify\\charts\\daily_commits_2025-11.png",
     "C:\\Users\\Admin\\Desktop\\Insightify\\charts\\languages_2025-11.png",

@@ -83,11 +83,36 @@ class GeminiClient:
                 generation_config={
                     'temperature': self.temperature,
                     'max_output_tokens': 2000,
-                }
+                },
+                safety_settings=[
+                    {
+                        "category": "HARM_CATEGORY_HARASSMENT",
+                        "threshold": "BLOCK_NONE",
+                    },
+                    {
+                        "category": "HARM_CATEGORY_HATE_SPEECH",
+                        "threshold": "BLOCK_NONE",
+                    },
+                    {
+                        "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                        "threshold": "BLOCK_NONE",
+                    },
+                    {
+                        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                        "threshold": "BLOCK_NONE",
+                    },
+                ]
             )
+            
+            # Check if response was blocked
+            if not response.text:
+                print("⚠️  Warning: AI response was blocked, using fallback analysis")
+                return self._generate_monthly_fallback(monthly_data)
+            
             return response.text
         except Exception as e:
-            return f"Error generating insights: {str(e)}"
+            print(f"⚠️  Warning: AI generation failed ({str(e)}), using fallback analysis")
+            return self._generate_monthly_fallback(monthly_data)
     
     def _build_daily_prompt(self, data: Dict[str, Any]) -> str:
         """Build prompt for daily insights."""
@@ -159,40 +184,65 @@ CRITICAL: Use ACTUAL repo names from the data, ACTUAL commit messages, and ACTUA
         return prompt
     
     def _build_monthly_prompt(self, data: Dict[str, Any]) -> str:
-        """Build prompt for monthly insights."""
+        """Build prompt for monthly insights - strict mentor style."""
         total_commits = data.get('total_commits', 0)
         total_hours = data.get('total_hours', 0)
         active_days = data.get('active_days', 0)
         languages = data.get('languages', {})
         top_repos = data.get('top_repositories', [])
         streak = data.get('longest_streak', 0)
+        total_days = data.get('total_days', 30)
+        avg_commits = data.get('avg_commits_per_day', 0)
         
-        prompt = f"""As a developer productivity analyst, analyze this developer's monthly GitHub activity and provide comprehensive insights.
+        prompt = f"""You are a strict technical mentor reviewing a developer's monthly GitHub performance. Be honest, critical, and constructive. Avoid any generic introductions or conclusions like "Here's a comprehensive analysis" or "In conclusion". Get straight to the point.
 
-**Monthly Summary ({data.get('month', 'N/A')})**
+**Monthly Data ({data.get('month', 'N/A')})**
 - Total Commits: {total_commits}
-- Total Coding Time: {total_hours} hours
-- Active Days: {active_days}
+- Coding Time: {total_hours}h
+- Active Days: {active_days}/{total_days} days
 - Longest Streak: {streak} days
-- Average Commits/Day: {data.get('avg_commits_per_day', 0)}
+- Avg Commits/Day: {avg_commits}
+- Repositories: {data.get('total_repos', 0)}
 
-**Language Distribution:**
+**Languages:**
 {self._format_dict(languages)}
 
 **Top Repositories:**
 {self._format_list(top_repos)}
 
-**Weekly Breakdown:**
+**Weekly Pattern:**
 {self._format_dict(data.get('commits_by_week', {}))}
 
-Please provide:
-1. Overall productivity assessment (3-4 sentences)
-2. Key achievements and milestones
-3. Technology focus and diversification analysis
-4. Consistency and streak analysis
-5. 2-3 actionable recommendations for the next day
+Provide your analysis in this EXACT structure (use markdown headers):
 
-Keep the response comprehensive but well-structured."""
+## Performance Reality Check
+[2-3 sentences] Hit the facts hard. Calculate actual productivity metrics: {active_days}/{total_days} days active means X% engagement. {total_commits} commits in {total_hours}h = Y commits/hour. Compare this to professional standards. If they're slacking, say it. If consistency is poor, point it out specifically with numbers.
+
+## Technical Depth & Focus
+[2-3 sentences] Analyze their language distribution and repository focus. Are they spreading too thin across {data.get('total_repos', 0)} repos? Is the language diversity ({', '.join(list(languages.keys())[:3])}) helping or hindering? Call out if they're jumping between projects without finishing anything. Reference specific repos from the top list.
+
+## Critical Issues
+[2-3 bullet points] Identify concrete problems:
+- Consistency gaps (check if streak of {streak} days vs {active_days} active days shows irregular pattern)
+- Productivity concerns (low commits/hour, inactive days pattern)
+- Scope/focus problems (too many repos, language scatter)
+Be specific. Use actual repo names and numbers from the data. If there are genuine issues, don't soften them. If performance is actually solid, acknowledge it briefly.
+
+## What Needs to Change
+[2-3 specific, actionable points] Give direct orders, not suggestions:
+- "Commit daily to reach 80%+ active days" (if currently low)
+- "Focus on finishing [specific repo] before starting new work" (if scattered)
+- "Increase commit frequency to 3+/day on active days" (if low productivity)
+Be brutally specific based on the actual weaknesses you identified above.
+
+CRITICAL RULES:
+- NO introductory sentences like "Here's my analysis" or "Let me review"
+- NO concluding statements like "In summary" or "Overall"
+- Use ACTUAL repo names from the top repositories list
+- Reference SPECIFIC numbers from the data
+- If performance is poor, be blunt about it
+- If performance is good, be brief and move to areas for improvement
+- This is a performance review, not a motivational speech"""
         
         return prompt
     
@@ -257,6 +307,69 @@ Keep the response comprehensive but well-structured."""
             truth = f"Brutal Truth:\nSolid focused work on {repo_list} - keep this momentum."
         
         return f"{pattern}\n\n{red_flags_text}\n\n{truth}"
+    
+    def _generate_monthly_fallback(self, data: Dict[str, Any]) -> str:
+        """Generate fallback monthly insights when AI fails."""
+        total_commits = data.get('total_commits', 0)
+        total_hours = data.get('total_hours', 0)
+        active_days = data.get('active_days', 0)
+        total_days = data.get('total_days', 30)
+        streak = data.get('longest_streak', 0)
+        avg_commits = data.get('avg_commits_per_day', 0)
+        languages = data.get('languages', {})
+        top_repos = data.get('top_repositories', [])
+        
+        # Calculate engagement
+        engagement_pct = (active_days / total_days * 100) if total_days > 0 else 0
+        commits_per_hour = (total_commits / total_hours) if total_hours > 0 else 0
+        
+        # Performance Reality Check
+        perf_rating = "excellent" if engagement_pct >= 80 else "good" if engagement_pct >= 60 else "needs improvement"
+        performance = f"""## Performance Reality Check
+{active_days}/{total_days} days active ({engagement_pct:.1f}% engagement) - {perf_rating}. {total_commits} commits in {total_hours}h equals {commits_per_hour:.1f} commits/hour. Longest streak: {streak} days."""
+        
+        # Technical Depth
+        top_lang = max(languages.items(), key=lambda x: x[1])[0] if languages else "Unknown"
+        lang_count = len(languages)
+        repo_count = len(top_repos)
+        
+        focus_assessment = "too scattered" if repo_count > 10 else "well-focused" if repo_count <= 5 else "moderate spread"
+        technical = f"""## Technical Depth & Focus
+Working across {repo_count} repositories with {lang_count} languages (primary: {top_lang}). Distribution is {focus_assessment}. Top repos: {', '.join(top_repos[:3])}."""
+        
+        # Critical Issues
+        issues = []
+        if engagement_pct < 60:
+            issues.append(f"Low consistency: only {active_days}/{total_days} active days")
+        if streak < 5:
+            issues.append(f"Weak streak: longest is only {streak} days - build better habits")
+        if commits_per_hour < 0.5:
+            issues.append(f"Low productivity: {commits_per_hour:.1f} commits/hour suggests inefficiency")
+        if repo_count > 10:
+            issues.append(f"Too scattered: working across {repo_count} repos")
+        
+        if not issues:
+            issues.append("Solid performance overall - maintain this pace")
+        
+        critical = "## Critical Issues\n" + "\n".join([f"- {issue}" for issue in issues])
+        
+        # What Needs to Change
+        changes = []
+        if engagement_pct < 70:
+            changes.append(f"Commit daily to reach 80%+ active days (currently {engagement_pct:.1f}%)")
+        if streak < 7:
+            changes.append(f"Build a 7+ day streak (current max: {streak} days)")
+        if repo_count > 8:
+            changes.append(f"Focus on top 3-5 repos: {', '.join(top_repos[:3])}")
+        if commits_per_hour < 1:
+            changes.append(f"Increase commit frequency to 3+ commits per active day")
+        
+        if not changes:
+            changes.append("Continue current pace and maintain consistency")
+        
+        action = "## What Needs to Change\n" + "\n".join([f"- {change}" for change in changes])
+        
+        return f"{performance}\n\n{technical}\n\n{critical}\n\n{action}"
     
     @staticmethod
     def _format_dict(data: Dict) -> str:
