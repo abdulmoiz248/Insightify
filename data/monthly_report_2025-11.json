@@ -1,0 +1,43 @@
+{
+  "total_commits": 9,
+  "total_hours": 4.24,
+  "active_days": 1,
+  "languages": {
+    "TypeScript": 6,
+    "Python": 3
+  },
+  "repositories": {
+    "Hygieia-Backend": 2,
+    "Hygieia-Frontend": 4,
+    "Insightify": 3
+  },
+  "commits_by_day": {
+    "2025-12-07": 9
+  },
+  "commits_by_week": {
+    "Week 49": 9
+  },
+  "daily_breakdown": [
+    {
+      "date": "2025-12-07",
+      "commits": 9,
+      "hours": 4.24
+    }
+  ],
+  "avg_commits_per_day": 9.0,
+  "total_repos": 3,
+  "top_repositories": [
+    "Hygieia-Frontend",
+    "Insightify",
+    "Hygieia-Backend"
+  ],
+  "longest_streak": 1,
+  "month": "November 2025",
+  "month_str": "2025-11",
+  "ai_insights": "Here's a comprehensive analysis of the developer's GitHub activity for November 2025:\n\n### Developer Productivity Analysis: November 2025\n\n**1. Overall Productivity Assessment**\nThe developer's GitHub activity for November indicates a very low level of engagement. With only 9 total commits and 4.24 hours of coding time spread across a single active day for the entire month, contributions were minimal. While the average of 9 commits on that active day shows a burst of activity, the lack of sustained effort across the month points to a significant opportunity for increased contribution and consistent presence.\n\n**2. Key Achievements and Milestones**\nDespite the overall low activity, the developer successfully made contributions across three distinct repositories: Hygieia-Frontend, Insightify, and Hygieia-Backend. This demonstrates involvement in multiple projects and potentially both frontend and backend domains. The ability to complete 9 commits in a single session also highlights efficiency and focus when actively engaged.\n\n**3. Technology Focus and Diversification Analysis**\nThe developer shows a clear primary focus on TypeScript (6 commits), suggesting significant work within the JavaScript/TypeScript ecosystem, likely involving web development (frontend or Node.js backend). The remaining 3 commits in Python indicate valuable versatility and a diversified skill set, allowing contributions to different types of projects or different layers of a full-stack application. This language distribution aligns with their work on both Hygieia-Frontend and Hygieia-Backend, implying full-stack exposure.\n\n**4. Consistency and Streak Analysis**\nConsistency is the most significant area for improvement. The developer recorded only 1 active day and a longest streak of 1 day for the entire month. All activity was concentrated in Week 49, indicating a lack of regular engagement throughout November. This pattern suggests sporadic contributions rather than a steady workflow, which can impact project momentum and team collaboration.\n\n**5. Actionable Recommendations for the Next Month**\n\n1.  **Prioritize Consistent Engagement:** Aim to increase the number of active days significantly. Even small, incremental contributions (e.g., 1-2 commits) on 3-4 days a week can drastically improve consistency and build momentum. Consider breaking down larger tasks into smaller, more manageable commits to facilitate this.\n2.  **Allocate Dedicated \"Coding Sprints\":** Given the developer's ability to complete 9 commits in a single session, schedule regular, focused coding blocks throughout the week. This could be 1-2 hours daily or a few longer sessions weekly, ensuring dedicated time for code contribution beyond just a single day.\n3.  **Explore Diverse Contribution Types:** Beyond direct code commits, consider other ways to contribute to projects, such as reviewing pull requests, triaging issues, updating documentation, or participating in discussions. These activities also count as valuable contributions and can help maintain engagement even when not actively coding new features.",
+  "chart_paths": [
+    "C:\\Users\\Admin\\Desktop\\Insightify\\charts\\daily_commits_2025-11.png",
+    "C:\\Users\\Admin\\Desktop\\Insightify\\charts\\languages_2025-11.png",
+    "C:\\Users\\Admin\\Desktop\\Insightify\\charts\\top_repos_2025-11.png"
+  ]
+}

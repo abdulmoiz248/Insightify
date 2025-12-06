@@ -7,7 +7,7 @@ Fetches GitHub commits for the day, generates insights, and sends to Discord.
 import os
 import sys
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from dotenv import load_dotenv
 import pytz
@@ -112,6 +112,23 @@ def main():
         print(f"❌ Error saving data: {str(e)}")
         sys.exit(1)
     
+    # Load previous 7 days for comparison
+    print("\n📚 Loading previous days for comparison...")
+    previous_days = []
+    for i in range(1, 8):
+        prev_date = current_time - timedelta(days=i)
+        prev_file = data_dir / f"{prev_date.strftime('%Y-%m-%d')}.json"
+        if prev_file.exists():
+            try:
+                with open(prev_file, 'r', encoding='utf-8') as f:
+                    previous_days.append(json.load(f))
+            except:
+                pass
+    
+    if previous_days:
+        print(f"✅ Loaded {len(previous_days)} previous days for context")
+        commit_data['previous_days'] = previous_days
+    
     # Generate AI insights
     print("\n🤖 Generating AI insights...")
     try:
@@ -123,6 +140,10 @@ def main():
         
         # Add insights to data
         commit_data['ai_insights'] = insights
+        
+        # Remove previous_days before saving (too much data)
+        if 'previous_days' in commit_data:
+            del commit_data['previous_days']
         
         # Update JSON with insights
         with open(output_file, 'w', encoding='utf-8') as f:

@@ -15,8 +15,8 @@ github:
 
 # Gemini AI settings
 gemini:
-  model: "gemini-1.5-flash"  # Updated to latest Gemini model (Dec 2025)
-  temperature: 0.7
+  model: "gemini-2.5-flash"
+  temperature: 1.0  # Higher for more creative and brutally honest insights
   max_tokens: 1000
 
 # Discord notification settings

@@ -1,0 +1,163 @@
+{
+  "date": "2025-12-07",
+  "total_commits": 9,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 2,
+      "language": "TypeScript",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "7eddcf9",
+          "message": "feat: enhance user registration flow to handle unverified accounts and resend OTP",
+          "timestamp": "2025-12-06T10:06:20+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/7eddcf9d5ca9b3fe66889cde5c82aaec5c1a18a0"
+        },
+        {
+          "sha": "15769b5",
+          "message": "added welcome and email otp templates",
+          "timestamp": "2025-12-06T08:54:45+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/15769b5eb6de1ea8119da8bbcf8e367dbbdd379d"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 4,
+      "language": "TypeScript",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "7fa1c1f",
+          "message": "REVERT",
+          "timestamp": "2025-12-06T16:28:42+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/7fa1c1fbf50260fbe8d63ea0c69b7ea1aa20d5bd"
+        },
+        {
+          "sha": "3c16f3b",
+          "message": "updated id",
+          "timestamp": "2025-12-06T09:10:47+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/3c16f3bdaf06f781b6b0c24d9913bf2dce64efce"
+        },
+        {
+          "sha": "1325af9",
+          "message": "fixed build errors",
+          "timestamp": "2025-12-06T08:57:02+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/1325af99ed6fb3b2860af6162c4ed86122515fc1"
+        },
+        {
+          "sha": "b98a755",
+          "message": "removed Didn't receive a code? Resend button",
+          "timestamp": "2025-12-06T08:50:56+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/b98a755e7367bcf7f8c673356a30ceee402a0d86"
+        }
+      ]
+    },
+    "Insightify": {
+      "commits_count": 3,
+      "language": "Python",
+      "url": "https://github.com/abdulmoiz248/Insightify",
+      "commits": [
+        {
+          "sha": "8484af1",
+          "message": "refactor: update environment variable names for consistency",
+          "timestamp": "2025-12-06T18:57:45+00:00",
+          "url": "https://github.com/abdulmoiz248/Insightify/commit/8484af19aa43c726ba374c45332d0309d808786c"
+        },
+        {
+          "sha": "e98097d",
+          "message": "added code",
+          "timestamp": "2025-12-06T18:52:58+00:00",
+          "url": "https://github.com/abdulmoiz248/Insightify/commit/e98097d2a35ef39eb461bf36e94e9990ea150555"
+        },
+        {
+          "sha": "c743859",
+          "message": "first commit",
+          "timestamp": "2025-12-06T18:25:44+00:00",
+          "url": "https://github.com/abdulmoiz248/Insightify/commit/c7438590bea4a76dc1181371f014e492ad8d7806"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 6,
+    "Python": 3
+  },
+  "commits_by_hour": {
+    "10": 1,
+    "8": 3,
+    "16": 1,
+    "9": 1,
+    "18": 3
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "7eddcf9",
+      "message": "feat: enhance user registration flow to handle unverified accounts and resend OTP",
+      "timestamp": "2025-12-06T10:06:20+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/7eddcf9d5ca9b3fe66889cde5c82aaec5c1a18a0"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "15769b5",
+      "message": "added welcome and email otp templates",
+      "timestamp": "2025-12-06T08:54:45+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/15769b5eb6de1ea8119da8bbcf8e367dbbdd379d"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "7fa1c1f",
+      "message": "REVERT",
+      "timestamp": "2025-12-06T16:28:42+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/7fa1c1fbf50260fbe8d63ea0c69b7ea1aa20d5bd"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "3c16f3b",
+      "message": "updated id",
+      "timestamp": "2025-12-06T09:10:47+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/3c16f3bdaf06f781b6b0c24d9913bf2dce64efce"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "1325af9",
+      "message": "fixed build errors",
+      "timestamp": "2025-12-06T08:57:02+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/1325af99ed6fb3b2860af6162c4ed86122515fc1"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "b98a755",
+      "message": "removed Didn't receive a code? Resend button",
+      "timestamp": "2025-12-06T08:50:56+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/b98a755e7367bcf7f8c673356a30ceee402a0d86"
+    },
+    {
+      "repo": "Insightify",
+      "sha": "8484af1",
+      "message": "refactor: update environment variable names for consistency",
+      "timestamp": "2025-12-06T18:57:45+00:00",
+      "url": "https://github.com/abdulmoiz248/Insightify/commit/8484af19aa43c726ba374c45332d0309d808786c"
+    },
+    {
+      "repo": "Insightify",
+      "sha": "e98097d",
+      "message": "added code",
+      "timestamp": "2025-12-06T18:52:58+00:00",
+      "url": "https://github.com/abdulmoiz248/Insightify/commit/e98097d2a35ef39eb461bf36e94e9990ea150555"
+    },
+    {
+      "repo": "Insightify",
+      "sha": "c743859",
+      "message": "first commit",
+      "timestamp": "2025-12-06T18:25:44+00:00",
+      "url": "https://github.com/abdulmoiz248/Insightify/commit/c7438590bea4a76dc1181371f014e492ad8d7806"
+    }
+  ],
+  "time_range": {
+    "start": "2025-12-06T00:06:26.732328+05:00",
+    "end": "2025-12-07T00:06:26.732328+05:00"
+  },
+  "estimated_hours": 4.24,
+  "ai_insights": "Here's an analysis of your daily GitHub activity:\n\n1.  **Productivity Summary:** Today, you demonstrated strong engagement with 9 commits and over 4 hours of focused coding. Your contributions spanned three repositories and two distinct languages, showcasing versatility and consistent effort.\n\n2.  **Key Highlights/Patterns:** You effectively navigated work across three repositories, demonstrating strong multi-language proficiency in both TypeScript and Python. Your contributions to both Hygieia-Frontend and Hygieia-Backend show a holistic understanding and commitment to that project.\n\n3.  **Suggestion for Improvement/Focus:** To potentially enhance deep work, consider dedicating longer, uninterrupted blocks to a single repository or project component when feasible."
+}
