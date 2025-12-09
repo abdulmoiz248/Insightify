@@ -1,0 +1,53 @@
+{
+  "date": "2025-12-08",
+  "total_commits": 2,
+  "repositories": {
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "da212f8",
+          "message": "Time: 11 ms (86.17%) | Memory: 12.4 MB (51.77%) - LeetSync",
+          "timestamp": "2025-12-07T11:28:50+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/da212f87c4cfdc9425d301c99351e10a57535309"
+        },
+        {
+          "sha": "4e46f9b",
+          "message": "Added README.md file for Count Odd Numbers in an Interval Range",
+          "timestamp": "2025-12-07T11:28:49+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/4e46f9b9f23189c86cc5084e5cb5ca299f295c0c"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "Java": 2
+  },
+  "commits_by_hour": {
+    "11": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "da212f8",
+      "message": "Time: 11 ms (86.17%) | Memory: 12.4 MB (51.77%) - LeetSync",
+      "timestamp": "2025-12-07T11:28:50+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/da212f87c4cfdc9425d301c99351e10a57535309"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "4e46f9b",
+      "message": "Added README.md file for Count Odd Numbers in an Interval Range",
+      "timestamp": "2025-12-07T11:28:49+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/4e46f9b9f23189c86cc5084e5cb5ca299f295c0c"
+    }
+  ],
+  "time_range": {
+    "start": "2025-12-07T00:17:11.131175+05:00",
+    "end": "2025-12-08T00:17:11.131175+05:00"
+  },
+  "estimated_hours": 0.5,
+  "ai_insights": "Pattern Detection:\nToday's activity is entirely focused on personal practice within the `LeetCode-Attempts` repository, using Java. This is a significant shift from the recent polyglot work (TypeScript, Python) across multiple project repositories like `Insightify`, `Hygieia-Frontend`, and `Hygieia-Backend`. The pace is extremely slow, with 2 commits across 0.5h, well below your average of 9 commits/day.\n\nRed Flags:\nThe primary red flag is the complete abandonment of project work. The commit messages \"[LeetCode-Attempts] Time: 11 ms (86.17%) | Memory: 12.4 MB (51.77%) - LeetSync\" and \"[LeetCode-Attempts] Added README.md file for Count Odd Numbers in an Interval Range\" clearly indicate personal LeetCode problem-solving, not contributing to company objectives. Your productivity is abysmal compared to your average, suggesting you were disengaged from your assigned tasks.\n\nBrutal Truth:\nYou spent company time solving LeetCode problems instead of contributing to `Insightify`, `Hygieia-Frontend`, or `Hygieia-Backend`. This is unacceptable; focus on your actual job responsibilities."
+}
