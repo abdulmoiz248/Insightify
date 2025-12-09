@@ -1,0 +1,207 @@
+{
+  "date": "2025-12-10",
+  "total_commits": 12,
+  "repositories": {
+    "Gpt-Wrap": {
+      "commits_count": 10,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 8,
+        "CSS": 3,
+        "JSON": 2,
+        "Markdown": 2
+      },
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap",
+      "commits": [
+        {
+          "sha": "eab2a05",
+          "message": "added more types",
+          "timestamp": "2025-12-09T19:10:29+00:00",
+          "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/eab2a05f6a9abc5815de36c9965edaa1ce9c9bb7"
+        },
+        {
+          "sha": "6173999",
+          "message": "change themes and fixed ui",
+          "timestamp": "2025-12-09T19:06:24+00:00",
+          "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/6173999e727edce4a5555e0d2d1ed0a3cff72218"
+        },
+        {
+          "sha": "3bd89aa",
+          "message": "setup layout file and added logos",
+          "timestamp": "2025-12-09T18:20:47+00:00",
+          "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/3bd89aa19ad6d33f7a1a76da4d6330c0f168d920"
+        },
+        {
+          "sha": "6c38a8e",
+          "message": "added basic download wrap feature",
+          "timestamp": "2025-12-09T18:00:27+00:00",
+          "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/6c38a8e242ba99846fcac4fd2a1af67b86f6c03a"
+        },
+        {
+          "sha": "cc71825",
+          "message": "Add pretty.json to gitignore",
+          "timestamp": "2025-12-09T17:45:17+00:00",
+          "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/cc718255e8e4b66f85fd75952f5135b9356913f7"
+        },
+        {
+          "sha": "b9a3276",
+          "message": "removed pretty.json and some files",
+          "timestamp": "2025-12-09T17:43:18+00:00",
+          "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/b9a327685bc3d1f2054f5be5ad710c251cf83c36"
+        },
+        {
+          "sha": "3bd00fb",
+          "message": "first commit",
+          "timestamp": "2025-12-09T17:34:48+00:00",
+          "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/3bd00fbb595cb86a75e8a6b337bb0ce18fbda656"
+        },
+        {
+          "sha": "b56f0f8",
+          "message": "added some more analytics",
+          "timestamp": "2025-12-09T17:33:06+00:00",
+          "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/b56f0f894a43e7ea2d190a59a83d549aea06cdd6"
+        },
+        {
+          "sha": "4b95228",
+          "message": "added basic analytics",
+          "timestamp": "2025-12-09T17:17:02+00:00",
+          "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/4b9522892b125f13a5c169dfe1731995f8fdf0c2"
+        },
+        {
+          "sha": "b9eb080",
+          "message": "Initial commit from Create Next App",
+          "timestamp": "2025-12-09T16:54:25+00:00",
+          "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/b9eb08068366e92870f3a6d9bea89adeba60e329"
+        }
+      ]
+    },
+    "Insightify": {
+      "commits_count": 2,
+      "language": "Python",
+      "languages_used": {
+        "JSON": 1,
+        "Python": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Insightify",
+      "commits": [
+        {
+          "sha": "e49e007",
+          "message": "Merge branch 'main' of https://github.com/abdulmoiz248/Insightify",
+          "timestamp": "2025-12-09T16:32:00+00:00",
+          "url": "https://github.com/abdulmoiz248/Insightify/commit/e49e0075572224b5b1a29b9ac2ebb243a2447faf"
+        },
+        {
+          "sha": "62f6757",
+          "message": "enhanced language detection in GitHub commits and improved monthly performance analysis for job readiness",
+          "timestamp": "2025-12-09T16:31:49+00:00",
+          "url": "https://github.com/abdulmoiz248/Insightify/commit/62f67571222d73fbeaf2aa4ea5615c60cdf9451f"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 8,
+    "CSS": 3,
+    "JSON": 3,
+    "Markdown": 2,
+    "Python": 1
+  },
+  "commits_by_hour": {
+    "19": 2,
+    "18": 2,
+    "17": 5,
+    "16": 3
+  },
+  "commit_messages": [
+    {
+      "repo": "Gpt-Wrap",
+      "sha": "eab2a05",
+      "message": "added more types",
+      "timestamp": "2025-12-09T19:10:29+00:00",
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/eab2a05f6a9abc5815de36c9965edaa1ce9c9bb7"
+    },
+    {
+      "repo": "Gpt-Wrap",
+      "sha": "6173999",
+      "message": "change themes and fixed ui",
+      "timestamp": "2025-12-09T19:06:24+00:00",
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/6173999e727edce4a5555e0d2d1ed0a3cff72218"
+    },
+    {
+      "repo": "Gpt-Wrap",
+      "sha": "3bd89aa",
+      "message": "setup layout file and added logos",
+      "timestamp": "2025-12-09T18:20:47+00:00",
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/3bd89aa19ad6d33f7a1a76da4d6330c0f168d920"
+    },
+    {
+      "repo": "Gpt-Wrap",
+      "sha": "6c38a8e",
+      "message": "added basic download wrap feature",
+      "timestamp": "2025-12-09T18:00:27+00:00",
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/6c38a8e242ba99846fcac4fd2a1af67b86f6c03a"
+    },
+    {
+      "repo": "Gpt-Wrap",
+      "sha": "cc71825",
+      "message": "Add pretty.json to gitignore",
+      "timestamp": "2025-12-09T17:45:17+00:00",
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/cc718255e8e4b66f85fd75952f5135b9356913f7"
+    },
+    {
+      "repo": "Gpt-Wrap",
+      "sha": "b9a3276",
+      "message": "removed pretty.json and some files",
+      "timestamp": "2025-12-09T17:43:18+00:00",
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/b9a327685bc3d1f2054f5be5ad710c251cf83c36"
+    },
+    {
+      "repo": "Gpt-Wrap",
+      "sha": "3bd00fb",
+      "message": "first commit",
+      "timestamp": "2025-12-09T17:34:48+00:00",
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/3bd00fbb595cb86a75e8a6b337bb0ce18fbda656"
+    },
+    {
+      "repo": "Gpt-Wrap",
+      "sha": "b56f0f8",
+      "message": "added some more analytics",
+      "timestamp": "2025-12-09T17:33:06+00:00",
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/b56f0f894a43e7ea2d190a59a83d549aea06cdd6"
+    },
+    {
+      "repo": "Gpt-Wrap",
+      "sha": "4b95228",
+      "message": "added basic analytics",
+      "timestamp": "2025-12-09T17:17:02+00:00",
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/4b9522892b125f13a5c169dfe1731995f8fdf0c2"
+    },
+    {
+      "repo": "Gpt-Wrap",
+      "sha": "b9eb080",
+      "message": "Initial commit from Create Next App",
+      "timestamp": "2025-12-09T16:54:25+00:00",
+      "url": "https://github.com/abdulmoiz248/Gpt-Wrap/commit/b9eb08068366e92870f3a6d9bea89adeba60e329"
+    },
+    {
+      "repo": "Insightify",
+      "sha": "e49e007",
+      "message": "Merge branch 'main' of https://github.com/abdulmoiz248/Insightify",
+      "timestamp": "2025-12-09T16:32:00+00:00",
+      "url": "https://github.com/abdulmoiz248/Insightify/commit/e49e0075572224b5b1a29b9ac2ebb243a2447faf"
+    },
+    {
+      "repo": "Insightify",
+      "sha": "62f6757",
+      "message": "enhanced language detection in GitHub commits and improved monthly performance analysis for job readiness",
+      "timestamp": "2025-12-09T16:31:49+00:00",
+      "url": "https://github.com/abdulmoiz248/Insightify/commit/62f67571222d73fbeaf2aa4ea5615c60cdf9451f"
+    }
+  ],
+  "time_range": {
+    "start": "2025-12-09T00:17:06.071244+05:00",
+    "end": "2025-12-10T00:17:06.071244+05:00"
+  },
+  "estimated_hours": 3.14,
+  "ai_insights": "Pattern Detection:\n12 commits across 2 repos (Gpt-Wrap, Insightify) in 3.14h - focused work. Primary language: TypeScript. Reasonable pace.\n\nRed Flags:\nNone detected - clean commits showing professional habits.\n\nBrutal Truth:\nSolid focused work on Gpt-Wrap, Insightify - this is the kind of consistent progress that builds a strong portfolio."
+}
