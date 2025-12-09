@@ -194,7 +194,7 @@ CRITICAL: Use ACTUAL repo names from the data, ACTUAL commit messages, and ACTUA
         total_days = data.get('total_days', 30)
         avg_commits = data.get('avg_commits_per_day', 0)
         
-        prompt = f"""You are a strict technical mentor reviewing a developer's monthly GitHub performance. Be honest, critical, and constructive. Avoid any generic introductions or conclusions like "Here's a comprehensive analysis" or "In conclusion". Get straight to the point.
+        prompt = f"""You are a strict technical mentor reviewing a university student's monthly GitHub performance as they build skills and portfolio for job hunting. Be honest, critical, and constructive - frame everything around career readiness. Avoid any generic introductions or conclusions like "Here's a comprehensive analysis" or "In conclusion". Get straight to the point.
 
 **Monthly Data ({data.get('month', 'N/A')})**
 - Total Commits: {total_commits}
@@ -216,38 +216,39 @@ CRITICAL: Use ACTUAL repo names from the data, ACTUAL commit messages, and ACTUA
 Provide your analysis in this EXACT structure (use markdown headers):
 
 ## Performance Reality Check
-[2-3 sentences] Hit the facts hard. Calculate actual productivity metrics: {active_days}/{total_days} days active means X% engagement. {total_commits} commits in {total_hours}h = Y commits/hour. Compare this to professional standards. If they're slacking, say it. If consistency is poor, point it out specifically with numbers.
+[2-3 sentences] Hit the facts hard from a job-readiness perspective. {active_days}/{total_days} days active means X% engagement - employers want to see consistent contributors. {total_commits} commits in {total_hours}h = Y commits/hour. Compare this to what's expected from junior developers. If consistency is poor, that's a red flag for recruiters. Be specific with numbers.
 
 ## Technical Depth & Focus
-[2-3 sentences] Analyze their language distribution and repository focus. Are they spreading too thin across {data.get('total_repos', 0)} repos? Is the language diversity ({', '.join(list(languages.keys())[:3])}) helping or hindering? Call out if they're jumping between projects without finishing anything. Reference specific repos from the top list.
+[2-3 sentences] Analyze their portfolio and skill development. Are they spreading too thin across {data.get('total_repos', 0)} repos without finishing portfolio pieces? Is the language diversity ({', '.join(list(languages.keys())[:3])}) strategic for job market or just scattered learning? Call out if they're jumping between technologies without building depth. Reference specific repos from the top list and whether they're portfolio-worthy.
 
 ## Critical Issues
-[2-3 bullet points] Identify concrete problems:
-- Consistency gaps (check if streak of {streak} days vs {active_days} active days shows irregular pattern)
-- Productivity concerns (low commits/hour, inactive days pattern)
-- Scope/focus problems (too many repos, language scatter)
-Be specific. Use actual repo names and numbers from the data. If there are genuine issues, don't soften them. If performance is actually solid, acknowledge it briefly.
+[2-3 bullet points] Identify what would hurt job prospects:
+- Consistency gaps (streak of {streak} days vs {active_days} active days - employers see inconsistent contributors as risky hires)
+- Portfolio concerns (unfinished projects, scattered work, nothing production-ready)
+- Skill depth problems (too many repos/languages without expertise in any)
+Be specific. Use actual repo names and numbers from the data. Frame issues around hirability. If performance is actually solid, acknowledge it briefly.
 
 ## What Needs to Change
-[2-3 specific, actionable points] Give direct orders, not suggestions:
-- "Commit daily to reach 80%+ active days" (if currently low)
-- "Focus on finishing [specific repo] before starting new work" (if scattered)
-- "Increase commit frequency to 3+/day on active days" (if low productivity)
-Be brutally specific based on the actual weaknesses you identified above.
+[2-3 specific, actionable points] Give direct career-focused advice:
+- "Code daily to reach 80%+ active days - consistent GitHub activity signals professionalism to recruiters" (if currently low)
+- "Finish [specific repo] to production-ready state for portfolio before starting new projects" (if scattered)
+- "Build deeper expertise in [top language] instead of spreading across {len(languages)} languages" (if unfocused)
+Be brutally specific based on actual weaknesses and job market needs.
 
 CRITICAL RULES:
 - NO introductory sentences like "Here's my analysis" or "Let me review"
 - NO concluding statements like "In summary" or "Overall"
 - Use ACTUAL repo names from the top repositories list
 - Reference SPECIFIC numbers from the data
-- If performance is poor, be blunt about it
-- If performance is good, be brief and move to areas for improvement
-- This is a performance review, not a motivational speech"""
+- Frame everything around job-readiness and portfolio quality
+- If performance is poor, explain career impact bluntly
+- If performance is good, briefly acknowledge then push for excellence
+- This is career mentorship, not a performance review"""
         
         return prompt
     
     def _generate_fallback_insights(self, data: Dict[str, Any]) -> str:
-        """Generate brutally honest basic insights when AI fails."""
+        """Generate brutally honest career-focused insights when AI fails."""
         total_commits = data.get('total_commits', 0)
         repos = data.get('repositories', {})
         languages = data.get('languages', {})
@@ -256,7 +257,7 @@ CRITICAL RULES:
         commit_messages = data.get('commit_messages', [])
         
         if total_commits == 0:
-            return "Pattern Detection:\nNo commits today - either you're planning, stuck, or slacking.\n\nRed Flags:\nZero output is a red flag itself.\n\nBrutal Truth:\nNothing shipped, nothing learned."
+            return "Pattern Detection:\nNo commits today - your GitHub contribution graph has a gap, which recruiters notice.\n\nRed Flags:\nZero output means zero progress on portfolio and skills.\n\nBrutal Truth:\nConsistent coding is what separates successful job applicants from the rest."
         
         # Analyze commit quality
         vague_commits = []
@@ -278,11 +279,11 @@ CRITICAL RULES:
         # Red Flags
         red_flags = []
         if vague_commits:
-            red_flags.append(f"Vague commit messages detected: {', '.join(vague_commits[:2])} - what exactly did you change?")
+            red_flags.append(f"Vague commit messages detected: {', '.join(vague_commits[:2])} - recruiters reviewing your GitHub need to see clear, professional commits.")
         if hours > 3 and total_commits < 4:
-            red_flags.append(f"{hours}h for {total_commits} commits - low output suggests you're stuck or distracted.")
+            red_flags.append(f"{hours}h for {total_commits} commits - low output suggests inefficiency that employers will notice.")
         if len(repos) > 4:
-            red_flags.append(f"Working across {len(repos)} repos - too much context switching.")
+            red_flags.append(f"Working across {len(repos)} repos - spreading too thin instead of building complete portfolio pieces.")
         
         # Check previous days for grinding
         if previous_days:
@@ -292,19 +293,19 @@ CRITICAL RULES:
             
             grinding_repos = set(repos.keys()).intersection(prev_repos)
             if grinding_repos and len(grinding_repos) == len(repos):
-                red_flags.append(f"Still on {', '.join(list(grinding_repos)[:2])} from previous days - long-running work or stuck?")
+                red_flags.append(f"Still on {', '.join(list(grinding_repos)[:2])} from previous days - finish features to show completion ability to employers.")
         
-        red_flags_text = "Red Flags:\n" + " ".join(red_flags) if red_flags else "Red Flags:\nNone detected - clean commits and focused work."
+        red_flags_text = "Red Flags:\n" + " ".join(red_flags) if red_flags else "Red Flags:\nNone detected - clean commits showing professional habits."
         
         # Brutal Truth
         if vague_commits and len(repos) == 1:
-            truth = f"Brutal Truth:\nGrinding on {list(repos.keys())[0]} with vague commits - scope creeping or unclear objectives?"
+            truth = f"Brutal Truth:\nGrinding on {list(repos.keys())[0]} with vague commits - hiring managers reviewing your GitHub won't be impressed. Write professional commit messages."
         elif len(repos) > 3:
-            truth = f"Brutal Truth:\nJumping between {len(repos)} projects - pick one and finish it."
+            truth = f"Brutal Truth:\nJumping between {len(repos)} projects - finish ONE portfolio-worthy project instead of having multiple incomplete ones."
         elif hours > 4 and total_commits < 3:
-            truth = f"Brutal Truth:\n{hours}h for {total_commits} commits - productivity gap suggests blockers or distractions."
+            truth = f"Brutal Truth:\n{hours}h for {total_commits} commits - efficiency matters in real jobs. Identify and eliminate blockers."
         else:
-            truth = f"Brutal Truth:\nSolid focused work on {repo_list} - keep this momentum."
+            truth = f"Brutal Truth:\nSolid focused work on {repo_list} - this is the kind of consistent progress that builds a strong portfolio."
         
         return f"{pattern}\n\n{red_flags_text}\n\n{truth}"
     
@@ -324,48 +325,48 @@ CRITICAL RULES:
         commits_per_hour = (total_commits / total_hours) if total_hours > 0 else 0
         
         # Performance Reality Check
-        perf_rating = "excellent" if engagement_pct >= 80 else "good" if engagement_pct >= 60 else "needs improvement"
+        perf_rating = "excellent job-readiness" if engagement_pct >= 80 else "decent consistency" if engagement_pct >= 60 else "needs significant improvement"
         performance = f"""## Performance Reality Check
-{active_days}/{total_days} days active ({engagement_pct:.1f}% engagement) - {perf_rating}. {total_commits} commits in {total_hours}h equals {commits_per_hour:.1f} commits/hour. Longest streak: {streak} days."""
+{active_days}/{total_days} days active ({engagement_pct:.1f}% engagement) - {perf_rating}. Employers look for consistent contributors. {total_commits} commits in {total_hours}h equals {commits_per_hour:.1f} commits/hour. Longest streak: {streak} days shows your dedication level."""
         
         # Technical Depth
         top_lang = max(languages.items(), key=lambda x: x[1])[0] if languages else "Unknown"
         lang_count = len(languages)
         repo_count = len(top_repos)
         
-        focus_assessment = "too scattered" if repo_count > 10 else "well-focused" if repo_count <= 5 else "moderate spread"
+        focus_assessment = "too scattered for strong portfolio" if repo_count > 10 else "well-focused for skill depth" if repo_count <= 5 else "moderate spread"
         technical = f"""## Technical Depth & Focus
-Working across {repo_count} repositories with {lang_count} languages (primary: {top_lang}). Distribution is {focus_assessment}. Top repos: {', '.join(top_repos[:3])}."""
+Working across {repo_count} repositories with {lang_count} languages (primary: {top_lang}). This is {focus_assessment}. Top portfolio repos: {', '.join(top_repos[:3])}. Focus builds expertise that impresses employers."""
         
         # Critical Issues
         issues = []
         if engagement_pct < 60:
-            issues.append(f"Low consistency: only {active_days}/{total_days} active days")
+            issues.append(f"Low consistency: only {active_days}/{total_days} active days - GitHub contribution graphs with gaps hurt job applications")
         if streak < 5:
-            issues.append(f"Weak streak: longest is only {streak} days - build better habits")
+            issues.append(f"Weak streak: longest is only {streak} days - employers value consistent contributors")
         if commits_per_hour < 0.5:
-            issues.append(f"Low productivity: {commits_per_hour:.1f} commits/hour suggests inefficiency")
+            issues.append(f"Low productivity: {commits_per_hour:.1f} commits/hour - need to improve development efficiency")
         if repo_count > 10:
-            issues.append(f"Too scattered: working across {repo_count} repos")
+            issues.append(f"Too scattered: working across {repo_count} repos - finish strong portfolio pieces instead")
         
         if not issues:
-            issues.append("Solid performance overall - maintain this pace")
+            issues.append("Solid performance overall - maintain this pace and finish portfolio projects")
         
         critical = "## Critical Issues\n" + "\n".join([f"- {issue}" for issue in issues])
         
         # What Needs to Change
         changes = []
         if engagement_pct < 70:
-            changes.append(f"Commit daily to reach 80%+ active days (currently {engagement_pct:.1f}%)")
+            changes.append(f"Code daily to reach 80%+ active days (currently {engagement_pct:.1f}%) - consistency signals professionalism to recruiters")
         if streak < 7:
-            changes.append(f"Build a 7+ day streak (current max: {streak} days)")
+            changes.append(f"Build a 7+ day streak (current max: {streak} days) - demonstrates commitment and discipline")
         if repo_count > 8:
-            changes.append(f"Focus on top 3-5 repos: {', '.join(top_repos[:3])}")
+            changes.append(f"Focus on completing top 3 repos to production-ready state: {', '.join(top_repos[:3])}")
         if commits_per_hour < 1:
-            changes.append(f"Increase commit frequency to 3+ commits per active day")
+            changes.append(f"Increase commit frequency to 3+ commits per active day - shows productive development pace")
         
         if not changes:
-            changes.append("Continue current pace and maintain consistency")
+            changes.append("Polish your top 3 repos to portfolio-ready state with documentation and demos")
         
         action = "## What Needs to Change\n" + "\n".join([f"- {change}" for change in changes])
         

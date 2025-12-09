@@ -89,13 +89,25 @@ class GitHubClient:
                         commits_data['commits_by_hour'][hour] += 1
                     
                     if repo_commits:
-                        # Get primary language
-                        language = repo.language or 'Unknown'
-                        commits_data['languages'][language] += len(repo_commits)
+                        # Get actual languages from commit file changes
+                        commit_languages = self._detect_languages_from_commits(
+                            repo, repo_commits
+                        )
+                        
+                        # Update overall language stats with actual commit data
+                        for lang, count in commit_languages.items():
+                            commits_data['languages'][lang] += count
+                        
+                        # Fallback to repo primary language if no files detected
+                        if not commit_languages:
+                            language = repo.language or 'Unknown'
+                            commits_data['languages'][language] += len(repo_commits)
+                            commit_languages = {language: len(repo_commits)}
                         
                         commits_data['repositories'][repo.name] = {
                             'commits_count': len(repo_commits),
-                            'language': language,
+                            'language': repo.language or 'Unknown',  # Keep primary language for reference
+                            'languages_used': commit_languages,  # Actual languages from commits
                             'url': repo.html_url,
                             'commits': repo_commits
                         }
@@ -118,6 +130,101 @@ class GitHubClient:
             raise
         
         return commits_data
+    
+    def _detect_languages_from_commits(self, repo, repo_commits: List[Dict]) -> Dict[str, int]:
+        """
+        Detect languages from actual files changed in commits.
+        
+        Args:
+            repo: GitHub repository object
+            repo_commits: List of commit dictionaries with 'sha'
+            
+        Returns:
+            Dictionary mapping language to number of commits touching that language
+        """
+        language_map = {
+            # Programming languages
+            '.py': 'Python',
+            '.java': 'Java',
+            '.js': 'JavaScript',
+            '.ts': 'TypeScript',
+            '.jsx': 'JavaScript',
+            '.tsx': 'TypeScript',
+            '.cpp': 'C++',
+            '.c': 'C',
+            '.h': 'C/C++',
+            '.hpp': 'C++',
+            '.cs': 'C#',
+            '.go': 'Go',
+            '.rs': 'Rust',
+            '.rb': 'Ruby',
+            '.php': 'PHP',
+            '.swift': 'Swift',
+            '.kt': 'Kotlin',
+            '.scala': 'Scala',
+            '.r': 'R',
+            '.m': 'Objective-C',
+            '.sh': 'Shell',
+            '.bash': 'Bash',
+            '.ps1': 'PowerShell',
+            # Markup/Styling
+            '.html': 'HTML',
+            '.css': 'CSS',
+            '.scss': 'SCSS',
+            '.sass': 'Sass',
+            '.less': 'Less',
+            '.xml': 'XML',
+            '.json': 'JSON',
+            '.yml': 'YAML',
+            '.yaml': 'YAML',
+            # Data/Config
+            '.sql': 'SQL',
+            '.md': 'Markdown',
+            '.tex': 'LaTeX',
+        }
+        
+        languages = defaultdict(int)
+        
+        # Track which commits we've counted for each language
+        commits_per_language = defaultdict(set)
+        
+        try:
+            for commit_data in repo_commits:
+                try:
+                    # Get full commit object to access files
+                    commit = repo.get_commit(commit_data['sha'])
+                    
+                    # Track languages in this specific commit
+                    commit_languages = set()
+                    
+                    # Analyze files in the commit
+                    for file in commit.files:
+                        filename = file.filename.lower()
+                        
+                        # Find file extension
+                        for ext, lang in language_map.items():
+                            if filename.endswith(ext):
+                                commit_languages.add(lang)
+                                break
+                    
+                    # Count each language once per commit
+                    for lang in commit_languages:
+                        commits_per_language[lang].add(commit_data['sha'])
+                    
+                except GithubException:
+                    # If we can't access commit files, skip it
+                    continue
+            
+            # Convert to counts
+            for lang, commit_shas in commits_per_language.items():
+                languages[lang] = len(commit_shas)
+                
+        except Exception as e:
+            # If detection fails, return empty dict to use fallback
+            print(f"Warning: Language detection failed for {repo.name}: {str(e)}")
+            return {}
+        
+        return dict(languages)
     
     def _estimate_time_spent(self, commits: List[Dict]) -> float:
         """
