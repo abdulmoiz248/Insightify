@@ -1,0 +1,113 @@
+{
+  "date": "2025-12-14",
+  "total_commits": 5,
+  "repositories": {
+    "Auto-UI": {
+      "commits_count": 4,
+      "language": "Python",
+      "languages_used": {
+        "JSON": 2,
+        "Python": 4,
+        "TypeScript": 2
+      },
+      "url": "https://github.com/abdulmoiz248/Auto-UI",
+      "commits": [
+        {
+          "sha": "7112702",
+          "message": "added basic component generator",
+          "timestamp": "2025-12-13T12:15:15+00:00",
+          "url": "https://github.com/abdulmoiz248/Auto-UI/commit/71127027a14611179c18096743000f2e18a280b5"
+        },
+        {
+          "sha": "83be5b3",
+          "message": "added basic component specs agent",
+          "timestamp": "2025-12-13T10:22:50+00:00",
+          "url": "https://github.com/abdulmoiz248/Auto-UI/commit/83be5b3e91c116c1a71e4ded73d836e47bc7fdba"
+        },
+        {
+          "sha": "b1e3a1e",
+          "message": "added planner agent (basic version)",
+          "timestamp": "2025-12-13T10:10:10+00:00",
+          "url": "https://github.com/abdulmoiz248/Auto-UI/commit/b1e3a1ebbef2ba6fedb2bf59ca347187e57985a8"
+        },
+        {
+          "sha": "ed56f0d",
+          "message": "fixed name",
+          "timestamp": "2025-12-13T09:47:55+00:00",
+          "url": "https://github.com/abdulmoiz248/Auto-UI/commit/ed56f0d6077373666f56465ed462a57e318faa1a"
+        }
+      ]
+    },
+    "KubeHost": {
+      "commits_count": 1,
+      "language": "Unknown",
+      "languages_used": {
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/KubeHost",
+      "commits": [
+        {
+          "sha": "177030c",
+          "message": "first commit",
+          "timestamp": "2025-12-13T18:04:54+00:00",
+          "url": "https://github.com/abdulmoiz248/KubeHost/commit/177030c0d9407de92de42eefcef5f58a0962bbcb"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "JSON": 2,
+    "Python": 4,
+    "TypeScript": 2,
+    "Markdown": 1
+  },
+  "commits_by_hour": {
+    "12": 1,
+    "10": 2,
+    "9": 1,
+    "18": 1
+  },
+  "commit_messages": [
+    {
+      "repo": "Auto-UI",
+      "sha": "7112702",
+      "message": "added basic component generator",
+      "timestamp": "2025-12-13T12:15:15+00:00",
+      "url": "https://github.com/abdulmoiz248/Auto-UI/commit/71127027a14611179c18096743000f2e18a280b5"
+    },
+    {
+      "repo": "Auto-UI",
+      "sha": "83be5b3",
+      "message": "added basic component specs agent",
+      "timestamp": "2025-12-13T10:22:50+00:00",
+      "url": "https://github.com/abdulmoiz248/Auto-UI/commit/83be5b3e91c116c1a71e4ded73d836e47bc7fdba"
+    },
+    {
+      "repo": "Auto-UI",
+      "sha": "b1e3a1e",
+      "message": "added planner agent (basic version)",
+      "timestamp": "2025-12-13T10:10:10+00:00",
+      "url": "https://github.com/abdulmoiz248/Auto-UI/commit/b1e3a1ebbef2ba6fedb2bf59ca347187e57985a8"
+    },
+    {
+      "repo": "Auto-UI",
+      "sha": "ed56f0d",
+      "message": "fixed name",
+      "timestamp": "2025-12-13T09:47:55+00:00",
+      "url": "https://github.com/abdulmoiz248/Auto-UI/commit/ed56f0d6077373666f56465ed462a57e318faa1a"
+    },
+    {
+      "repo": "KubeHost",
+      "sha": "177030c",
+      "message": "first commit",
+      "timestamp": "2025-12-13T18:04:54+00:00",
+      "url": "https://github.com/abdulmoiz248/KubeHost/commit/177030c0d9407de92de42eefcef5f58a0962bbcb"
+    }
+  ],
+  "time_range": {
+    "start": "2025-12-13T00:17:08.427997+05:00",
+    "end": "2025-12-14T00:17:08.427997+05:00"
+  },
+  "estimated_hours": 2.96,
+  "ai_insights": "Pattern Detection:\n5 commits across 2 repos (Auto-UI, KubeHost) in 2.96h - focused work. Primary language: Python. Reasonable pace.\n\nRed Flags:\nVague commit messages detected: Auto-UI: 'fixed name' - recruiters reviewing your GitHub need to see clear, professional commits.\n\nBrutal Truth:\nSolid focused work on Auto-UI, KubeHost - this is the kind of consistent progress that builds a strong portfolio."
+}
