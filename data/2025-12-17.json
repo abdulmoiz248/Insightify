@@ -1,0 +1,115 @@
+{
+  "date": "2025-12-17",
+  "total_commits": 6,
+  "repositories": {
+    "Devops-mid": {
+      "commits_count": 6,
+      "language": "Python",
+      "languages_used": {
+        "YAML": 6,
+        "Shell": 2,
+        "Python": 1,
+        "PowerShell": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Devops-mid",
+      "commits": [
+        {
+          "sha": "e227271",
+          "message": "Fix terraform destroy stage with robust cleanup and RDS handling",
+          "timestamp": "2025-12-16T05:13:21+00:00",
+          "url": "https://github.com/abdulmoiz248/Devops-mid/commit/e2272712cf5336e0d879927dd161f01dab800d6a"
+        },
+        {
+          "sha": "57aa728",
+          "message": "Enhance database initialization and connection handling in Ansible playbooks and entrypoint script",
+          "timestamp": "2025-12-16T04:50:37+00:00",
+          "url": "https://github.com/abdulmoiz248/Devops-mid/commit/57aa728d80388d3b1633d06d1e6f3d9d00a8d2e0"
+        },
+        {
+          "sha": "91c1e05",
+          "message": "revert",
+          "timestamp": "2025-12-16T04:46:54+00:00",
+          "url": "https://github.com/abdulmoiz248/Devops-mid/commit/91c1e0587e96389010075bbf3b559fa8d006f967"
+        },
+        {
+          "sha": "944670e",
+          "message": "fixed ansible",
+          "timestamp": "2025-12-16T04:38:25+00:00",
+          "url": "https://github.com/abdulmoiz248/Devops-mid/commit/944670e1a143c160b9e26a5bb5b6906938a1e42d"
+        },
+        {
+          "sha": "3f1dfec",
+          "message": "Merge branch 'main' of https://github.com/abdulmoiz248/Devops-mid",
+          "timestamp": "2025-12-16T04:30:46+00:00",
+          "url": "https://github.com/abdulmoiz248/Devops-mid/commit/3f1dfeca378f46b77b528063261cc4f8e7842181"
+        },
+        {
+          "sha": "b3c0921",
+          "message": "fixed ansible",
+          "timestamp": "2025-12-16T04:30:38+00:00",
+          "url": "https://github.com/abdulmoiz248/Devops-mid/commit/b3c092137f1367e00c1a99eb0146d9f2a8613294"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "YAML": 6,
+    "Shell": 2,
+    "Python": 1,
+    "PowerShell": 1
+  },
+  "commits_by_hour": {
+    "5": 1,
+    "4": 5
+  },
+  "commit_messages": [
+    {
+      "repo": "Devops-mid",
+      "sha": "e227271",
+      "message": "Fix terraform destroy stage with robust cleanup and RDS handling",
+      "timestamp": "2025-12-16T05:13:21+00:00",
+      "url": "https://github.com/abdulmoiz248/Devops-mid/commit/e2272712cf5336e0d879927dd161f01dab800d6a"
+    },
+    {
+      "repo": "Devops-mid",
+      "sha": "57aa728",
+      "message": "Enhance database initialization and connection handling in Ansible playbooks and entrypoint script",
+      "timestamp": "2025-12-16T04:50:37+00:00",
+      "url": "https://github.com/abdulmoiz248/Devops-mid/commit/57aa728d80388d3b1633d06d1e6f3d9d00a8d2e0"
+    },
+    {
+      "repo": "Devops-mid",
+      "sha": "91c1e05",
+      "message": "revert",
+      "timestamp": "2025-12-16T04:46:54+00:00",
+      "url": "https://github.com/abdulmoiz248/Devops-mid/commit/91c1e0587e96389010075bbf3b559fa8d006f967"
+    },
+    {
+      "repo": "Devops-mid",
+      "sha": "944670e",
+      "message": "fixed ansible",
+      "timestamp": "2025-12-16T04:38:25+00:00",
+      "url": "https://github.com/abdulmoiz248/Devops-mid/commit/944670e1a143c160b9e26a5bb5b6906938a1e42d"
+    },
+    {
+      "repo": "Devops-mid",
+      "sha": "3f1dfec",
+      "message": "Merge branch 'main' of https://github.com/abdulmoiz248/Devops-mid",
+      "timestamp": "2025-12-16T04:30:46+00:00",
+      "url": "https://github.com/abdulmoiz248/Devops-mid/commit/3f1dfeca378f46b77b528063261cc4f8e7842181"
+    },
+    {
+      "repo": "Devops-mid",
+      "sha": "b3c0921",
+      "message": "fixed ansible",
+      "timestamp": "2025-12-16T04:30:38+00:00",
+      "url": "https://github.com/abdulmoiz248/Devops-mid/commit/b3c092137f1367e00c1a99eb0146d9f2a8613294"
+    }
+  ],
+  "time_range": {
+    "start": "2025-12-16T00:20:59.700719+05:00",
+    "end": "2025-12-17T00:20:59.700719+05:00"
+  },
+  "estimated_hours": 1.21,
+  "ai_insights": "Pattern Detection:\n6 commits across 1 repos (Devops-mid) in 1.21h - focused work. Primary language: YAML. Focused burst.\n\nRed Flags:\nVague commit messages detected: Devops-mid: 'revert', Devops-mid: 'fixed ansible' - recruiters reviewing your GitHub need to see clear, professional commits.\n\nBrutal Truth:\nGrinding on Devops-mid with vague commits - hiring managers reviewing your GitHub won't be impressed. Write professional commit messages."
+}
