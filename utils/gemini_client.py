@@ -184,7 +184,7 @@ CRITICAL: Use ACTUAL repo names from the data, ACTUAL commit messages, and ACTUA
         return prompt
     
     def _build_monthly_prompt(self, data: Dict[str, Any]) -> str:
-        """Build prompt for monthly insights - strict mentor style."""
+        """Build prompt for monthly insights - strict learning mentor style."""
         total_commits = data.get('total_commits', 0)
         total_hours = data.get('total_hours', 0)
         active_days = data.get('active_days', 0)
@@ -194,7 +194,7 @@ CRITICAL: Use ACTUAL repo names from the data, ACTUAL commit messages, and ACTUA
         total_days = data.get('total_days', 30)
         avg_commits = data.get('avg_commits_per_day', 0)
         
-        prompt = f"""You are a strict technical mentor reviewing a university student's monthly GitHub performance as they build skills and portfolio for job hunting. Be honest, critical, and constructive - frame everything around career readiness. Avoid any generic introductions or conclusions like "Here's a comprehensive analysis" or "In conclusion". Get straight to the point.
+        prompt = f"""You are a brutally honest senior developer mentoring a university student who is actively learning to code and build projects. This is NOT about job hunting - it's about genuine skill growth, learning consistency, and building real understanding. Be direct, specific, and call out issues without sugarcoating. Frame everything around learning progress and skill development.
 
 **Monthly Data ({data.get('month', 'N/A')})**
 - Total Commits: {total_commits}
@@ -215,35 +215,35 @@ CRITICAL: Use ACTUAL repo names from the data, ACTUAL commit messages, and ACTUA
 
 Provide your analysis in this EXACT structure (use markdown headers):
 
-## Performance Reality Check
-[2-3 sentences] Hit the facts hard from a job-readiness perspective. {active_days}/{total_days} days active means X% engagement - employers want to see consistent contributors. {total_commits} commits in {total_hours}h = Y commits/hour. Compare this to what's expected from junior developers. If consistency is poor, that's a red flag for recruiters. Be specific with numbers.
+## Learning Progress Check
+[2-3 sentences] Analyze the actual learning output. {active_days}/{total_days} days active - is this consistent practice or sporadic bursts? {total_commits} commits in {total_hours}h - are they grinding productively or just playing around? A streak of {streak} days shows discipline (or lack of it). Be specific with the numbers and what they reveal about learning habits.
 
-## Technical Depth & Focus
-[2-3 sentences] Analyze their portfolio and skill development. Are they spreading too thin across {data.get('total_repos', 0)} repos without finishing portfolio pieces? Is the language diversity ({', '.join(list(languages.keys())[:3])}) strategic for job market or just scattered learning? Call out if they're jumping between technologies without building depth. Reference specific repos from the top list and whether they're portfolio-worthy.
+## Skill Development Analysis
+[2-3 sentences] Look at what they're actually learning. Working with {', '.join(list(languages.keys())[:3]) if languages else 'unknown languages'} across {data.get('total_repos', 0)} repos - is this focused skill-building or scattered experimentation? Reference specific repos from the top list. Call out if they're hopping between techs without mastering any, or if they're building real understanding through focused project work.
 
-## Critical Issues
-[2-3 bullet points] Identify what would hurt job prospects:
-- Consistency gaps (streak of {streak} days vs {active_days} active days - employers see inconsistent contributors as risky hires)
-- Portfolio concerns (unfinished projects, scattered work, nothing production-ready)
-- Skill depth problems (too many repos/languages without expertise in any)
-Be specific. Use actual repo names and numbers from the data. Frame issues around hirability. If performance is actually solid, acknowledge it briefly.
+## Reality Check (What's Actually Happening)
+[2-3 bullet points] Be brutally honest about learning patterns:
+- Is the consistency showing real commitment or procrastination patterns?
+- Are they building complete projects or abandoning things halfway?
+- {streak} day streak with {active_days} active days - grinding or slacking?
+Use actual repo names and numbers. If they're doing well, acknowledge it briefly. If not, call it out directly.
 
-## What Needs to Change
-[2-3 specific, actionable points] Give direct career-focused advice:
-- "Code daily to reach 80%+ active days - consistent GitHub activity signals professionalism to recruiters" (if currently low)
-- "Finish [specific repo] to production-ready state for portfolio before starting new projects" (if scattered)
-- "Build deeper expertise in [top language] instead of spreading across {len(languages)} languages" (if unfocused)
-Be brutally specific based on actual weaknesses and job market needs.
+## What You Need to Do
+[2-3 specific, actionable points] Give direct learning-focused advice:
+- If consistency is low: "Code every day even if just 30 minutes - muscle memory matters"
+- If scattered: "Finish [specific repo] before starting anything new - completion builds real skills"
+- If too many languages: "Master one language deeply before jumping around"
+Be specific based on actual weaknesses in their learning approach.
 
 CRITICAL RULES:
 - NO introductory sentences like "Here's my analysis" or "Let me review"
-- NO concluding statements like "In summary" or "Overall"
+- NO concluding statements like "In summary" or "Overall"  
 - Use ACTUAL repo names from the top repositories list
 - Reference SPECIFIC numbers from the data
-- Frame everything around job-readiness and portfolio quality
-- If performance is poor, explain career impact bluntly
-- If performance is good, briefly acknowledge then push for excellence
-- This is career mentorship, not a performance review"""
+- Frame everything around LEARNING and SKILL GROWTH, not jobs/career
+- Talk to them like a student learning, not an employee being reviewed
+- Be encouraging but brutally honest about what's not working
+- This is learning mentorship, not a performance review"""
         
         return prompt
     
@@ -310,7 +310,7 @@ CRITICAL RULES:
         return f"{pattern}\n\n{red_flags_text}\n\n{truth}"
     
     def _generate_monthly_fallback(self, data: Dict[str, Any]) -> str:
-        """Generate fallback monthly insights when AI fails."""
+        """Generate fallback monthly insights when AI fails - student learning focused."""
         total_commits = data.get('total_commits', 0)
         total_hours = data.get('total_hours', 0)
         active_days = data.get('active_days', 0)
@@ -324,53 +324,67 @@ CRITICAL RULES:
         engagement_pct = (active_days / total_days * 100) if total_days > 0 else 0
         commits_per_hour = (total_commits / total_hours) if total_hours > 0 else 0
         
-        # Performance Reality Check
-        perf_rating = "excellent job-readiness" if engagement_pct >= 80 else "decent consistency" if engagement_pct >= 60 else "needs significant improvement"
-        performance = f"""## Performance Reality Check
-{active_days}/{total_days} days active ({engagement_pct:.1f}% engagement) - {perf_rating}. Employers look for consistent contributors. {total_commits} commits in {total_hours}h equals {commits_per_hour:.1f} commits/hour. Longest streak: {streak} days shows your dedication level."""
+        # Learning Progress Check
+        if engagement_pct >= 80:
+            progress_rating = "crushing it with consistent practice"
+        elif engagement_pct >= 60:
+            progress_rating = "decent consistency but room to improve"
+        elif engagement_pct >= 40:
+            progress_rating = "inconsistent - learning happens with daily practice"
+        else:
+            progress_rating = "sporadic at best - real learning needs regular coding"
         
-        # Technical Depth
+        progress = f"""## Learning Progress Check
+{active_days}/{total_days} days active ({engagement_pct:.1f}% of the month) - {progress_rating}. {total_commits} commits in {total_hours}h equals {commits_per_hour:.1f} commits/hour. Longest streak: {streak} days shows your discipline level. Consistent practice builds muscle memory, sporadic coding doesn't."""
+        
+        # Skill Development
         top_lang = max(languages.items(), key=lambda x: x[1])[0] if languages else "Unknown"
         lang_count = len(languages)
         repo_count = len(top_repos)
         
-        focus_assessment = "too scattered for strong portfolio" if repo_count > 10 else "well-focused for skill depth" if repo_count <= 5 else "moderate spread"
-        technical = f"""## Technical Depth & Focus
-Working across {repo_count} repositories with {lang_count} languages (primary: {top_lang}). This is {focus_assessment}. Top portfolio repos: {', '.join(top_repos[:3])}. Focus builds expertise that impresses employers."""
+        if repo_count > 10:
+            focus_assessment = "way too scattered - jumping between projects kills deep learning"
+        elif repo_count > 5:
+            focus_assessment = "moderate spread - consider finishing a few projects completely"
+        else:
+            focus_assessment = "good focus - building depth through concentrated effort"
         
-        # Critical Issues
+        technical = f"""## Skill Development Analysis
+Working across {repo_count} repositories with {lang_count} languages (primary: {top_lang}). {focus_assessment}. Top projects: {', '.join(top_repos[:3]) if top_repos else 'None'}. Deep understanding comes from completing projects, not starting many."""
+        
+        # Reality Check
         issues = []
         if engagement_pct < 60:
-            issues.append(f"Low consistency: only {active_days}/{total_days} active days - GitHub contribution graphs with gaps hurt job applications")
+            issues.append(f"Only {active_days}/{total_days} active days - you're not building the daily coding habit that accelerates learning")
         if streak < 5:
-            issues.append(f"Weak streak: longest is only {streak} days - employers value consistent contributors")
-        if commits_per_hour < 0.5:
-            issues.append(f"Low productivity: {commits_per_hour:.1f} commits/hour - need to improve development efficiency")
-        if repo_count > 10:
-            issues.append(f"Too scattered: working across {repo_count} repos - finish strong portfolio pieces instead")
+            issues.append(f"Longest streak is {streak} days - where's the discipline? Consistency compounds")
+        if commits_per_hour < 0.5 and total_hours > 10:
+            issues.append(f"{commits_per_hour:.1f} commits/hour across {total_hours}h - spending time without output suggests you're stuck or distracted")
+        if repo_count > 8:
+            issues.append(f"Touching {repo_count} repos this month - are you learning deeply or just dabbling?")
         
         if not issues:
-            issues.append("Solid performance overall - maintain this pace and finish portfolio projects")
+            issues.append("Solid month of learning - keep the momentum going and push yourself harder")
         
-        critical = "## Critical Issues\n" + "\n".join([f"- {issue}" for issue in issues])
+        critical = "## Reality Check (What's Actually Happening)\n" + "\n".join([f"- {issue}" for issue in issues])
         
-        # What Needs to Change
+        # What You Need to Do
         changes = []
         if engagement_pct < 70:
-            changes.append(f"Code daily to reach 80%+ active days (currently {engagement_pct:.1f}%) - consistency signals professionalism to recruiters")
+            changes.append(f"Code every single day, even just 30 mins - you're at {engagement_pct:.1f}%, aim for 80%+")
         if streak < 7:
-            changes.append(f"Build a 7+ day streak (current max: {streak} days) - demonstrates commitment and discipline")
-        if repo_count > 8:
-            changes.append(f"Focus on completing top 3 repos to production-ready state: {', '.join(top_repos[:3])}")
-        if commits_per_hour < 1:
-            changes.append(f"Increase commit frequency to 3+ commits per active day - shows productive development pace")
+            changes.append(f"Build a 7+ day streak (current: {streak}) - daily practice is non-negotiable for real skill growth")
+        if repo_count > 6:
+            changes.append(f"Pick your top project ({top_repos[0] if top_repos else 'one project'}) and finish it completely before touching others")
+        if lang_count > 3:
+            changes.append(f"Focus on mastering {top_lang} before jumping to other languages - depth beats breadth when learning")
         
         if not changes:
-            changes.append("Polish your top 3 repos to portfolio-ready state with documentation and demos")
+            changes.append(f"Challenge yourself with harder projects in {top_lang} - growth comes from pushing limits")
         
-        action = "## What Needs to Change\n" + "\n".join([f"- {change}" for change in changes])
+        action = "## What You Need to Do\n" + "\n".join([f"- {change}" for change in changes])
         
-        return f"{performance}\n\n{technical}\n\n{critical}\n\n{action}"
+        return f"{progress}\n\n{technical}\n\n{critical}\n\n{action}"
     
     @staticmethod
     def _format_dict(data: Dict) -> str:
