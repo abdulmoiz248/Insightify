@@ -1,0 +1,105 @@
+{
+  "date": "2025-12-21",
+  "total_commits": 4,
+  "repositories": {
+    "Auto-UI": {
+      "commits_count": 1,
+      "language": "Python",
+      "languages_used": {
+        "Python": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Auto-UI",
+      "commits": [
+        {
+          "sha": "83e4457",
+          "message": "fix",
+          "timestamp": "2025-12-20T09:50:46+00:00",
+          "url": "https://github.com/abdulmoiz248/Auto-UI/commit/83e445777c79651040e16f40d2bd9586667154db"
+        }
+      ]
+    },
+    "Insightify": {
+      "commits_count": 1,
+      "language": "Python",
+      "languages_used": {
+        "Python": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Insightify",
+      "commits": [
+        {
+          "sha": "29a8072",
+          "message": "enahnced the prompt",
+          "timestamp": "2025-12-20T09:24:22+00:00",
+          "url": "https://github.com/abdulmoiz248/Insightify/commit/29a8072758ebd4dee2a1cf3bca6ac428839f1f1f"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "bbce8f5",
+          "message": "Time: 75 ms (85.06%) | Memory: 13 MB (48.28%) - LeetSync",
+          "timestamp": "2025-12-20T08:43:05+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/bbce8f5dfd720f14a5659e4f4907322d4ecc5ce8"
+        },
+        {
+          "sha": "26cda95",
+          "message": "Added README.md file for Delete Columns to Make Sorted",
+          "timestamp": "2025-12-20T08:43:03+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/26cda955d82f88a819aa332f3b40e5377278cc33"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "Python": 3,
+    "Markdown": 1
+  },
+  "commits_by_hour": {
+    "9": 2,
+    "8": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Auto-UI",
+      "sha": "83e4457",
+      "message": "fix",
+      "timestamp": "2025-12-20T09:50:46+00:00",
+      "url": "https://github.com/abdulmoiz248/Auto-UI/commit/83e445777c79651040e16f40d2bd9586667154db"
+    },
+    {
+      "repo": "Insightify",
+      "sha": "29a8072",
+      "message": "enahnced the prompt",
+      "timestamp": "2025-12-20T09:24:22+00:00",
+      "url": "https://github.com/abdulmoiz248/Insightify/commit/29a8072758ebd4dee2a1cf3bca6ac428839f1f1f"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "bbce8f5",
+      "message": "Time: 75 ms (85.06%) | Memory: 13 MB (48.28%) - LeetSync",
+      "timestamp": "2025-12-20T08:43:05+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/bbce8f5dfd720f14a5659e4f4907322d4ecc5ce8"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "26cda95",
+      "message": "Added README.md file for Delete Columns to Make Sorted",
+      "timestamp": "2025-12-20T08:43:03+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/26cda955d82f88a819aa332f3b40e5377278cc33"
+    }
+  ],
+  "time_range": {
+    "start": "2025-12-20T00:17:37.437024+05:00",
+    "end": "2025-12-21T00:17:37.437024+05:00"
+  },
+  "estimated_hours": 1.63,
+  "ai_insights": "Pattern Detection:\n4 commits across 3 repos (Auto-UI, Insightify, LeetCode-Attempts) in 1.63h - focused work. Primary language: Python. Focused burst.\n\nRed Flags:\nVague commit messages detected: Auto-UI: 'fix' - recruiters reviewing your GitHub need to see clear, professional commits.\n\nBrutal Truth:\nSolid focused work on Auto-UI, Insightify, LeetCode-Attempts - this is the kind of consistent progress that builds a strong portfolio."
+}
