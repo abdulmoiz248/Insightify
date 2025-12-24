@@ -1,0 +1,130 @@
+{
+  "date": "2025-12-25",
+  "total_commits": 5,
+  "repositories": {
+    "Abdul-Moiz": {
+      "commits_count": 1,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz",
+      "commits": [
+        {
+          "sha": "6581b0e",
+          "message": "added image number 25",
+          "timestamp": "2025-12-24T16:25:38+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/6581b0e8636e11a28b0b6f46831cd2a8bfaad0b1"
+        }
+      ]
+    },
+    "Hygieia-Backend": {
+      "commits_count": 1,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "3283998",
+          "message": "fixed mail service env",
+          "timestamp": "2025-12-24T16:31:59+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/32839983d3680d3e4aed660032c1522ec74224da"
+        }
+      ]
+    },
+    "Joblyst": {
+      "commits_count": 1,
+      "language": "Unknown",
+      "languages_used": {
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Joblyst",
+      "commits": [
+        {
+          "sha": "5cdce74",
+          "message": "first commit",
+          "timestamp": "2025-12-24T17:24:24+00:00",
+          "url": "https://github.com/abdulmoiz248/Joblyst/commit/5cdce74c7f5f65d6c04e75fc2409a774655102df"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "a0cfd33",
+          "message": "Time: 65 ms (2.90%) | Memory: 12.6 MB (7.25%) - LeetSync",
+          "timestamp": "2025-12-24T15:53:32+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/a0cfd3345b6c8daf01eeaaf5af6d6e9e3179018a"
+        },
+        {
+          "sha": "454a67f",
+          "message": "Added README.md file for Apple Redistribution into Boxes",
+          "timestamp": "2025-12-24T15:53:30+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/454a67fe4cd7b90c301121c5449ae2c48d697acc"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 2,
+    "Markdown": 2,
+    "Python": 1
+  },
+  "commits_by_hour": {
+    "16": 2,
+    "17": 1,
+    "15": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "6581b0e",
+      "message": "added image number 25",
+      "timestamp": "2025-12-24T16:25:38+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/6581b0e8636e11a28b0b6f46831cd2a8bfaad0b1"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "3283998",
+      "message": "fixed mail service env",
+      "timestamp": "2025-12-24T16:31:59+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/32839983d3680d3e4aed660032c1522ec74224da"
+    },
+    {
+      "repo": "Joblyst",
+      "sha": "5cdce74",
+      "message": "first commit",
+      "timestamp": "2025-12-24T17:24:24+00:00",
+      "url": "https://github.com/abdulmoiz248/Joblyst/commit/5cdce74c7f5f65d6c04e75fc2409a774655102df"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "a0cfd33",
+      "message": "Time: 65 ms (2.90%) | Memory: 12.6 MB (7.25%) - LeetSync",
+      "timestamp": "2025-12-24T15:53:32+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/a0cfd3345b6c8daf01eeaaf5af6d6e9e3179018a"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "454a67f",
+      "message": "Added README.md file for Apple Redistribution into Boxes",
+      "timestamp": "2025-12-24T15:53:30+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/454a67fe4cd7b90c301121c5449ae2c48d697acc"
+    }
+  ],
+  "time_range": {
+    "start": "2025-12-24T00:17:58.326795+05:00",
+    "end": "2025-12-25T00:17:58.326795+05:00"
+  },
+  "estimated_hours": 2.02,
+  "ai_insights": "Pattern Detection:\n5 commits across 4 repos (Abdul-Moiz, Hygieia-Backend, Joblyst) in 2.02h - full-stack work. Primary language: TypeScript. Reasonable pace.\n\nRed Flags:\nNone detected - clean commits showing professional habits.\n\nBrutal Truth:\nJumping between 4 projects - finish ONE portfolio-worthy project instead of having multiple incomplete ones."
+}
