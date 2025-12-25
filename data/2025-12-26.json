@@ -1,0 +1,188 @@
+{
+  "date": "2025-12-26",
+  "total_commits": 9,
+  "repositories": {
+    "Abdul-Moiz": {
+      "commits_count": 1,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz",
+      "commits": [
+        {
+          "sha": "9d4e9d3",
+          "message": "added 2 more projects",
+          "timestamp": "2025-12-25T17:04:39+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/9d4e9d33934c2b0b853fbee7e6c59d6994c10be3"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "bf3b18d",
+          "message": "Time: 2066 ms (25.00%) | Memory: 34.2 MB (16.67%) - LeetSync",
+          "timestamp": "2025-12-25T09:35:55+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/bf3b18db6f203b2df97866e0559d547f72767b2d"
+        },
+        {
+          "sha": "dadea9a",
+          "message": "Added README.md file for Maximize Happiness of Selected Children",
+          "timestamp": "2025-12-25T09:35:54+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/dadea9ac9bb705341ea244b551968b8a559a26a6"
+        }
+      ]
+    },
+    "ProtoML": {
+      "commits_count": 1,
+      "language": "Unknown",
+      "languages_used": {
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/ProtoML",
+      "commits": [
+        {
+          "sha": "a7fe7d7",
+          "message": "first commit",
+          "timestamp": "2025-12-25T18:16:55+00:00",
+          "url": "https://github.com/abdulmoiz248/ProtoML/commit/a7fe7d728817def0ea7907535d0630c18cf5501f"
+        }
+      ]
+    },
+    "Rewise": {
+      "commits_count": 5,
+      "language": "Python",
+      "languages_used": {
+        "Markdown": 3,
+        "Python": 4,
+        "YAML": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Rewise",
+      "commits": [
+        {
+          "sha": "0c87260",
+          "message": "added github actions fixed dashboard issues and enhanced prompt",
+          "timestamp": "2025-12-25T16:56:11+00:00",
+          "url": "https://github.com/abdulmoiz248/Rewise/commit/0c8726097e79b482ce266948bae5487865a02115"
+        },
+        {
+          "sha": "61ebd52",
+          "message": "added req.txt and dashboard page",
+          "timestamp": "2025-12-25T16:37:53+00:00",
+          "url": "https://github.com/abdulmoiz248/Rewise/commit/61ebd52d76f44f82a4de51265abc699b402691c8"
+        },
+        {
+          "sha": "b4dc4eb",
+          "message": "fixed formating and msgs",
+          "timestamp": "2025-12-25T11:59:16+00:00",
+          "url": "https://github.com/abdulmoiz248/Rewise/commit/b4dc4eb7093e8b24dd0f7a1ef4643160df80884c"
+        },
+        {
+          "sha": "d0cee93",
+          "message": "added absic working code",
+          "timestamp": "2025-12-25T11:44:40+00:00",
+          "url": "https://github.com/abdulmoiz248/Rewise/commit/d0cee93dea317091c52d9e423dc8e4eca8b9d7bb"
+        },
+        {
+          "sha": "f263a42",
+          "message": "first commit",
+          "timestamp": "2025-12-25T10:14:22+00:00",
+          "url": "https://github.com/abdulmoiz248/Rewise/commit/f263a424700972a1b00f3f369c4b843c7ff6ac1b"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 1,
+    "Python": 5,
+    "Markdown": 5,
+    "YAML": 1
+  },
+  "commits_by_hour": {
+    "17": 1,
+    "9": 2,
+    "18": 1,
+    "16": 2,
+    "11": 2,
+    "10": 1
+  },
+  "commit_messages": [
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "9d4e9d3",
+      "message": "added 2 more projects",
+      "timestamp": "2025-12-25T17:04:39+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/9d4e9d33934c2b0b853fbee7e6c59d6994c10be3"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "bf3b18d",
+      "message": "Time: 2066 ms (25.00%) | Memory: 34.2 MB (16.67%) - LeetSync",
+      "timestamp": "2025-12-25T09:35:55+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/bf3b18db6f203b2df97866e0559d547f72767b2d"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "dadea9a",
+      "message": "Added README.md file for Maximize Happiness of Selected Children",
+      "timestamp": "2025-12-25T09:35:54+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/dadea9ac9bb705341ea244b551968b8a559a26a6"
+    },
+    {
+      "repo": "ProtoML",
+      "sha": "a7fe7d7",
+      "message": "first commit",
+      "timestamp": "2025-12-25T18:16:55+00:00",
+      "url": "https://github.com/abdulmoiz248/ProtoML/commit/a7fe7d728817def0ea7907535d0630c18cf5501f"
+    },
+    {
+      "repo": "Rewise",
+      "sha": "0c87260",
+      "message": "added github actions fixed dashboard issues and enhanced prompt",
+      "timestamp": "2025-12-25T16:56:11+00:00",
+      "url": "https://github.com/abdulmoiz248/Rewise/commit/0c8726097e79b482ce266948bae5487865a02115"
+    },
+    {
+      "repo": "Rewise",
+      "sha": "61ebd52",
+      "message": "added req.txt and dashboard page",
+      "timestamp": "2025-12-25T16:37:53+00:00",
+      "url": "https://github.com/abdulmoiz248/Rewise/commit/61ebd52d76f44f82a4de51265abc699b402691c8"
+    },
+    {
+      "repo": "Rewise",
+      "sha": "b4dc4eb",
+      "message": "fixed formating and msgs",
+      "timestamp": "2025-12-25T11:59:16+00:00",
+      "url": "https://github.com/abdulmoiz248/Rewise/commit/b4dc4eb7093e8b24dd0f7a1ef4643160df80884c"
+    },
+    {
+      "repo": "Rewise",
+      "sha": "d0cee93",
+      "message": "added absic working code",
+      "timestamp": "2025-12-25T11:44:40+00:00",
+      "url": "https://github.com/abdulmoiz248/Rewise/commit/d0cee93dea317091c52d9e423dc8e4eca8b9d7bb"
+    },
+    {
+      "repo": "Rewise",
+      "sha": "f263a42",
+      "message": "first commit",
+      "timestamp": "2025-12-25T10:14:22+00:00",
+      "url": "https://github.com/abdulmoiz248/Rewise/commit/f263a424700972a1b00f3f369c4b843c7ff6ac1b"
+    }
+  ],
+  "time_range": {
+    "start": "2025-12-25T00:18:15.352677+05:00",
+    "end": "2025-12-26T00:18:15.352677+05:00"
+  },
+  "estimated_hours": 4.54,
+  "ai_insights": "Pattern Detection:\n9 commits across 4 repos (Abdul-Moiz, LeetCode-Attempts, ProtoML) in 4.54h - focused work. Primary language: Python. Reasonable pace.\n\nRed Flags:\nNone detected - clean commits showing professional habits.\n\nBrutal Truth:\nJumping between 4 projects - finish ONE portfolio-worthy project instead of having multiple incomplete ones."
+}
