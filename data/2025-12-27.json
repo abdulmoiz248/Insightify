@@ -1,0 +1,82 @@
+{
+  "date": "2025-12-27",
+  "total_commits": 3,
+  "repositories": {
+    "Abdul-Moiz": {
+      "commits_count": 1,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz",
+      "commits": [
+        {
+          "sha": "0215599",
+          "message": "added one more project + updated leetcode count",
+          "timestamp": "2025-12-26T11:36:47+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/02155993543f2279cf25f0426d987894b2036f61"
+        }
+      ]
+    },
+    "ProtoML": {
+      "commits_count": 2,
+      "language": "Python",
+      "languages_used": {
+        "Markdown": 2,
+        "Python": 1
+      },
+      "url": "https://github.com/abdulmoiz248/ProtoML",
+      "commits": [
+        {
+          "sha": "13ad8f2",
+          "message": "Update README.md with project details and usage",
+          "timestamp": "2025-12-26T11:48:26+00:00",
+          "url": "https://github.com/abdulmoiz248/ProtoML/commit/13ad8f29a18e64162812b7e8209bdf6b2308e53a"
+        },
+        {
+          "sha": "352e4a2",
+          "message": "added full working pipeline",
+          "timestamp": "2025-12-26T11:23:39+00:00",
+          "url": "https://github.com/abdulmoiz248/ProtoML/commit/352e4a288a86d6e520c3b10c7f37e5b067e8aa35"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 1,
+    "Markdown": 2,
+    "Python": 1
+  },
+  "commits_by_hour": {
+    "11": 3
+  },
+  "commit_messages": [
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "0215599",
+      "message": "added one more project + updated leetcode count",
+      "timestamp": "2025-12-26T11:36:47+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/02155993543f2279cf25f0426d987894b2036f61"
+    },
+    {
+      "repo": "ProtoML",
+      "sha": "13ad8f2",
+      "message": "Update README.md with project details and usage",
+      "timestamp": "2025-12-26T11:48:26+00:00",
+      "url": "https://github.com/abdulmoiz248/ProtoML/commit/13ad8f29a18e64162812b7e8209bdf6b2308e53a"
+    },
+    {
+      "repo": "ProtoML",
+      "sha": "352e4a2",
+      "message": "added full working pipeline",
+      "timestamp": "2025-12-26T11:23:39+00:00",
+      "url": "https://github.com/abdulmoiz248/ProtoML/commit/352e4a288a86d6e520c3b10c7f37e5b067e8aa35"
+    }
+  ],
+  "time_range": {
+    "start": "2025-12-26T00:17:57.319694+05:00",
+    "end": "2025-12-27T00:17:57.319694+05:00"
+  },
+  "estimated_hours": 0.91,
+  "ai_insights": "Pattern Detection:\n3 commits across 2 repos (Abdul-Moiz, ProtoML) in 0.91h - focused work. Primary language: Markdown. Focused burst.\n\nRed Flags:\nNone detected - clean commits showing professional habits.\n\nBrutal Truth:\nSolid focused work on Abdul-Moiz, ProtoML - this is the kind of consistent progress that builds a strong portfolio."
+}
