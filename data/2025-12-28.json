@@ -1,0 +1,83 @@
+{
+  "date": "2025-12-28",
+  "total_commits": 3,
+  "repositories": {
+    "Abdul-Moiz": {
+      "commits_count": 1,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz",
+      "commits": [
+        {
+          "sha": "be279a5",
+          "message": "shifted data to a dedicated folder",
+          "timestamp": "2025-12-27T17:01:05+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/be279a5838713fdf3a1030e23c073cef418b034c"
+        }
+      ]
+    },
+    "ProtoML": {
+      "commits_count": 2,
+      "language": "Python",
+      "languages_used": {
+        "Markdown": 1,
+        "YAML": 1
+      },
+      "url": "https://github.com/abdulmoiz248/ProtoML",
+      "commits": [
+        {
+          "sha": "f266aac",
+          "message": "Merge branch 'main' of https://github.com/abdulmoiz248/ProtoML",
+          "timestamp": "2025-12-27T16:14:03+00:00",
+          "url": "https://github.com/abdulmoiz248/ProtoML/commit/f266aac49ff1b77a1f19cafad8aa515a52d3f3e7"
+        },
+        {
+          "sha": "2292b2d",
+          "message": "add weekly analysis workflow for automated ML paper analysis",
+          "timestamp": "2025-12-27T16:10:05+00:00",
+          "url": "https://github.com/abdulmoiz248/ProtoML/commit/2292b2dd43ec5ee7a6442f9694fab600cf57dc49"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 1,
+    "Markdown": 1,
+    "YAML": 1
+  },
+  "commits_by_hour": {
+    "17": 1,
+    "16": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "be279a5",
+      "message": "shifted data to a dedicated folder",
+      "timestamp": "2025-12-27T17:01:05+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/be279a5838713fdf3a1030e23c073cef418b034c"
+    },
+    {
+      "repo": "ProtoML",
+      "sha": "f266aac",
+      "message": "Merge branch 'main' of https://github.com/abdulmoiz248/ProtoML",
+      "timestamp": "2025-12-27T16:14:03+00:00",
+      "url": "https://github.com/abdulmoiz248/ProtoML/commit/f266aac49ff1b77a1f19cafad8aa515a52d3f3e7"
+    },
+    {
+      "repo": "ProtoML",
+      "sha": "2292b2d",
+      "message": "add weekly analysis workflow for automated ML paper analysis",
+      "timestamp": "2025-12-27T16:10:05+00:00",
+      "url": "https://github.com/abdulmoiz248/ProtoML/commit/2292b2dd43ec5ee7a6442f9694fab600cf57dc49"
+    }
+  ],
+  "time_range": {
+    "start": "2025-12-27T00:17:23.242447+05:00",
+    "end": "2025-12-28T00:17:23.242447+05:00"
+  },
+  "estimated_hours": 1.35,
+  "ai_insights": "Pattern Detection:\n3 commits across 2 repos (Abdul-Moiz, ProtoML) in 1.35h - focused work. Primary language: TypeScript. Focused burst.\n\nRed Flags:\nNone detected - clean commits showing professional habits.\n\nBrutal Truth:\nSolid focused work on Abdul-Moiz, ProtoML - this is the kind of consistent progress that builds a strong portfolio."
+}
