@@ -1,0 +1,216 @@
+{
+  "total_commits": 87,
+  "total_hours": 32.06,
+  "active_days": 20,
+  "languages": {
+    "TypeScript": 26,
+    "Python": 33,
+    "Java": 4,
+    "CSS": 4,
+    "JSON": 9,
+    "Markdown": 21,
+    "YAML": 12,
+    "Shell": 2,
+    "PowerShell": 1,
+    "SQL": 1
+  },
+  "repositories": {
+    "Hygieia-Backend": 4,
+    "Hygieia-Frontend": 4,
+    "Insightify": 6,
+    "LeetCode-Attempts": 20,
+    "Gpt-Wrap": 11,
+    "Abdul-Moiz": 7,
+    "Auto-UI": 12,
+    "KubeHost": 3,
+    "Devops-mid": 6,
+    "Joblyst": 4,
+    "ProtoML": 5,
+    "Rewise": 5
+  },
+  "commits_by_day": {
+    "2025-12-07": 9,
+    "2025-12-08": 2,
+    "2025-12-09": 2,
+    "2025-12-10": 12,
+    "2025-12-11": 5,
+    "2025-12-12": 1,
+    "2025-12-13": 0,
+    "2025-12-14": 5,
+    "2025-12-15": 1,
+    "2025-12-16": 0,
+    "2025-12-17": 6,
+    "2025-12-18": 1,
+    "2025-12-19": 2,
+    "2025-12-20": 3,
+    "2025-12-21": 4,
+    "2025-12-22": 1,
+    "2025-12-23": 0,
+    "2025-12-24": 0,
+    "2025-12-25": 5,
+    "2025-12-26": 9,
+    "2025-12-27": 3,
+    "2025-12-28": 3,
+    "2025-12-29": 5,
+    "2025-12-30": 0,
+    "2025-12-31": 8
+  },
+  "commits_by_week": {
+    "Week 49": 9,
+    "Week 50": 27,
+    "Week 51": 17,
+    "Week 52": 21,
+    "Week 1": 13
+  },
+  "daily_breakdown": [
+    {
+      "date": "2025-12-07",
+      "commits": 9,
+      "hours": 4.24
+    },
+    {
+      "date": "2025-12-08",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2025-12-09",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2025-12-10",
+      "commits": 12,
+      "hours": 3.14
+    },
+    {
+      "date": "2025-12-11",
+      "commits": 5,
+      "hours": 2.05
+    },
+    {
+      "date": "2025-12-12",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2025-12-13",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2025-12-14",
+      "commits": 5,
+      "hours": 2.96
+    },
+    {
+      "date": "2025-12-15",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2025-12-16",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2025-12-17",
+      "commits": 6,
+      "hours": 1.21
+    },
+    {
+      "date": "2025-12-18",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2025-12-19",
+      "commits": 2,
+      "hours": 0.91
+    },
+    {
+      "date": "2025-12-20",
+      "commits": 3,
+      "hours": 1.88
+    },
+    {
+      "date": "2025-12-21",
+      "commits": 4,
+      "hours": 1.63
+    },
+    {
+      "date": "2025-12-22",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2025-12-23",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2025-12-24",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2025-12-25",
+      "commits": 5,
+      "hours": 2.02
+    },
+    {
+      "date": "2025-12-26",
+      "commits": 9,
+      "hours": 4.54
+    },
+    {
+      "date": "2025-12-27",
+      "commits": 3,
+      "hours": 0.91
+    },
+    {
+      "date": "2025-12-28",
+      "commits": 3,
+      "hours": 1.35
+    },
+    {
+      "date": "2025-12-29",
+      "commits": 5,
+      "hours": 0.77
+    },
+    {
+      "date": "2025-12-30",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2025-12-31",
+      "commits": 8,
+      "hours": 1.45
+    }
+  ],
+  "total_days": 25,
+  "avg_commits_per_day": 3.48,
+  "total_repos": 12,
+  "top_repositories": [
+    "LeetCode-Attempts",
+    "Auto-UI",
+    "Gpt-Wrap",
+    "Abdul-Moiz",
+    "Insightify",
+    "Devops-mid",
+    "ProtoML",
+    "Rewise",
+    "Hygieia-Backend",
+    "Hygieia-Frontend"
+  ],
+  "longest_streak": 6,
+  "month": "December 2025",
+  "month_str": "2025-12",
+  "ai_insights": "## Learning Progress Check\n20/25 days active (80.0% of the month) - crushing it with consistent practice. 87 commits in 32.06h equals 2.7 commits/hour. Longest streak: 6 days shows your discipline level. Consistent practice builds muscle memory, sporadic coding doesn't.\n\n## Skill Development Analysis\nWorking across 10 repositories with 10 languages (primary: Python). moderate spread - consider finishing a few projects completely. Top projects: LeetCode-Attempts, Auto-UI, Gpt-Wrap. Deep understanding comes from completing projects, not starting many.\n\n## Reality Check (What's Actually Happening)\n- Touching 10 repos this month - are you learning deeply or just dabbling?\n\n## What You Need to Do\n- Build a 7+ day streak (current: 6) - daily practice is non-negotiable for real skill growth\n- Pick your top project (LeetCode-Attempts) and finish it completely before touching others\n- Focus on mastering Python before jumping to other languages - depth beats breadth when learning",
+  "chart_paths": [
+    "/home/runner/work/Insightify/Insightify/charts/daily_commits_2025-12.png",
+    "/home/runner/work/Insightify/Insightify/charts/languages_2025-12.png",
+    "/home/runner/work/Insightify/Insightify/charts/top_repos_2025-12.png"
+  ]
+}
