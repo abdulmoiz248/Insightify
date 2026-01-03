@@ -123,8 +123,18 @@ class GeminiClient:
         commit_messages = data.get('commit_messages', [])
         previous_days = data.get('previous_days', [])
         
-        # Extract commit messages for analysis
+        # Extract commit messages for analysis - include full messages
         commit_msgs = "\n".join([f"  - [{msg['repo']}] {msg['message']}" for msg in commit_messages[:15]])
+        
+        # Identify repo types for better context
+        leetcode_repos = [r for r in repos.keys() if 'leetcode' in r.lower() or 'problem' in r.lower() or 'attempt' in r.lower()]
+        project_repos = [r for r in repos.keys() if r not in leetcode_repos]
+        
+        repo_context = ""
+        if leetcode_repos:
+            repo_context += f"\n**LeetCode/Practice Repos (problem-solving practice):** {', '.join(leetcode_repos)}"
+        if project_repos:
+            repo_context += f"\n**Project Repos:** {', '.join(project_repos)}"
         
         # Build context from previous days
         prev_context = ""
@@ -133,53 +143,77 @@ class GeminiClient:
             prev_repos = set()
             prev_total_commits = 0
             prev_languages = set()
+            prev_commit_count = []
             
             for day in previous_days:
                 prev_total_commits += day.get('total_commits', 0)
                 prev_repos.update(day.get('repositories', {}).keys())
                 prev_languages.update(day.get('languages', {}).keys())
+                prev_commit_count.append(day.get('total_commits', 0))
             
             avg_commits = prev_total_commits / len(previous_days) if previous_days else 0
             
             prev_context = f"""
 **Last 7 Days Context:**
-- Average commits/day: {avg_commits:.1f}
+- Average commits/day: {avg_commits:.1f} (Today: {total_commits} commits)
 - Total unique repos: {len(prev_repos)}
 - Recent repos: {', '.join(list(prev_repos)[:5])}
 - Languages used: {', '.join(prev_languages)}
+- Daily commit pattern: {prev_commit_count[-5:]} (last 5 days)
 """
         
-        prompt = f"""You are a brutally honest senior developer reviewing a junior's daily activity. Be direct, specific, and call out issues without sugarcoating. Use actual data points.
+        prompt = f"""You are a brutally honest senior developer reviewing daily coding activity. Be direct, specific, and analyze the ACTUAL commit messages to understand what was accomplished. Use actual data points.
 
 **Today's Data ({data.get('date', 'N/A')})**
 Commits: {total_commits} | Time: {estimated_hours}h | Repos: {len(repos)} | Languages: {', '.join(languages.keys()) if languages else 'None'}
+{repo_context}
 
 {prev_context}
 
-**Recent Commit Messages:**
+**Actual Commit Messages (READ THESE CAREFULLY):**
 {commit_msgs if commit_msgs else "No commits today"}
 
 **Active Repositories:**
 {self._format_repos(repos)}
 
+**IMPORTANT CONTEXT:**
+- Repos with "LeetCode", "Attempts", "Problems" in name = Problem-solving practice (not projects to "complete")
+- Commit messages with "Time: X ms" or "Memory: X MB" = LeetCode submissions showing performance metrics
+- "LeetSync" commits = Automated sync from LeetCode platform
+- "Added README" for problems = Problem documentation
+
 Analyze this and respond in EXACTLY this format (no extra commentary):
 
 Pattern Detection:
-[2-3 sentences maximum] Be SPECIFIC about what's happening. Name the actual repos (e.g., "Backend + Frontend work on Hygieia"). Mention the exact language split (e.g., "Mix of TypeScript/Python"). Call out the pace explicitly (e.g., "{total_commits} commits across {estimated_hours}h = slower pace than usual" OR "solid productivity"). Reference whether it's full-stack, polyglot, or focused work.
+[2-3 sentences maximum] Be SPECIFIC about what's happening. Analyze the ACTUAL commit messages to understand the work:
+- For LeetCode repos: How many problems solved? What's the difficulty? Performance metrics mentioned?
+- For project repos: What features/fixes were implemented based on commit messages?
+- Mention exact language split (e.g., "Python for algorithms")
+- Compare to previous days: Is today's {total_commits} commits above/below the {avg_commits:.1f} avg?
+Use the actual repo names and what the commit messages reveal about progress.
 
 Red Flags:
-[2-3 sentences maximum] SCRUTINIZE the commit messages and patterns. Look for: 
-- Vague messages like "fix", "update", "REVERT", "added code" instead of descriptive ones
-- Same repo appearing in previous days context (stuck/grinding)
-- Low commits for high hours (procrastinating/stuck?)
-- Too many repos (unfocused?)
-- Build fixes and reverts (breaking things?)
-If you find issues, call them out by name. If truly nothing wrong, say "None detected - clean commits and focused work."
+[2-3 sentences maximum] SCRUTINIZE based on ACTUAL commit messages:
+- Generic/vague messages (just "fix", "update" without context)?
+- For projects: Revert commits, build fixes, or unclear changes?
+- Low output compared to previous days?
+- Too scattered across many repos without depth?
+- For LeetCode: Just easy problems or avoiding challenges?
+If you find specific issues, quote the actual commit message and explain why it's problematic. If truly clean, say "None detected - clear, descriptive commits showing professional habits."
 
 Brutal Truth:
-[1-2 sentences maximum] Give the REAL insight. Examples: "Still grinding on Hygieia for days without clear feature completion - might be stuck or scope creeping." OR "3 commits with 'fix' and 'update' messages - what are you actually fixing?" OR "REVERT commit suggests you pushed broken code - slow down and test locally." Reference specific repos and commit messages. Don't be generic.
+[1-2 sentences maximum] Give SPECIFIC insight based on what the commit messages ACTUALLY show:
+- For LeetCode: "2 problems solved with good performance (0ms) - solid algorithmic practice" OR "Stuck on same problem type - diversify practice"
+- For projects: Reference what feature/fix the commits show, e.g., "Auth system implementation based on commits X, Y - real progress" OR "3 'fix' commits without context - what are you fixing?"
+- Compare to patterns: "Consistent with last week's pace" OR "Dropping off from {avg_commits:.1f} avg"
+NO GENERIC RESPONSES. Be specific using actual commit messages and repo names.
 
-CRITICAL: Use ACTUAL repo names from the data, ACTUAL commit messages, and ACTUAL numbers. No placeholders, no generic advice."""
+CRITICAL: 
+- READ the commit messages and understand what they mean
+- Use ACTUAL repo names from the data
+- Reference SPECIFIC commit messages 
+- NO generic portfolio/job advice for LeetCode practice repos
+- Distinguish between problem-solving practice and project development"""
         
         return prompt
     
@@ -248,7 +282,7 @@ CRITICAL RULES:
         return prompt
     
     def _generate_fallback_insights(self, data: Dict[str, Any]) -> str:
-        """Generate brutally honest career-focused insights when AI fails."""
+        """Generate brutally honest insights when AI fails."""
         total_commits = data.get('total_commits', 0)
         repos = data.get('repositories', {})
         languages = data.get('languages', {})
@@ -257,55 +291,89 @@ CRITICAL RULES:
         commit_messages = data.get('commit_messages', [])
         
         if total_commits == 0:
-            return "Pattern Detection:\nNo commits today - your GitHub contribution graph has a gap, which recruiters notice.\n\nRed Flags:\nZero output means zero progress on portfolio and skills.\n\nBrutal Truth:\nConsistent coding is what separates successful job applicants from the rest."
+            return "Pattern Detection:\nNo commits today - consistency builds skills.\n\nRed Flags:\nZero output means zero progress.\n\nBrutal Truth:\nDaily practice is what separates learners from wannabes."
         
-        # Analyze commit quality
+        # Identify repo types
+        leetcode_repos = [r for r in repos.keys() if 'leetcode' in r.lower() or 'problem' in r.lower() or 'attempt' in r.lower()]
+        project_repos = [r for r in repos.keys() if r not in leetcode_repos]
+        
+        # Analyze commit messages more intelligently
+        leetcode_solves = []
         vague_commits = []
-        for msg in commit_messages[:10]:
-            message_lower = msg['message'].lower()
-            if any(word in message_lower for word in ['fix', 'update', 'change', 'revert', 'added code', 'updated']):
-                if len(msg['message'].split()) < 4:  # Very short and vague
-                    vague_commits.append(f"{msg['repo']}: '{msg['message']}'")
+        
+        for msg in commit_messages[:15]:
+            message = msg['message']
+            message_lower = message.lower()
+            repo = msg['repo']
+            
+            # Detect LeetCode problem solves
+            if 'time:' in message_lower and 'memory:' in message_lower:
+                leetcode_solves.append(f"{repo}: Problem solved")
+            elif 'added readme' in message_lower and any(lc in repo.lower() for lc in ['leetcode', 'problem', 'attempt']):
+                continue  # Skip README commits for LeetCode
+            # Detect vague commits (but only for non-LeetCode repos)
+            elif repo in project_repos and any(word in message_lower for word in ['fix', 'update', 'change', 'revert', 'added code']):
+                if len(message.split()) < 4:
+                    vague_commits.append(f"{repo}: '{message}'")
         
         # Build sections
         top_lang = max(languages.items(), key=lambda x: x[1])[0] if languages else "Unknown"
         repo_list = ', '.join(list(repos.keys())[:3])
         
         # Pattern Detection
-        work_type = "full-stack" if len(repos) >= 2 and any('frontend' in r.lower() or 'backend' in r.lower() for r in repos.keys()) else "focused"
-        pace_comment = "slow pace" if hours > 3 and total_commits < 5 else "reasonable pace" if hours > 2 else "focused burst"
-        pattern = f"Pattern Detection:\n{total_commits} commits across {len(repos)} repos ({repo_list}) in {hours}h - {work_type} work. Primary language: {top_lang}. {pace_comment.capitalize()}."
+        if leetcode_repos and not project_repos:
+            work_type = "algorithmic practice"
+            problems_count = len([m for m in commit_messages if 'time:' in m['message'].lower()])
+            pattern = f"Pattern Detection:\n{total_commits} commits on {', '.join(leetcode_repos)} in {hours}h - {work_type}. Solved {problems_count} problems using {top_lang}. Focused burst."
+        elif project_repos and not leetcode_repos:
+            work_type = "project development"
+            pattern = f"Pattern Detection:\n{total_commits} commits on {', '.join(project_repos)[:2]} in {hours}h - {work_type}. Primary language: {top_lang}. {'Slow pace' if hours > 3 and total_commits < 5 else 'Focused burst'}."
+        else:
+            work_type = "mixed practice/projects"
+            pattern = f"Pattern Detection:\n{total_commits} commits across {len(repos)} repos in {hours}h - {work_type}. Primary language: {top_lang}."
         
         # Red Flags
         red_flags = []
+        
+        # Only flag vague commits for project repos
         if vague_commits:
-            red_flags.append(f"Vague commit messages detected: {', '.join(vague_commits[:2])} - recruiters reviewing your GitHub need to see clear, professional commits.")
-        if hours > 3 and total_commits < 4:
-            red_flags.append(f"{hours}h for {total_commits} commits - low output suggests inefficiency that employers will notice.")
-        if len(repos) > 4:
-            red_flags.append(f"Working across {len(repos)} repos - spreading too thin instead of building complete portfolio pieces.")
+            red_flags.append(f"Vague commit messages in projects: {', '.join(vague_commits[:2])} - write descriptive commits.")
         
-        # Check previous days for grinding
-        if previous_days:
-            prev_repos = set()
-            for day in previous_days[-3:]:  # Last 3 days
-                prev_repos.update(day.get('repositories', {}).keys())
+        # Different standards for LeetCode vs projects
+        if project_repos and hours > 3 and total_commits < 4:
+            red_flags.append(f"{hours}h for {total_commits} commits on projects - low output suggests you're stuck.")
+        
+        if len(project_repos) > 4:
+            red_flags.append(f"Working across {len(project_repos)} projects - focus on completing one.")
+        
+        # Check if stuck on same project (not LeetCode)
+        if previous_days and project_repos:
+            prev_project_repos = set()
+            for day in previous_days[-3:]:
+                day_repos = day.get('repositories', {}).keys()
+                prev_project_repos.update([r for r in day_repos if 'leetcode' not in r.lower() and 'problem' not in r.lower()])
             
-            grinding_repos = set(repos.keys()).intersection(prev_repos)
-            if grinding_repos and len(grinding_repos) == len(repos):
-                red_flags.append(f"Still on {', '.join(list(grinding_repos)[:2])} from previous days - finish features to show completion ability to employers.")
+            stuck_repos = set(project_repos).intersection(prev_project_repos)
+            if stuck_repos and len(stuck_repos) == len(project_repos) and len(project_repos) == 1:
+                red_flags.append(f"Still on {list(stuck_repos)[0]} for multiple days - push to complete or move on.")
         
-        red_flags_text = "Red Flags:\n" + " ".join(red_flags) if red_flags else "Red Flags:\nNone detected - clean commits showing professional habits."
+        red_flags_text = "Red Flags:\n" + " ".join(red_flags) if red_flags else "Red Flags:\nNone detected - clean, focused work showing good habits."
         
-        # Brutal Truth
-        if vague_commits and len(repos) == 1:
-            truth = f"Brutal Truth:\nGrinding on {list(repos.keys())[0]} with vague commits - hiring managers reviewing your GitHub won't be impressed. Write professional commit messages."
-        elif len(repos) > 3:
-            truth = f"Brutal Truth:\nJumping between {len(repos)} projects - finish ONE portfolio-worthy project instead of having multiple incomplete ones."
+        # Brutal Truth - specific to work type
+        if leetcode_repos and not project_repos:
+            problems_solved = len([m for m in commit_messages if 'time:' in m['message'].lower()])
+            if problems_solved >= 2:
+                truth = f"Brutal Truth:\nSolid algorithmic practice - {problems_solved} problems solved. Keep the momentum and tackle harder problems."
+            else:
+                truth = f"Brutal Truth:\nOne problem isn't enough - aim for at least 2-3 daily to build real problem-solving skills."
+        elif vague_commits and len(project_repos) == 1:
+            truth = f"Brutal Truth:\nWorking on {list(project_repos)[0]} with vague commits - describe what you're actually fixing/adding."
+        elif len(project_repos) > 3:
+            truth = f"Brutal Truth:\nJumping between {len(project_repos)} projects - finish ONE complete project instead of having multiple incomplete ones."
         elif hours > 4 and total_commits < 3:
-            truth = f"Brutal Truth:\n{hours}h for {total_commits} commits - efficiency matters in real jobs. Identify and eliminate blockers."
+            truth = f"Brutal Truth:\n{hours}h for {total_commits} commits - identify and eliminate blockers, or you're just procrastinating."
         else:
-            truth = f"Brutal Truth:\nSolid focused work on {repo_list} - this is the kind of consistent progress that builds a strong portfolio."
+            truth = f"Brutal Truth:\nSolid focused work on {repo_list} - keep this consistency going."
         
         return f"{pattern}\n\n{red_flags_text}\n\n{truth}"
     
