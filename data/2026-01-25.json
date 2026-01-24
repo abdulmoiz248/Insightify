@@ -1,0 +1,57 @@
+{
+  "date": "2026-01-25",
+  "total_commits": 2,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 2,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 2
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "fbd155c",
+          "message": "add DTOs for authentication and user management; enhance auth controller with Swagger documentation",
+          "timestamp": "2026-01-24T18:27:33+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/fbd155cf10f065e550d1ac487d6165007fef458c"
+        },
+        {
+          "sha": "e41ebe3",
+          "message": "implement worker registration feature with email notifications",
+          "timestamp": "2026-01-24T17:58:28+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/e41ebe31103122124a2b7310d76a3f80ef13b34f"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 2
+  },
+  "commits_by_hour": {
+    "18": 1,
+    "17": 1
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "fbd155c",
+      "message": "add DTOs for authentication and user management; enhance auth controller with Swagger documentation",
+      "timestamp": "2026-01-24T18:27:33+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/fbd155cf10f065e550d1ac487d6165007fef458c"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "e41ebe3",
+      "message": "implement worker registration feature with email notifications",
+      "timestamp": "2026-01-24T17:58:28+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/e41ebe31103122124a2b7310d76a3f80ef13b34f"
+    }
+  ],
+  "time_range": {
+    "start": "2026-01-24T00:18:30.277136+05:00",
+    "end": "2026-01-25T00:18:30.277136+05:00"
+  },
+  "estimated_hours": 0.98,
+  "ai_insights": "Pattern Detection:\n2 commits on Hy in 0.98h - project development. Primary language: TypeScript. Focused burst.\n\nRed Flags:\nStill on Hygieia-Backend for multiple days - push to complete or move on.\n\nBrutal Truth:\nSolid focused work on Hygieia-Backend - keep this consistency going."
+}
