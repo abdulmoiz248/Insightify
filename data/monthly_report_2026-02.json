@@ -1,0 +1,210 @@
+{
+  "total_commits": 25,
+  "total_hours": 5.54,
+  "active_days": 10,
+  "languages": {
+    "TypeScript": 8,
+    "YAML": 2,
+    "Python": 7,
+    "Markdown": 8
+  },
+  "repositories": {
+    "Abdul-Moiz": 2,
+    "Hygieia-Backend": 3,
+    "Hygieia-Frontend": 4,
+    "LeetCode-Attempts": 14,
+    "Customer-Churn-Detection": 2
+  },
+  "commits_by_day": {
+    "2026-02-01": 4,
+    "2026-02-02": 2,
+    "2026-02-04": 0,
+    "2026-02-05": 0,
+    "2026-02-06": 0,
+    "2026-02-07": 0,
+    "2026-02-08": 2,
+    "2026-02-09": 2,
+    "2026-02-10": 2,
+    "2026-02-11": 4,
+    "2026-02-12": 0,
+    "2026-02-13": 0,
+    "2026-02-14": 0,
+    "2026-02-15": 0,
+    "2026-02-16": 0,
+    "2026-02-17": 0,
+    "2026-02-18": 2,
+    "2026-02-19": 2,
+    "2026-02-20": 0,
+    "2026-02-21": 0,
+    "2026-02-22": 0,
+    "2026-02-23": 4,
+    "2026-02-24": 1,
+    "2026-02-25": 0,
+    "2026-02-26": 0,
+    "2026-02-27": 0,
+    "2026-02-28": 0
+  },
+  "commits_by_week": {
+    "Week 5": 4,
+    "Week 6": 4,
+    "Week 7": 8,
+    "Week 8": 4,
+    "Week 9": 5
+  },
+  "daily_breakdown": [
+    {
+      "date": "2026-02-01",
+      "commits": 4,
+      "hours": 0.73
+    },
+    {
+      "date": "2026-02-02",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-02-04",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-05",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-06",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-07",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-08",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-02-09",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-02-10",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-02-11",
+      "commits": 4,
+      "hours": 0.68
+    },
+    {
+      "date": "2026-02-12",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-13",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-14",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-15",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-16",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-17",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-18",
+      "commits": 2,
+      "hours": 0.53
+    },
+    {
+      "date": "2026-02-19",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-02-20",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-21",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-22",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-23",
+      "commits": 4,
+      "hours": 0.6
+    },
+    {
+      "date": "2026-02-24",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-02-25",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-26",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-27",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-02-28",
+      "commits": 0,
+      "hours": 0.0
+    }
+  ],
+  "total_days": 27,
+  "avg_commits_per_day": 0.93,
+  "total_repos": 5,
+  "top_repositories": [
+    "LeetCode-Attempts",
+    "Hygieia-Frontend",
+    "Hygieia-Backend",
+    "Abdul-Moiz",
+    "Customer-Churn-Detection"
+  ],
+  "longest_streak": 4,
+  "month": "February 2026",
+  "month_str": "2026-02",
+  "ai_insights": "## Learning Progress Check\n10/27 days active (37.0% of the month) - sporadic at best - real learning needs regular coding. 25 commits in 5.54h equals 4.5 commits/hour. Longest streak: 4 days shows your discipline level. Consistent practice builds muscle memory, sporadic coding doesn't.\n\n## Skill Development Analysis\nWorking across 5 repositories with 4 languages (primary: TypeScript). good focus - building depth through concentrated effort. Top projects: LeetCode-Attempts, Hygieia-Frontend, Hygieia-Backend. Deep understanding comes from completing projects, not starting many.\n\n## Reality Check (What's Actually Happening)\n- Only 10/27 active days - you're not building the daily coding habit that accelerates learning\n- Longest streak is 4 days - where's the discipline? Consistency compounds\n\n## What You Need to Do\n- Code every single day, even just 30 mins - you're at 37.0%, aim for 80%+\n- Build a 7+ day streak (current: 4) - daily practice is non-negotiable for real skill growth\n- Focus on mastering TypeScript before jumping to other languages - depth beats breadth when learning",
+  "chart_paths": [
+    "/home/runner/work/Insightify/Insightify/charts/daily_commits_2026-02.png",
+    "/home/runner/work/Insightify/Insightify/charts/languages_2026-02.png",
+    "/home/runner/work/Insightify/Insightify/charts/top_repos_2026-02.png"
+  ]
+}
