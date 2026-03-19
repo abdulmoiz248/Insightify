@@ -1,0 +1,121 @@
+{
+  "date": "2026-03-20",
+  "total_commits": 6,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 2,
+      "language": "TypeScript",
+      "languages_used": {
+        "SQL": 1,
+        "TypeScript": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "4bf86f3",
+          "message": "added supabase schema",
+          "timestamp": "2026-03-19T18:58:04+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/4bf86f39f018ee8c02e043cf9a0a58e1df61d108"
+        },
+        {
+          "sha": "f7feed0",
+          "message": "fixed patient profile",
+          "timestamp": "2026-03-19T17:51:28+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/f7feed09e0fee6cd66bde62bcdda19c71bbe7d89"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 4,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 4
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "b8520a2",
+          "message": "fixed 0",
+          "timestamp": "2026-03-19T18:28:21+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/b8520a282e18dc5c493add6d2a11f61cfecadab8"
+        },
+        {
+          "sha": "720bb1a",
+          "message": "fixed component issue due to gsap",
+          "timestamp": "2026-03-19T18:18:37+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/720bb1a4d483650a463f14a6e388dfc6a6bdd3b2"
+        },
+        {
+          "sha": "eda7ef2",
+          "message": "fixed profile pic and name issues",
+          "timestamp": "2026-03-19T17:48:50+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/eda7ef2c3ef728ab2c3f7f28310705a25fe8015c"
+        },
+        {
+          "sha": "85a32ec",
+          "message": "added patient profile fetching from backend along with cancel changes thing for all profiles",
+          "timestamp": "2026-03-19T17:03:04+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/85a32ec89ffbb2f1f63ef35fb53f3adffe22da65"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "SQL": 1,
+    "TypeScript": 5
+  },
+  "commits_by_hour": {
+    "18": 3,
+    "17": 3
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "4bf86f3",
+      "message": "added supabase schema",
+      "timestamp": "2026-03-19T18:58:04+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/4bf86f39f018ee8c02e043cf9a0a58e1df61d108"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "f7feed0",
+      "message": "fixed patient profile",
+      "timestamp": "2026-03-19T17:51:28+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/f7feed09e0fee6cd66bde62bcdda19c71bbe7d89"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "b8520a2",
+      "message": "fixed 0",
+      "timestamp": "2026-03-19T18:28:21+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/b8520a282e18dc5c493add6d2a11f61cfecadab8"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "720bb1a",
+      "message": "fixed component issue due to gsap",
+      "timestamp": "2026-03-19T18:18:37+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/720bb1a4d483650a463f14a6e388dfc6a6bdd3b2"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "eda7ef2",
+      "message": "fixed profile pic and name issues",
+      "timestamp": "2026-03-19T17:48:50+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/eda7ef2c3ef728ab2c3f7f28310705a25fe8015c"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "85a32ec",
+      "message": "added patient profile fetching from backend along with cancel changes thing for all profiles",
+      "timestamp": "2026-03-19T17:03:04+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/85a32ec89ffbb2f1f63ef35fb53f3adffe22da65"
+    }
+  ],
+  "time_range": {
+    "start": "2026-03-19T00:48:01.859211+05:00",
+    "end": "2026-03-20T00:48:01.859211+05:00"
+  },
+  "estimated_hours": 2.42,
+  "ai_insights": "Pattern Detection:\n6 commits on Hy in 2.42h - project development. Primary language: TypeScript. Focused burst.\n\nRed Flags:\nVague commit messages in projects: Hygieia-Backend: 'fixed patient profile', Hygieia-Frontend: 'fixed 0' - write descriptive commits.\n\nBrutal Truth:\nSolid focused work on Hygieia-Backend, Hygieia-Frontend - keep this consistency going."
+}
