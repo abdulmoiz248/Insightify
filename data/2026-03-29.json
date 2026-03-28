@@ -1,0 +1,136 @@
+{
+  "date": "2026-03-29",
+  "total_commits": 7,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 1,
+      "language": "TypeScript",
+      "languages_used": {
+        "Markdown": 1,
+        "TypeScript": 1,
+        "SQL": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "f22b116",
+          "message": "added complete review system",
+          "timestamp": "2026-03-28T17:59:55+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/f22b116603528a3324ec599f2b430d5b61e9a3e2"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 6,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 6
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "e16f0b4",
+          "message": "fixed notification issue",
+          "timestamp": "2026-03-28T18:23:40+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/e16f0b4b6765407a4fc60d22c52e2561c9cd08f5"
+        },
+        {
+          "sha": "4fa6208",
+          "message": "cleaned up codebase",
+          "timestamp": "2026-03-28T18:08:55+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/4fa620861ed59d283a0b613255b95d98cf2f93e4"
+        },
+        {
+          "sha": "60e1ed0",
+          "message": "Merge branch 'main' of https://github.com/abdulmoiz248/Hygieia-Frontend",
+          "timestamp": "2026-03-28T17:59:41+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/60e1ed009a0d2c76435533b9fcbc7e6d2e7a5254"
+        },
+        {
+          "sha": "31762bc",
+          "message": "added doctors page with reviews",
+          "timestamp": "2026-03-28T17:59:35+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/31762bc25ff41da5d2eac9b5b987f83e990d6ee3"
+        },
+        {
+          "sha": "a8aedcf",
+          "message": "added nutritionist reviews",
+          "timestamp": "2026-03-28T17:47:55+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/a8aedcf172ce640a24e5bedb97e8ce1ed066d46b"
+        },
+        {
+          "sha": "8351c76",
+          "message": "added appointment review form",
+          "timestamp": "2026-03-28T17:41:07+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/8351c76d883f3cfb6869343f2ac70a31d57b6fbb"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "Markdown": 1,
+    "TypeScript": 7,
+    "SQL": 1
+  },
+  "commits_by_hour": {
+    "17": 5,
+    "18": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "f22b116",
+      "message": "added complete review system",
+      "timestamp": "2026-03-28T17:59:55+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/f22b116603528a3324ec599f2b430d5b61e9a3e2"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "e16f0b4",
+      "message": "fixed notification issue",
+      "timestamp": "2026-03-28T18:23:40+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/e16f0b4b6765407a4fc60d22c52e2561c9cd08f5"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "4fa6208",
+      "message": "cleaned up codebase",
+      "timestamp": "2026-03-28T18:08:55+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/4fa620861ed59d283a0b613255b95d98cf2f93e4"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "60e1ed0",
+      "message": "Merge branch 'main' of https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "timestamp": "2026-03-28T17:59:41+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/60e1ed009a0d2c76435533b9fcbc7e6d2e7a5254"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "31762bc",
+      "message": "added doctors page with reviews",
+      "timestamp": "2026-03-28T17:59:35+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/31762bc25ff41da5d2eac9b5b987f83e990d6ee3"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "a8aedcf",
+      "message": "added nutritionist reviews",
+      "timestamp": "2026-03-28T17:47:55+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/a8aedcf172ce640a24e5bedb97e8ce1ed066d46b"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "8351c76",
+      "message": "added appointment review form",
+      "timestamp": "2026-03-28T17:41:07+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/8351c76d883f3cfb6869343f2ac70a31d57b6fbb"
+    }
+  ],
+  "time_range": {
+    "start": "2026-03-28T00:31:38.153324+05:00",
+    "end": "2026-03-29T00:31:38.153324+05:00"
+  },
+  "estimated_hours": 1.21,
+  "ai_insights": "Pattern Detection:\n7 commits on Hy in 1.21h - project development. Primary language: TypeScript. Focused burst.\n\nRed Flags:\nVague commit messages in projects: Hygieia-Frontend: 'fixed notification issue' - write descriptive commits.\n\nBrutal Truth:\nSolid focused work on Hygieia-Backend, Hygieia-Frontend - keep this consistency going."
+}
