@@ -1,0 +1,238 @@
+{
+  "total_commits": 44,
+  "total_hours": 13.67,
+  "active_days": 11,
+  "languages": {
+    "TypeScript": 26,
+    "Python": 5,
+    "Markdown": 10,
+    "JSON": 3,
+    "YAML": 1,
+    "SQL": 2,
+    "Jupyter Notebook": 1
+  },
+  "repositories": {
+    "Hygieia-Backend": 9,
+    "Hygieia-Frontend": 20,
+    "LeetCode-Attempts": 9,
+    "learning-pytorch": 4,
+    "Fashion-Mnist": 2
+  },
+  "commits_by_day": {
+    "2026-03-01": 0,
+    "2026-03-02": 4,
+    "2026-03-03": 0,
+    "2026-03-04": 0,
+    "2026-03-05": 3,
+    "2026-03-06": 0,
+    "2026-03-07": 12,
+    "2026-03-08": 2,
+    "2026-03-09": 0,
+    "2026-03-10": 0,
+    "2026-03-11": 0,
+    "2026-03-12": 2,
+    "2026-03-13": 0,
+    "2026-03-14": 0,
+    "2026-03-15": 2,
+    "2026-03-16": 0,
+    "2026-03-17": 0,
+    "2026-03-18": 0,
+    "2026-03-19": 0,
+    "2026-03-20": 6,
+    "2026-03-21": 0,
+    "2026-03-22": 0,
+    "2026-03-23": 0,
+    "2026-03-24": 0,
+    "2026-03-25": 0,
+    "2026-03-26": 3,
+    "2026-03-27": 0,
+    "2026-03-28": 1,
+    "2026-03-29": 7,
+    "2026-03-30": 0,
+    "2026-03-31": 2
+  },
+  "commits_by_week": {
+    "Week 9": 0,
+    "Week 10": 21,
+    "Week 11": 4,
+    "Week 12": 6,
+    "Week 13": 11,
+    "Week 14": 2
+  },
+  "daily_breakdown": [
+    {
+      "date": "2026-03-01",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-02",
+      "commits": 4,
+      "hours": 0.67
+    },
+    {
+      "date": "2026-03-03",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-04",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-05",
+      "commits": 3,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-03-06",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-07",
+      "commits": 12,
+      "hours": 2.62
+    },
+    {
+      "date": "2026-03-08",
+      "commits": 2,
+      "hours": 1.82
+    },
+    {
+      "date": "2026-03-09",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-10",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-11",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-12",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-03-13",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-14",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-15",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-03-16",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-17",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-18",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-19",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-20",
+      "commits": 6,
+      "hours": 2.42
+    },
+    {
+      "date": "2026-03-21",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-22",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-23",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-24",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-25",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-26",
+      "commits": 3,
+      "hours": 1.87
+    },
+    {
+      "date": "2026-03-27",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-28",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-03-29",
+      "commits": 7,
+      "hours": 1.21
+    },
+    {
+      "date": "2026-03-30",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-03-31",
+      "commits": 2,
+      "hours": 1.06
+    }
+  ],
+  "total_days": 31,
+  "avg_commits_per_day": 1.42,
+  "total_repos": 5,
+  "top_repositories": [
+    "Hygieia-Frontend",
+    "Hygieia-Backend",
+    "LeetCode-Attempts",
+    "learning-pytorch",
+    "Fashion-Mnist"
+  ],
+  "longest_streak": 2,
+  "month": "March 2026",
+  "month_str": "2026-03",
+  "ai_insights": "## Learning Progress Check\n11/31 days active (35.5% of the month) - sporadic at best - real learning needs regular coding. 44 commits in 13.67h equals 3.2 commits/hour. Longest streak: 2 days shows your discipline level. Consistent practice builds muscle memory, sporadic coding doesn't.\n\n## Skill Development Analysis\nWorking across 5 repositories with 7 languages (primary: TypeScript). good focus - building depth through concentrated effort. Top projects: Hygieia-Frontend, Hygieia-Backend, LeetCode-Attempts. Deep understanding comes from completing projects, not starting many.\n\n## Reality Check (What's Actually Happening)\n- Only 11/31 active days - you're not building the daily coding habit that accelerates learning\n- Longest streak is 2 days - where's the discipline? Consistency compounds\n\n## What You Need to Do\n- Code every single day, even just 30 mins - you're at 35.5%, aim for 80%+\n- Build a 7+ day streak (current: 2) - daily practice is non-negotiable for real skill growth\n- Focus on mastering TypeScript before jumping to other languages - depth beats breadth when learning",
+  "chart_paths": [
+    "/home/runner/work/Insightify/Insightify/charts/daily_commits_2026-03.png",
+    "/home/runner/work/Insightify/Insightify/charts/languages_2026-03.png",
+    "/home/runner/work/Insightify/Insightify/charts/top_repos_2026-03.png"
+  ]
+}
