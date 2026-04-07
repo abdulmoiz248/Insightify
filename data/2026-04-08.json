@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-08",
+  "total_commits": 9,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 3,
+      "language": "TypeScript",
+      "languages_used": {
+        "Markdown": 1,
+        "SQL": 3,
+        "TypeScript": 3,
+        "Python": 1,
+        "YAML": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "279071c",
+          "message": "added personalized health insights",
+          "timestamp": "2026-04-07T18:36:19+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/279071c808496c9674d4fbbac1669f7f1101c450"
+        },
+        {
+          "sha": "d7f9f87",
+          "message": "fixed the medication module",
+          "timestamp": "2026-04-07T13:04:55+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/d7f9f8766d1e7b6a258e1ee37ee65c802cce7f3f"
+        },
+        {
+          "sha": "99d5d21",
+          "message": "added sent newsletter tracking",
+          "timestamp": "2026-04-07T11:40:44+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/99d5d21d0fae20687118e09f950e9d6558ae0419"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 6,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 6,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "8574d0b",
+          "message": "added personalized health insights",
+          "timestamp": "2026-04-07T18:35:35+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/8574d0b55e07a9178b92a1f3c0dbb661731b3b88"
+        },
+        {
+          "sha": "d206dca",
+          "message": "fixed build errors",
+          "timestamp": "2026-04-07T14:26:50+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/d206dca553e8ba4057ecf27231605c81d5fd37c5"
+        },
+        {
+          "sha": "7d468e0",
+          "message": "refactor WelcomeSection components to improve state management and enhance user experience",
+          "timestamp": "2026-04-07T14:02:59+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/7d468e071b7777f2a486690620d3829fa110cea2"
+        },
+        {
+          "sha": "eb602c0",
+          "message": "fixed dashboard page loading issue",
+          "timestamp": "2026-04-07T13:30:32+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/eb602c0710583445966cf4ddf05294bb4fafc560"
+        },
+        {
+          "sha": "03f644d",
+          "message": "fixed graph reordering",
+          "timestamp": "2026-04-07T13:20:50+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/03f644dc8ea0520863bde7277cd1d2a5bb324325"
+        },
+        {
+          "sha": "471faa4",
+          "message": "fixed the medication module",
+          "timestamp": "2026-04-07T13:05:04+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/471faa45652bc97d0884c5748a7f8bc1fd455ecd"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "Markdown": 2,
+    "SQL": 3,
+    "TypeScript": 9,
+    "Python": 1,
+    "YAML": 1
+  },
+  "commits_by_hour": {
+    "18": 2,
+    "13": 4,
+    "11": 1,
+    "14": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "279071c",
+      "message": "added personalized health insights",
+      "timestamp": "2026-04-07T18:36:19+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/279071c808496c9674d4fbbac1669f7f1101c450"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "d7f9f87",
+      "message": "fixed the medication module",
+      "timestamp": "2026-04-07T13:04:55+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/d7f9f8766d1e7b6a258e1ee37ee65c802cce7f3f"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "99d5d21",
+      "message": "added sent newsletter tracking",
+      "timestamp": "2026-04-07T11:40:44+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/99d5d21d0fae20687118e09f950e9d6558ae0419"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "8574d0b",
+      "message": "added personalized health insights",
+      "timestamp": "2026-04-07T18:35:35+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/8574d0b55e07a9178b92a1f3c0dbb661731b3b88"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "d206dca",
+      "message": "fixed build errors",
+      "timestamp": "2026-04-07T14:26:50+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/d206dca553e8ba4057ecf27231605c81d5fd37c5"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "7d468e0",
+      "message": "refactor WelcomeSection components to improve state management and enhance user experience",
+      "timestamp": "2026-04-07T14:02:59+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/7d468e071b7777f2a486690620d3829fa110cea2"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "eb602c0",
+      "message": "fixed dashboard page loading issue",
+      "timestamp": "2026-04-07T13:30:32+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/eb602c0710583445966cf4ddf05294bb4fafc560"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "03f644d",
+      "message": "fixed graph reordering",
+      "timestamp": "2026-04-07T13:20:50+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/03f644dc8ea0520863bde7277cd1d2a5bb324325"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "471faa4",
+      "message": "fixed the medication module",
+      "timestamp": "2026-04-07T13:05:04+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/471faa45652bc97d0884c5748a7f8bc1fd455ecd"
+    }
+  ],
+  "time_range": {
+    "start": "2026-04-07T00:57:20.907097+05:00",
+    "end": "2026-04-08T00:57:20.907097+05:00"
+  },
+  "estimated_hours": 3.28,
+  "ai_insights": "Pattern Detection:\n9 commits on Hy in 3.28h - project development. Primary language: TypeScript. Focused burst.\n\nRed Flags:\nVague commit messages in projects: Hygieia-Frontend: 'fixed build errors', Hygieia-Frontend: 'fixed graph reordering' - write descriptive commits.\n\nBrutal Truth:\nSolid focused work on Hygieia-Backend, Hygieia-Frontend - keep this consistency going."
+}
