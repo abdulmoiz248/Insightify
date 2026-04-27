@@ -1,0 +1,92 @@
+{
+  "date": "2026-04-28",
+  "total_commits": 4,
+  "repositories": {
+    "Better-Everyday": {
+      "commits_count": 4,
+      "language": "TypeScript",
+      "languages_used": {
+        "JSON": 1,
+        "TypeScript": 4,
+        "SQL": 3,
+        "YAML": 1,
+        "Markdown": 3
+      },
+      "url": "https://github.com/abdulmoiz248/Better-Everyday",
+      "commits": [
+        {
+          "sha": "efcf2d4",
+          "message": "fixed cron issues",
+          "timestamp": "2026-04-27T17:32:22+00:00",
+          "url": "https://github.com/abdulmoiz248/Better-Everyday/commit/efcf2d4da7f77a5b97cdcecb36c5dd3331805dad"
+        },
+        {
+          "sha": "6d39289",
+          "message": "feat: Enhance daily check-in and weekly review features",
+          "timestamp": "2026-04-27T16:57:07+00:00",
+          "url": "https://github.com/abdulmoiz248/Better-Everyday/commit/6d392897045e50181f22dfdb3a27ba1ea9153e8c"
+        },
+        {
+          "sha": "23a3b89",
+          "message": "added basic leetcode feature",
+          "timestamp": "2026-04-27T14:35:39+00:00",
+          "url": "https://github.com/abdulmoiz248/Better-Everyday/commit/23a3b89f64efd29bb8805414e23d230d5660c49c"
+        },
+        {
+          "sha": "9db50e8",
+          "message": "added project management",
+          "timestamp": "2026-04-27T14:23:04+00:00",
+          "url": "https://github.com/abdulmoiz248/Better-Everyday/commit/9db50e878a569b28451086c4e5605dade8d5b43a"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "JSON": 1,
+    "TypeScript": 4,
+    "SQL": 3,
+    "YAML": 1,
+    "Markdown": 3
+  },
+  "commits_by_hour": {
+    "17": 1,
+    "16": 1,
+    "14": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Better-Everyday",
+      "sha": "efcf2d4",
+      "message": "fixed cron issues",
+      "timestamp": "2026-04-27T17:32:22+00:00",
+      "url": "https://github.com/abdulmoiz248/Better-Everyday/commit/efcf2d4da7f77a5b97cdcecb36c5dd3331805dad"
+    },
+    {
+      "repo": "Better-Everyday",
+      "sha": "6d39289",
+      "message": "feat: Enhance daily check-in and weekly review features",
+      "timestamp": "2026-04-27T16:57:07+00:00",
+      "url": "https://github.com/abdulmoiz248/Better-Everyday/commit/6d392897045e50181f22dfdb3a27ba1ea9153e8c"
+    },
+    {
+      "repo": "Better-Everyday",
+      "sha": "23a3b89",
+      "message": "added basic leetcode feature",
+      "timestamp": "2026-04-27T14:35:39+00:00",
+      "url": "https://github.com/abdulmoiz248/Better-Everyday/commit/23a3b89f64efd29bb8805414e23d230d5660c49c"
+    },
+    {
+      "repo": "Better-Everyday",
+      "sha": "9db50e8",
+      "message": "added project management",
+      "timestamp": "2026-04-27T14:23:04+00:00",
+      "url": "https://github.com/abdulmoiz248/Better-Everyday/commit/9db50e878a569b28451086c4e5605dade8d5b43a"
+    }
+  ],
+  "time_range": {
+    "start": "2026-04-27T01:09:16.289746+05:00",
+    "end": "2026-04-28T01:09:16.289746+05:00"
+  },
+  "estimated_hours": 1.3,
+  "ai_insights": "Pattern Detection:\n4 commits on Be in 1.3h - project development. Primary language: TypeScript. Focused burst.\n\nRed Flags:\nVague commit messages in projects: Better-Everyday: 'fixed cron issues' - write descriptive commits.\n\nBrutal Truth:\nWorking on Better-Everyday with vague commits - describe what you're actually fixing/adding."
+}
