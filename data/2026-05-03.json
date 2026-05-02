@@ -1,0 +1,252 @@
+{
+  "date": "2026-05-03",
+  "total_commits": 16,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 9,
+      "language": "TypeScript",
+      "languages_used": {
+        "Python": 9,
+        "TypeScript": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "9758821",
+          "message": "fixed renaming issue",
+          "timestamp": "2026-05-02T19:16:02+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/9758821e2e6124a7ecd85d7f4f2f93d7bef55756"
+        },
+        {
+          "sha": "cf2461d",
+          "message": "feat: implement ChatRepository for MongoDB-based session and message persistence",
+          "timestamp": "2026-05-02T18:29:30+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/cf2461d94ca6a41f6c1b51fdc85c809916f47774"
+        },
+        {
+          "sha": "8284c6f",
+          "message": "fixed id issue",
+          "timestamp": "2026-05-02T18:25:14+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/8284c6fcb6e56f58263a1cb14c862a6578b75796"
+        },
+        {
+          "sha": "2e89fc8",
+          "message": "fixed round robin approach with in the langgraph",
+          "timestamp": "2026-05-02T18:17:31+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/2e89fc815339105b4d212386008411d5157208fc"
+        },
+        {
+          "sha": "ab1fc92",
+          "message": "feat: implement chatbot guardrails, system prompt, and dynamic Gemini model factory",
+          "timestamp": "2026-05-02T18:02:41+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/ab1fc925fc1d22cdf95400e4cef003d1d1c1207e"
+        },
+        {
+          "sha": "84a903f",
+          "message": "feat: implement chatbot service with tool integration, message handling, and gateway client functionality",
+          "timestamp": "2026-05-02T17:51:45+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/84a903fa5e24ba5572baa8030a25867497e0ac5a"
+        },
+        {
+          "sha": "af5b53c",
+          "message": "addded date in sys prompt",
+          "timestamp": "2026-05-02T17:17:42+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/af5b53cde3d0ad74a3f87342ed961a76d44c5e82"
+        },
+        {
+          "sha": "cf33818",
+          "message": "added roundrobin multiple keys",
+          "timestamp": "2026-05-02T17:13:32+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/cf3381824d82c46fafb3f2e749f6a6593124ca13"
+        },
+        {
+          "sha": "e06492e",
+          "message": "added subtools and imrpoved logic",
+          "timestamp": "2026-05-02T17:07:26+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/e06492e20982299703c7196e3b76b58ec51c2d4e"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 7,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 7
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "97feeb3",
+          "message": "Merge branch 'admin'",
+          "timestamp": "2026-05-02T19:19:58+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/97feeb317cc4b0cfc6e6f31506b82409c822df6a"
+        },
+        {
+          "sha": "074ead6",
+          "message": "fixed renaming chat",
+          "timestamp": "2026-05-02T19:17:47+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/074ead65f7858764c2169c2bf0c207b7d60054fc"
+        },
+        {
+          "sha": "e6e0efe",
+          "message": "fix",
+          "timestamp": "2026-05-02T19:11:19+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/e6e0efe2bb020fcadcd802f7d1f0aa200e235317"
+        },
+        {
+          "sha": "9d8af27",
+          "message": "fixed ui for chatbot",
+          "timestamp": "2026-05-02T19:06:47+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/9d8af277dc2ef1b6fa9b88a757e2c599b99c7d39"
+        },
+        {
+          "sha": "7bede04",
+          "message": "fixed time issue",
+          "timestamp": "2026-05-02T18:29:42+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/7bede0411a6bd6b71a329fe02ba823fed2eb0394"
+        },
+        {
+          "sha": "c0bead1",
+          "message": "Merge branch 'doctor' of https://github.com/abdulmoiz248/Hygieia-Frontend into doctor",
+          "timestamp": "2026-05-02T18:06:03+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/c0bead1d09004d5e2019c14d2902a084d0270fff"
+        },
+        {
+          "sha": "ec8fae0",
+          "message": "updated ui to handle backend",
+          "timestamp": "2026-05-02T18:02:57+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/ec8fae0af33f7cd9ced089f0d9918ae40bce72ee"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "Python": 9,
+    "TypeScript": 8
+  },
+  "commits_by_hour": {
+    "19": 5,
+    "18": 7,
+    "17": 4
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "9758821",
+      "message": "fixed renaming issue",
+      "timestamp": "2026-05-02T19:16:02+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/9758821e2e6124a7ecd85d7f4f2f93d7bef55756"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "cf2461d",
+      "message": "feat: implement ChatRepository for MongoDB-based session and message persistence",
+      "timestamp": "2026-05-02T18:29:30+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/cf2461d94ca6a41f6c1b51fdc85c809916f47774"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "8284c6f",
+      "message": "fixed id issue",
+      "timestamp": "2026-05-02T18:25:14+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/8284c6fcb6e56f58263a1cb14c862a6578b75796"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "2e89fc8",
+      "message": "fixed round robin approach with in the langgraph",
+      "timestamp": "2026-05-02T18:17:31+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/2e89fc815339105b4d212386008411d5157208fc"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "ab1fc92",
+      "message": "feat: implement chatbot guardrails, system prompt, and dynamic Gemini model factory",
+      "timestamp": "2026-05-02T18:02:41+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/ab1fc925fc1d22cdf95400e4cef003d1d1c1207e"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "84a903f",
+      "message": "feat: implement chatbot service with tool integration, message handling, and gateway client functionality",
+      "timestamp": "2026-05-02T17:51:45+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/84a903fa5e24ba5572baa8030a25867497e0ac5a"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "af5b53c",
+      "message": "addded date in sys prompt",
+      "timestamp": "2026-05-02T17:17:42+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/af5b53cde3d0ad74a3f87342ed961a76d44c5e82"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "cf33818",
+      "message": "added roundrobin multiple keys",
+      "timestamp": "2026-05-02T17:13:32+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/cf3381824d82c46fafb3f2e749f6a6593124ca13"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "e06492e",
+      "message": "added subtools and imrpoved logic",
+      "timestamp": "2026-05-02T17:07:26+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/e06492e20982299703c7196e3b76b58ec51c2d4e"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "97feeb3",
+      "message": "Merge branch 'admin'",
+      "timestamp": "2026-05-02T19:19:58+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/97feeb317cc4b0cfc6e6f31506b82409c822df6a"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "074ead6",
+      "message": "fixed renaming chat",
+      "timestamp": "2026-05-02T19:17:47+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/074ead65f7858764c2169c2bf0c207b7d60054fc"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "e6e0efe",
+      "message": "fix",
+      "timestamp": "2026-05-02T19:11:19+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/e6e0efe2bb020fcadcd802f7d1f0aa200e235317"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "9d8af27",
+      "message": "fixed ui for chatbot",
+      "timestamp": "2026-05-02T19:06:47+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/9d8af277dc2ef1b6fa9b88a757e2c599b99c7d39"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "7bede04",
+      "message": "fixed time issue",
+      "timestamp": "2026-05-02T18:29:42+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/7bede0411a6bd6b71a329fe02ba823fed2eb0394"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "c0bead1",
+      "message": "Merge branch 'doctor' of https://github.com/abdulmoiz248/Hygieia-Frontend into doctor",
+      "timestamp": "2026-05-02T18:06:03+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/c0bead1d09004d5e2019c14d2902a084d0270fff"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "ec8fae0",
+      "message": "updated ui to handle backend",
+      "timestamp": "2026-05-02T18:02:57+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/ec8fae0af33f7cd9ced089f0d9918ae40bce72ee"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-02T00:54:40.464193+05:00",
+    "end": "2026-05-03T00:54:40.464193+05:00"
+  },
+  "estimated_hours": 2.71,
+  "ai_insights": "Pattern Detection:\n16 commits on Hy in 2.71h - project development. Primary language: Python. Focused burst.\n\nRed Flags:\nVague commit messages in projects: Hygieia-Backend: 'fixed renaming issue', Hygieia-Backend: 'fixed id issue' - write descriptive commits.\n\nBrutal Truth:\nSolid focused work on Hygieia-Backend, Hygieia-Frontend - keep this consistency going."
+}
