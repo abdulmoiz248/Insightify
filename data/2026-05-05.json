@@ -1,0 +1,130 @@
+{
+  "date": "2026-05-05",
+  "total_commits": 6,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 4,
+      "language": "TypeScript",
+      "languages_used": {
+        "HTML": 1,
+        "TypeScript": 2,
+        "JSON": 1,
+        "YAML": 2,
+        "Python": 1,
+        "Shell": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "4b57440",
+          "message": "added sample email generator",
+          "timestamp": "2026-05-04T19:10:33+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/4b57440846606119490dff1f1b9da055f9eb21a9"
+        },
+        {
+          "sha": "1e1fbd9",
+          "message": "fix issue of ports",
+          "timestamp": "2026-05-04T17:18:01+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/1e1fbd9eb31708ecf932167c3770e7e086d608cd"
+        },
+        {
+          "sha": "04011a8",
+          "message": "fix req",
+          "timestamp": "2026-05-04T16:23:04+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/04011a8a38d7ed1561614c21e37a611b8e96738d"
+        },
+        {
+          "sha": "aa6306e",
+          "message": "added docker files",
+          "timestamp": "2026-05-03T16:45:35+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/aa6306e8da5b11be5dbd7e82151325c21e4b0390"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 2,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 2
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "5d62e19",
+          "message": "updated middleware",
+          "timestamp": "2026-05-04T16:12:14+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/5d62e199bb0ac8a8bf9fec93ea59c54df71bddff"
+        },
+        {
+          "sha": "33a2390",
+          "message": "fuxed build errors",
+          "timestamp": "2026-05-04T16:11:53+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/33a239071ac61ea10d5a04fe686b5f4ab20a3d2b"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "HTML": 1,
+    "TypeScript": 4,
+    "JSON": 1,
+    "YAML": 2,
+    "Python": 1,
+    "Shell": 1
+  },
+  "commits_by_hour": {
+    "19": 1,
+    "17": 1,
+    "16": 4
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "4b57440",
+      "message": "added sample email generator",
+      "timestamp": "2026-05-04T19:10:33+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/4b57440846606119490dff1f1b9da055f9eb21a9"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "1e1fbd9",
+      "message": "fix issue of ports",
+      "timestamp": "2026-05-04T17:18:01+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/1e1fbd9eb31708ecf932167c3770e7e086d608cd"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "04011a8",
+      "message": "fix req",
+      "timestamp": "2026-05-04T16:23:04+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/04011a8a38d7ed1561614c21e37a611b8e96738d"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "aa6306e",
+      "message": "added docker files",
+      "timestamp": "2026-05-03T16:45:35+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/aa6306e8da5b11be5dbd7e82151325c21e4b0390"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "5d62e19",
+      "message": "updated middleware",
+      "timestamp": "2026-05-04T16:12:14+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/5d62e199bb0ac8a8bf9fec93ea59c54df71bddff"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "33a2390",
+      "message": "fuxed build errors",
+      "timestamp": "2026-05-04T16:11:53+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/33a239071ac61ea10d5a04fe686b5f4ab20a3d2b"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-04T01:16:56.571570+05:00",
+    "end": "2026-05-05T01:16:56.571570+05:00"
+  },
+  "estimated_hours": 3.48,
+  "ai_insights": "Pattern Detection:\n6 commits on Hy in 3.48h - project development. Primary language: TypeScript. Focused burst.\n\nRed Flags:\nVague commit messages in projects: Hygieia-Backend: 'fix req', Hygieia-Frontend: 'updated middleware' - write descriptive commits.\n\nBrutal Truth:\nSolid focused work on Hygieia-Backend, Hygieia-Frontend - keep this consistency going."
+}
