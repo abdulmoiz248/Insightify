@@ -1,0 +1,152 @@
+{
+  "date": "2026-05-06",
+  "total_commits": 8,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 6,
+      "language": "TypeScript",
+      "languages_used": {
+        "YAML": 2,
+        "TypeScript": 4,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "f1f47da",
+          "message": "fxed ports ssue",
+          "timestamp": "2026-05-05T17:21:26+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/f1f47daa9a4819549d7a0fcdd2a138435263f46c"
+        },
+        {
+          "sha": "6c098e3",
+          "message": "add provider resolution logic for appointment handling",
+          "timestamp": "2026-05-05T15:25:18+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/6c098e3fc45ad33fb53ad713219957d8107fce15"
+        },
+        {
+          "sha": "77de0d2",
+          "message": "added password reset notification too",
+          "timestamp": "2026-05-05T15:21:20+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/77de0d227a6ba6eb85ddc4a09b6599f81af70c75"
+        },
+        {
+          "sha": "d1e1275",
+          "message": "add functionality to send password reset OTP to personal email if provided",
+          "timestamp": "2026-05-05T15:17:32+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/d1e1275d8f275d58f58e7aed17156d37ec583338"
+        },
+        {
+          "sha": "7652f9f",
+          "message": "fixed embedding docker issue",
+          "timestamp": "2026-05-05T15:11:46+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/7652f9fc0a6ba8b9bc9db213307a60051c646850"
+        },
+        {
+          "sha": "7fc86d8",
+          "message": "added an overview file",
+          "timestamp": "2026-05-05T14:57:30+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/7fc86d801e921de363385d6c4b1e0c8ee489e396"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "b3d5047",
+          "message": "Time: 0 ms (100.00%) | Memory: 12.3 MB (86.31%) - LeetSync",
+          "timestamp": "2026-05-05T14:44:29+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/b3d50474ef4435cbaba9b804e88032178a4b5b04"
+        },
+        {
+          "sha": "8659af4",
+          "message": "Added README.md file for Rotate List",
+          "timestamp": "2026-05-05T14:44:27+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/8659af47ef770566780f6a21a21824f0073b29e3"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "YAML": 2,
+    "TypeScript": 4,
+    "Markdown": 2,
+    "Python": 1
+  },
+  "commits_by_hour": {
+    "17": 1,
+    "15": 4,
+    "14": 3
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "f1f47da",
+      "message": "fxed ports ssue",
+      "timestamp": "2026-05-05T17:21:26+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/f1f47daa9a4819549d7a0fcdd2a138435263f46c"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "6c098e3",
+      "message": "add provider resolution logic for appointment handling",
+      "timestamp": "2026-05-05T15:25:18+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/6c098e3fc45ad33fb53ad713219957d8107fce15"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "77de0d2",
+      "message": "added password reset notification too",
+      "timestamp": "2026-05-05T15:21:20+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/77de0d227a6ba6eb85ddc4a09b6599f81af70c75"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "d1e1275",
+      "message": "add functionality to send password reset OTP to personal email if provided",
+      "timestamp": "2026-05-05T15:17:32+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/d1e1275d8f275d58f58e7aed17156d37ec583338"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "7652f9f",
+      "message": "fixed embedding docker issue",
+      "timestamp": "2026-05-05T15:11:46+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/7652f9fc0a6ba8b9bc9db213307a60051c646850"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "7fc86d8",
+      "message": "added an overview file",
+      "timestamp": "2026-05-05T14:57:30+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/7fc86d801e921de363385d6c4b1e0c8ee489e396"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "b3d5047",
+      "message": "Time: 0 ms (100.00%) | Memory: 12.3 MB (86.31%) - LeetSync",
+      "timestamp": "2026-05-05T14:44:29+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/b3d50474ef4435cbaba9b804e88032178a4b5b04"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "8659af4",
+      "message": "Added README.md file for Rotate List",
+      "timestamp": "2026-05-05T14:44:27+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/8659af47ef770566780f6a21a21824f0073b29e3"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-05T01:09:04.179110+05:00",
+    "end": "2026-05-06T01:09:04.179110+05:00"
+  },
+  "estimated_hours": 3.12,
+  "ai_insights": "Pattern Detection:\n8 commits across 2 repos in 3.12h - mixed practice/projects. Primary language: TypeScript.\n\nRed Flags:\nStill on Hygieia-Backend for multiple days - push to complete or move on.\n\nBrutal Truth:\nSolid focused work on Hygieia-Backend, LeetCode-Attempts - keep this consistency going."
+}
