@@ -1,0 +1,112 @@
+{
+  "date": "2026-05-10",
+  "total_commits": 4,
+  "repositories": {
+    "Acne-Detection": {
+      "commits_count": 1,
+      "language": "Jupyter Notebook",
+      "languages_used": {
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Acne-Detection",
+      "commits": [
+        {
+          "sha": "aafbeb2",
+          "message": "added a readme",
+          "timestamp": "2026-05-09T16:53:22+00:00",
+          "url": "https://github.com/abdulmoiz248/Acne-Detection/commit/aafbeb2668497787d74522aed6ce73f3e5d1501c"
+        }
+      ]
+    },
+    "Dental-Xray-Detection": {
+      "commits_count": 1,
+      "language": "Jupyter Notebook",
+      "languages_used": {
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Dental-Xray-Detection",
+      "commits": [
+        {
+          "sha": "27fac96",
+          "message": "added readme.md",
+          "timestamp": "2026-05-09T16:50:17+00:00",
+          "url": "https://github.com/abdulmoiz248/Dental-Xray-Detection/commit/27fac96d960b36825f973ab9ab58e22a5701e3b4"
+        }
+      ]
+    },
+    "Fashion-Mnist": {
+      "commits_count": 1,
+      "language": "Jupyter Notebook",
+      "languages_used": {
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Fashion-Mnist",
+      "commits": [
+        {
+          "sha": "8b36d52",
+          "message": "update README.md with detailed project description, features, requirements, and usage instructions",
+          "timestamp": "2026-05-09T16:44:53+00:00",
+          "url": "https://github.com/abdulmoiz248/Fashion-Mnist/commit/8b36d52ffb3a27aed6293610e09877c663b3cd9a"
+        }
+      ]
+    },
+    "Question-Answering-System": {
+      "commits_count": 1,
+      "language": "Jupyter Notebook",
+      "languages_used": {
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Question-Answering-System",
+      "commits": [
+        {
+          "sha": "595cb71",
+          "message": "added readme.md",
+          "timestamp": "2026-05-09T16:47:09+00:00",
+          "url": "https://github.com/abdulmoiz248/Question-Answering-System/commit/595cb71d40c8d5a0334f63a9e7b8590cc2bc25f8"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "Markdown": 4
+  },
+  "commits_by_hour": {
+    "16": 4
+  },
+  "commit_messages": [
+    {
+      "repo": "Acne-Detection",
+      "sha": "aafbeb2",
+      "message": "added a readme",
+      "timestamp": "2026-05-09T16:53:22+00:00",
+      "url": "https://github.com/abdulmoiz248/Acne-Detection/commit/aafbeb2668497787d74522aed6ce73f3e5d1501c"
+    },
+    {
+      "repo": "Dental-Xray-Detection",
+      "sha": "27fac96",
+      "message": "added readme.md",
+      "timestamp": "2026-05-09T16:50:17+00:00",
+      "url": "https://github.com/abdulmoiz248/Dental-Xray-Detection/commit/27fac96d960b36825f973ab9ab58e22a5701e3b4"
+    },
+    {
+      "repo": "Fashion-Mnist",
+      "sha": "8b36d52",
+      "message": "update README.md with detailed project description, features, requirements, and usage instructions",
+      "timestamp": "2026-05-09T16:44:53+00:00",
+      "url": "https://github.com/abdulmoiz248/Fashion-Mnist/commit/8b36d52ffb3a27aed6293610e09877c663b3cd9a"
+    },
+    {
+      "repo": "Question-Answering-System",
+      "sha": "595cb71",
+      "message": "added readme.md",
+      "timestamp": "2026-05-09T16:47:09+00:00",
+      "url": "https://github.com/abdulmoiz248/Question-Answering-System/commit/595cb71d40c8d5a0334f63a9e7b8590cc2bc25f8"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-09T00:57:42.506448+05:00",
+    "end": "2026-05-10T00:57:42.506448+05:00"
+  },
+  "estimated_hours": 0.64,
+  "ai_insights": "Pattern Detection:\n4 commits on Ac in 0.64h - project development. Primary language: Markdown. Focused burst.\n\nRed Flags:\nNone detected - clean, focused work showing good habits.\n\nBrutal Truth:\nJumping between 4 projects - finish ONE complete project instead of having multiple incomplete ones."
+}
