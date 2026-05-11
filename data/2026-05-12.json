@@ -1,0 +1,137 @@
+{
+  "date": "2026-05-12",
+  "total_commits": 7,
+  "repositories": {
+    "learning-FastAPI": {
+      "commits_count": 3,
+      "language": "Python",
+      "languages_used": {
+        "JSON": 1,
+        "Python": 3
+      },
+      "url": "https://github.com/abdulmoiz248/learning-FastAPI",
+      "commits": [
+        {
+          "sha": "90c7cd6",
+          "message": "covered auth",
+          "timestamp": "2026-05-11T19:07:11+00:00",
+          "url": "https://github.com/abdulmoiz248/learning-FastAPI/commit/90c7cd6a54b7fff079184a305fdabea783e5caea"
+        },
+        {
+          "sha": "d75963d",
+          "message": "added env configuration",
+          "timestamp": "2026-05-11T15:37:17+00:00",
+          "url": "https://github.com/abdulmoiz248/learning-FastAPI/commit/d75963da1a8ed9693a8e9b1dfdf7242feeeaaf3e"
+        },
+        {
+          "sha": "f6e840f",
+          "message": "covered folder structure and routing",
+          "timestamp": "2026-05-11T15:32:48+00:00",
+          "url": "https://github.com/abdulmoiz248/learning-FastAPI/commit/f6e840fded27ed96b411ae3151246cd62359ab09"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 4,
+      "language": "Java",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "42b8777",
+          "message": "Time: 16 ms (32.52%) | Memory: 12.8 MB (26.83%) - LeetSync",
+          "timestamp": "2026-05-11T13:18:53+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/42b8777ea3983daa1070960524ae1b015d7689f3"
+        },
+        {
+          "sha": "717fa61",
+          "message": "Added README.md file for Separate the Digits in an Array",
+          "timestamp": "2026-05-11T13:18:51+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/717fa6153c91bfca10402c0a7c24ad8441d19ad8"
+        },
+        {
+          "sha": "93237f6",
+          "message": "Time: 12 ms (57.72%) | Memory: 12.5 MB (93.50%) - LeetSync",
+          "timestamp": "2026-05-11T13:16:04+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/93237f6dbea0115427560975c8590bda7078711c"
+        },
+        {
+          "sha": "539a0e0",
+          "message": "Added README.md file for Separate the Digits in an Array",
+          "timestamp": "2026-05-11T13:16:02+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/539a0e029978039b00deff3547ea321f735a7942"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "JSON": 1,
+    "Python": 4,
+    "Markdown": 1
+  },
+  "commits_by_hour": {
+    "19": 1,
+    "15": 2,
+    "13": 4
+  },
+  "commit_messages": [
+    {
+      "repo": "learning-FastAPI",
+      "sha": "90c7cd6",
+      "message": "covered auth",
+      "timestamp": "2026-05-11T19:07:11+00:00",
+      "url": "https://github.com/abdulmoiz248/learning-FastAPI/commit/90c7cd6a54b7fff079184a305fdabea783e5caea"
+    },
+    {
+      "repo": "learning-FastAPI",
+      "sha": "d75963d",
+      "message": "added env configuration",
+      "timestamp": "2026-05-11T15:37:17+00:00",
+      "url": "https://github.com/abdulmoiz248/learning-FastAPI/commit/d75963da1a8ed9693a8e9b1dfdf7242feeeaaf3e"
+    },
+    {
+      "repo": "learning-FastAPI",
+      "sha": "f6e840f",
+      "message": "covered folder structure and routing",
+      "timestamp": "2026-05-11T15:32:48+00:00",
+      "url": "https://github.com/abdulmoiz248/learning-FastAPI/commit/f6e840fded27ed96b411ae3151246cd62359ab09"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "42b8777",
+      "message": "Time: 16 ms (32.52%) | Memory: 12.8 MB (26.83%) - LeetSync",
+      "timestamp": "2026-05-11T13:18:53+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/42b8777ea3983daa1070960524ae1b015d7689f3"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "717fa61",
+      "message": "Added README.md file for Separate the Digits in an Array",
+      "timestamp": "2026-05-11T13:18:51+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/717fa6153c91bfca10402c0a7c24ad8441d19ad8"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "93237f6",
+      "message": "Time: 12 ms (57.72%) | Memory: 12.5 MB (93.50%) - LeetSync",
+      "timestamp": "2026-05-11T13:16:04+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/93237f6dbea0115427560975c8590bda7078711c"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "539a0e0",
+      "message": "Added README.md file for Separate the Digits in an Array",
+      "timestamp": "2026-05-11T13:16:02+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/539a0e029978039b00deff3547ea321f735a7942"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-11T01:47:14.700151+05:00",
+    "end": "2026-05-12T01:47:14.700151+05:00"
+  },
+  "estimated_hours": 0.62,
+  "ai_insights": "Pattern Detection:\n7 commits across 2 repos in 0.62h - mixed practice/projects. Primary language: Python.\n\nRed Flags:\nNone detected - clean, focused work showing good habits.\n\nBrutal Truth:\nSolid focused work on learning-FastAPI, LeetCode-Attempts - keep this consistency going."
+}
