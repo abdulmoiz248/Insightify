@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-16",
+  "total_commits": 5,
+  "repositories": {
+    "Codegraph": {
+      "commits_count": 3,
+      "language": "Python",
+      "languages_used": {
+        "Python": 2
+      },
+      "url": "https://github.com/abdulmoiz248/Codegraph",
+      "commits": [
+        {
+          "sha": "c95dd0a",
+          "message": "added theorey pdf",
+          "timestamp": "2026-05-15T16:23:18+00:00",
+          "url": "https://github.com/abdulmoiz248/Codegraph/commit/c95dd0ad8daa1acb5222511737e99493be35e372"
+        },
+        {
+          "sha": "5215e4d",
+          "message": "added cli based",
+          "timestamp": "2026-05-15T16:21:03+00:00",
+          "url": "https://github.com/abdulmoiz248/Codegraph/commit/5215e4dac91d9d6c3c44c75ebe21903a14506f92"
+        },
+        {
+          "sha": "a0a0002",
+          "message": "added sngle prompt batch processng",
+          "timestamp": "2026-05-15T14:56:41+00:00",
+          "url": "https://github.com/abdulmoiz248/Codegraph/commit/a0a000266909168f83902e2379571e60ad10e4f7"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "a23f0f6",
+          "message": "Time: 0 ms (100.00%) | Memory: 12.4 MB (22.22%) - LeetSync",
+          "timestamp": "2026-05-15T13:13:03+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/a23f0f63ea3f5424b48987178300ca5a38f52173"
+        },
+        {
+          "sha": "9f9fa78",
+          "message": "Added README.md file for Check if Array is Good",
+          "timestamp": "2026-05-15T13:13:01+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/9f9fa7884aef255be83c64c151b776978e669151"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "Python": 3,
+    "Markdown": 1
+  },
+  "commits_by_hour": {
+    "16": 2,
+    "14": 1,
+    "13": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Codegraph",
+      "sha": "c95dd0a",
+      "message": "added theorey pdf",
+      "timestamp": "2026-05-15T16:23:18+00:00",
+      "url": "https://github.com/abdulmoiz248/Codegraph/commit/c95dd0ad8daa1acb5222511737e99493be35e372"
+    },
+    {
+      "repo": "Codegraph",
+      "sha": "5215e4d",
+      "message": "added cli based",
+      "timestamp": "2026-05-15T16:21:03+00:00",
+      "url": "https://github.com/abdulmoiz248/Codegraph/commit/5215e4dac91d9d6c3c44c75ebe21903a14506f92"
+    },
+    {
+      "repo": "Codegraph",
+      "sha": "a0a0002",
+      "message": "added sngle prompt batch processng",
+      "timestamp": "2026-05-15T14:56:41+00:00",
+      "url": "https://github.com/abdulmoiz248/Codegraph/commit/a0a000266909168f83902e2379571e60ad10e4f7"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "a23f0f6",
+      "message": "Time: 0 ms (100.00%) | Memory: 12.4 MB (22.22%) - LeetSync",
+      "timestamp": "2026-05-15T13:13:03+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/a23f0f63ea3f5424b48987178300ca5a38f52173"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "9f9fa78",
+      "message": "Added README.md file for Check if Array is Good",
+      "timestamp": "2026-05-15T13:13:01+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/9f9fa7884aef255be83c64c151b776978e669151"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-15T01:17:41.566423+05:00",
+    "end": "2026-05-16T01:17:41.566423+05:00"
+  },
+  "estimated_hours": 3.67,
+  "ai_insights": "Pattern Detection:\n5 commits across 2 repos in 3.67h - mixed practice/projects. Primary language: Python.\n\nRed Flags:\nNone detected - clean, focused work showing good habits.\n\nBrutal Truth:\nSolid focused work on Codegraph, LeetCode-Attempts - keep this consistency going."
+}
