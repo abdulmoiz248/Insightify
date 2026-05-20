@@ -1,0 +1,83 @@
+{
+  "date": "2026-05-21",
+  "total_commits": 3,
+  "repositories": {
+    "learning-django": {
+      "commits_count": 1,
+      "language": "HTML",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/learning-django",
+      "commits": [
+        {
+          "sha": "33f31fc",
+          "message": "covered admin portal",
+          "timestamp": "2026-05-20T13:33:56+00:00",
+          "url": "https://github.com/abdulmoiz248/learning-django/commit/33f31fcd095290f318da6679b6a2ef95d4b62697"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "languages_used": {
+        "Java": 2
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "f717a23",
+          "message": "Time: 6 ms (88.89%) | Memory: 12.4 MB (34.57%) - LeetSync",
+          "timestamp": "2026-05-20T12:56:46+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/f717a23830353843cdb86c4ecc0c896b8bbd0abb"
+        },
+        {
+          "sha": "9d9a21d",
+          "message": "Added README.md file for Find the Prefix Common Array of Two Arrays",
+          "timestamp": "2026-05-20T12:56:44+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/9d9a21dd76e04bb90e44cdf88c5c2800727ad449"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "Python": 1,
+    "Markdown": 1,
+    "Java": 2
+  },
+  "commits_by_hour": {
+    "13": 1,
+    "12": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "learning-django",
+      "sha": "33f31fc",
+      "message": "covered admin portal",
+      "timestamp": "2026-05-20T13:33:56+00:00",
+      "url": "https://github.com/abdulmoiz248/learning-django/commit/33f31fcd095290f318da6679b6a2ef95d4b62697"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "f717a23",
+      "message": "Time: 6 ms (88.89%) | Memory: 12.4 MB (34.57%) - LeetSync",
+      "timestamp": "2026-05-20T12:56:46+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/f717a23830353843cdb86c4ecc0c896b8bbd0abb"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "9d9a21d",
+      "message": "Added README.md file for Find the Prefix Common Array of Two Arrays",
+      "timestamp": "2026-05-20T12:56:44+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/9d9a21dd76e04bb90e44cdf88c5c2800727ad449"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-20T01:59:40.212293+05:00",
+    "end": "2026-05-21T01:59:40.212293+05:00"
+  },
+  "estimated_hours": 1.12,
+  "ai_insights": "Pattern Detection:\n3 commits across 2 repos in 1.12h - mixed practice/projects. Primary language: Java.\n\nRed Flags:\nNone detected - clean, focused work showing good habits.\n\nBrutal Truth:\nSolid focused work on learning-django, LeetCode-Attempts - keep this consistency going."
+}
