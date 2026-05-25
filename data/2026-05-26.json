@@ -1,0 +1,210 @@
+{
+  "date": "2026-05-26",
+  "total_commits": 12,
+  "repositories": {
+    "abdulmoiz248": {
+      "commits_count": 1,
+      "language": "Unknown",
+      "languages_used": {
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/abdulmoiz248",
+      "commits": [
+        {
+          "sha": "8c1ced9",
+          "message": "Revise README structure and content",
+          "timestamp": "2026-05-25T18:08:37+00:00",
+          "url": "https://github.com/abdulmoiz248/abdulmoiz248/commit/8c1ced97628102cca60c82474dfe26a7521f0cf4"
+        }
+      ]
+    },
+    "Hygieia-Backend": {
+      "commits_count": 2,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 2
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "f6a41b7",
+          "message": "feat: include additional fields in appointment reviews query for worker reports",
+          "timestamp": "2026-05-25T14:40:28+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/f6a41b7ad2ed5224d5662f11da92d16bd0ebbb4b"
+        },
+        {
+          "sha": "565ecae",
+          "message": "feat: enhance logging in admin service and implement centralized RPC error handling in api-gateway",
+          "timestamp": "2026-05-25T14:27:59+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/565ecaed1698fb2e8335eb6e25e87e5e5327fef5"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 9,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 9
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "515e038",
+          "message": "feat: enhance appointment and lab test booking with prefill functionality and notification handling",
+          "timestamp": "2026-05-25T17:39:54+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/515e0386d01e6ea471ade548473248d0024134c7"
+        },
+        {
+          "sha": "a441797",
+          "message": "refactor: update notification dropdown styles for better responsiveness and readability",
+          "timestamp": "2026-05-25T14:54:12+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/a441797dabed5263029a46e60a71a655bf3ca608"
+        },
+        {
+          "sha": "d878e19",
+          "message": "refactor: update router import to use next/navigation; add placeholder SVG",
+          "timestamp": "2026-05-25T14:49:41+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/d878e196c4e0e99e6b9930ab855a17b924736c6d"
+        },
+        {
+          "sha": "ed38ed8",
+          "message": "added patient reviews",
+          "timestamp": "2026-05-25T14:46:58+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/ed38ed83d4e707e9166c4373dd6ad11459c796f5"
+        },
+        {
+          "sha": "53d9f03",
+          "message": "fixed form api issue",
+          "timestamp": "2026-05-25T14:25:57+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/53d9f03973be7dbca5f3cad81a2c42c573d8b697"
+        },
+        {
+          "sha": "d381be7",
+          "message": "removed worker report",
+          "timestamp": "2026-05-25T13:46:40+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/d381be7d3678a938eaf9252a554e8f174acbf3fa"
+        },
+        {
+          "sha": "3fe8fc8",
+          "message": "removed build errors",
+          "timestamp": "2026-05-25T13:21:19+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/3fe8fc85f0ec9c775c7741e6ee27f72dca0dcb34"
+        },
+        {
+          "sha": "0f15c3a",
+          "message": "removed toasts errors",
+          "timestamp": "2026-05-25T13:10:18+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/0f15c3a1bb5e5832ed803e6ae31f2e56e24c9084"
+        },
+        {
+          "sha": "78ae1a8",
+          "message": "added basic forms workflow",
+          "timestamp": "2026-05-18T13:54:57+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/78ae1a868557e457d0ff041066997237eadde7ef"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "Markdown": 1,
+    "TypeScript": 11
+  },
+  "commits_by_hour": {
+    "18": 1,
+    "14": 6,
+    "17": 1,
+    "13": 4
+  },
+  "commit_messages": [
+    {
+      "repo": "abdulmoiz248",
+      "sha": "8c1ced9",
+      "message": "Revise README structure and content",
+      "timestamp": "2026-05-25T18:08:37+00:00",
+      "url": "https://github.com/abdulmoiz248/abdulmoiz248/commit/8c1ced97628102cca60c82474dfe26a7521f0cf4"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "f6a41b7",
+      "message": "feat: include additional fields in appointment reviews query for worker reports",
+      "timestamp": "2026-05-25T14:40:28+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/f6a41b7ad2ed5224d5662f11da92d16bd0ebbb4b"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "565ecae",
+      "message": "feat: enhance logging in admin service and implement centralized RPC error handling in api-gateway",
+      "timestamp": "2026-05-25T14:27:59+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/565ecaed1698fb2e8335eb6e25e87e5e5327fef5"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "515e038",
+      "message": "feat: enhance appointment and lab test booking with prefill functionality and notification handling",
+      "timestamp": "2026-05-25T17:39:54+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/515e0386d01e6ea471ade548473248d0024134c7"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "a441797",
+      "message": "refactor: update notification dropdown styles for better responsiveness and readability",
+      "timestamp": "2026-05-25T14:54:12+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/a441797dabed5263029a46e60a71a655bf3ca608"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "d878e19",
+      "message": "refactor: update router import to use next/navigation; add placeholder SVG",
+      "timestamp": "2026-05-25T14:49:41+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/d878e196c4e0e99e6b9930ab855a17b924736c6d"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "ed38ed8",
+      "message": "added patient reviews",
+      "timestamp": "2026-05-25T14:46:58+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/ed38ed83d4e707e9166c4373dd6ad11459c796f5"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "53d9f03",
+      "message": "fixed form api issue",
+      "timestamp": "2026-05-25T14:25:57+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/53d9f03973be7dbca5f3cad81a2c42c573d8b697"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "d381be7",
+      "message": "removed worker report",
+      "timestamp": "2026-05-25T13:46:40+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/d381be7d3678a938eaf9252a554e8f174acbf3fa"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "3fe8fc8",
+      "message": "removed build errors",
+      "timestamp": "2026-05-25T13:21:19+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/3fe8fc85f0ec9c775c7741e6ee27f72dca0dcb34"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "0f15c3a",
+      "message": "removed toasts errors",
+      "timestamp": "2026-05-25T13:10:18+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/0f15c3a1bb5e5832ed803e6ae31f2e56e24c9084"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "78ae1a8",
+      "message": "added basic forms workflow",
+      "timestamp": "2026-05-18T13:54:57+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/78ae1a868557e457d0ff041066997237eadde7ef"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-25T01:23:21.159406+05:00",
+    "end": "2026-05-26T01:23:21.159406+05:00"
+  },
+  "estimated_hours": 2.71,
+  "ai_insights": "Pattern Detection:\n12 commits on ab in 2.71h - project development. Primary language: TypeScript. Focused burst.\n\nRed Flags:\nNone detected - clean, focused work showing good habits.\n\nBrutal Truth:\nSolid focused work on abdulmoiz248, Hygieia-Backend, Hygieia-Frontend - keep this consistency going."
+}
