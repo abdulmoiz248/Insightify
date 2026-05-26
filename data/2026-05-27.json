@@ -1,0 +1,211 @@
+{
+  "date": "2026-05-27",
+  "total_commits": 12,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 2,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 2,
+        "Python": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "5776754",
+          "message": "fix: improve prescription filtering logic and optimize adherence calculation by skipping updates when no active plans exist",
+          "timestamp": "2026-05-26T18:35:27+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/5776754756f5b59d40e74481d1aadcf2be778ce0"
+        },
+        {
+          "sha": "72e9a46",
+          "message": "feat: skip patient processing when no active prescriptions or diet plans are found to preserve adherence scores",
+          "timestamp": "2026-05-26T18:22:40+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/72e9a467841afd38351c7ef6d11dd8384f4b5693"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 7,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 7
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "cba66af",
+          "message": "removed build errors",
+          "timestamp": "2026-05-26T18:46:36+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/cba66af5fcaead8a77a9af9feaa2279c07166f7c"
+        },
+        {
+          "sha": "1f8a81d",
+          "message": "set default analysis type in AIDiagnosisPage and add weekly aggregation for YearlyStats",
+          "timestamp": "2026-05-26T18:38:59+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/1f8a81d6ff52ad77eaca49991afcdfcca99e6f79"
+        },
+        {
+          "sha": "8867466",
+          "message": "fixed lab tests banner and redirection logic",
+          "timestamp": "2026-05-26T18:09:15+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/886746610966675ccafcc3847a3ac32d092846c2"
+        },
+        {
+          "sha": "347bc79",
+          "message": "removed patient report and review",
+          "timestamp": "2026-05-26T17:52:24+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/347bc79b84808c4cb20c65119ae75167d0053ac3"
+        },
+        {
+          "sha": "f6529af",
+          "message": "fixed doctor auto selection from notification",
+          "timestamp": "2026-05-26T17:49:39+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/f6529af3c2fab390877f2827d2cd30d454cc0fc9"
+        },
+        {
+          "sha": "8c0d1ce",
+          "message": "removed pending actions",
+          "timestamp": "2026-05-26T17:38:08+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/8c0d1ce0cdf6eee6b74ca2f3bd8b42ed175da34d"
+        },
+        {
+          "sha": "1e119db",
+          "message": "fixed calories conversion",
+          "timestamp": "2026-05-26T17:37:47+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/1e119dbdb74abc85d4d4dc8f86792f653ade7dc5"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 3,
+      "language": "Java",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 2
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "d3784da",
+          "message": "Time: 7 ms (14.63%) | Memory: 12.4 MB (17.07%) - LeetSync",
+          "timestamp": "2026-05-26T17:18:33+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/d3784da555ab805861f1c5ee141a577598a0ae58"
+        },
+        {
+          "sha": "59943b1",
+          "message": "Added Notes.md file for Count the Number of Special Characters I",
+          "timestamp": "2026-05-26T17:18:31+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/59943b16205079bba6969b51a631f4a6fb2e7b7e"
+        },
+        {
+          "sha": "fcb8153",
+          "message": "Added README.md file for Count the Number of Special Characters I",
+          "timestamp": "2026-05-26T17:18:29+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/fcb81536b17573c1fcdde77576e918a1f7aa475e"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 9,
+    "Python": 2,
+    "Markdown": 2
+  },
+  "commits_by_hour": {
+    "18": 5,
+    "17": 7
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "5776754",
+      "message": "fix: improve prescription filtering logic and optimize adherence calculation by skipping updates when no active plans exist",
+      "timestamp": "2026-05-26T18:35:27+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/5776754756f5b59d40e74481d1aadcf2be778ce0"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "72e9a46",
+      "message": "feat: skip patient processing when no active prescriptions or diet plans are found to preserve adherence scores",
+      "timestamp": "2026-05-26T18:22:40+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/72e9a467841afd38351c7ef6d11dd8384f4b5693"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "cba66af",
+      "message": "removed build errors",
+      "timestamp": "2026-05-26T18:46:36+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/cba66af5fcaead8a77a9af9feaa2279c07166f7c"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "1f8a81d",
+      "message": "set default analysis type in AIDiagnosisPage and add weekly aggregation for YearlyStats",
+      "timestamp": "2026-05-26T18:38:59+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/1f8a81d6ff52ad77eaca49991afcdfcca99e6f79"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "8867466",
+      "message": "fixed lab tests banner and redirection logic",
+      "timestamp": "2026-05-26T18:09:15+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/886746610966675ccafcc3847a3ac32d092846c2"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "347bc79",
+      "message": "removed patient report and review",
+      "timestamp": "2026-05-26T17:52:24+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/347bc79b84808c4cb20c65119ae75167d0053ac3"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "f6529af",
+      "message": "fixed doctor auto selection from notification",
+      "timestamp": "2026-05-26T17:49:39+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/f6529af3c2fab390877f2827d2cd30d454cc0fc9"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "8c0d1ce",
+      "message": "removed pending actions",
+      "timestamp": "2026-05-26T17:38:08+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/8c0d1ce0cdf6eee6b74ca2f3bd8b42ed175da34d"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "1e119db",
+      "message": "fixed calories conversion",
+      "timestamp": "2026-05-26T17:37:47+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/1e119dbdb74abc85d4d4dc8f86792f653ade7dc5"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "d3784da",
+      "message": "Time: 7 ms (14.63%) | Memory: 12.4 MB (17.07%) - LeetSync",
+      "timestamp": "2026-05-26T17:18:33+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/d3784da555ab805861f1c5ee141a577598a0ae58"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "59943b1",
+      "message": "Added Notes.md file for Count the Number of Special Characters I",
+      "timestamp": "2026-05-26T17:18:31+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/59943b16205079bba6969b51a631f4a6fb2e7b7e"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "fcb8153",
+      "message": "Added README.md file for Count the Number of Special Characters I",
+      "timestamp": "2026-05-26T17:18:29+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/fcb81536b17573c1fcdde77576e918a1f7aa475e"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-26T01:54:36.034648+05:00",
+    "end": "2026-05-27T01:54:36.034648+05:00"
+  },
+  "estimated_hours": 1.97,
+  "ai_insights": "Pattern Detection:\n12 commits across 3 repos in 1.97h - mixed practice/projects. Primary language: TypeScript.\n\nRed Flags:\nVague commit messages in projects: Hygieia-Frontend: 'fixed calories conversion' - write descriptive commits.\n\nBrutal Truth:\nSolid focused work on Hygieia-Backend, Hygieia-Frontend, LeetCode-Attempts - keep this consistency going."
+}
