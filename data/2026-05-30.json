@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-30",
+  "total_commits": 6,
+  "repositories": {
+    "Hygieia-Backend": {
+      "commits_count": 1,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "e6d2b86",
+          "message": "feat: implement personalized per-user unsubscribe links in newsletters and update error handling to return 404 for missing subscriptions.",
+          "timestamp": "2026-05-29T12:05:56+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/e6d2b869ce8c52e33dddc50739e24028334e01fc"
+        }
+      ]
+    },
+    "Hygieia-Frontend": {
+      "commits_count": 3,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 3
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "b06d52b",
+          "message": "refactor: implement UnsubscribeForm component and update unsubscribe page",
+          "timestamp": "2026-05-29T11:03:18+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/b06d52b2361fb9372f11b626fa67ff483a569240"
+        },
+        {
+          "sha": "f23e8b5",
+          "message": "fixed build errors",
+          "timestamp": "2026-05-29T10:49:55+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/f23e8b5f86087f9f9d4737b1b64fef9e6e9c3bdd"
+        },
+        {
+          "sha": "977c57a",
+          "message": "added unsub page",
+          "timestamp": "2026-05-29T10:44:29+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/977c57acc1d93b877ac47b3ac676fda3043257b0"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "9b8dc44",
+          "message": "Time: 49 ms (10.09%) | Memory: 12.5 MB (22.94%) - LeetSync",
+          "timestamp": "2026-05-29T09:59:57+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/9b8dc44da4238a49c3e02b4b974dab428e863e66"
+        },
+        {
+          "sha": "6c9367c",
+          "message": "Added README.md file for Minimum Element After Replacement With Digit Sum",
+          "timestamp": "2026-05-29T09:59:55+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/6c9367cd583cccde5291ebecf0235895d0464293"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 4,
+    "Python": 1,
+    "Markdown": 1
+  },
+  "commits_by_hour": {
+    "12": 1,
+    "11": 1,
+    "10": 2,
+    "9": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "e6d2b86",
+      "message": "feat: implement personalized per-user unsubscribe links in newsletters and update error handling to return 404 for missing subscriptions.",
+      "timestamp": "2026-05-29T12:05:56+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/e6d2b869ce8c52e33dddc50739e24028334e01fc"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "b06d52b",
+      "message": "refactor: implement UnsubscribeForm component and update unsubscribe page",
+      "timestamp": "2026-05-29T11:03:18+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/b06d52b2361fb9372f11b626fa67ff483a569240"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "f23e8b5",
+      "message": "fixed build errors",
+      "timestamp": "2026-05-29T10:49:55+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/f23e8b5f86087f9f9d4737b1b64fef9e6e9c3bdd"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "977c57a",
+      "message": "added unsub page",
+      "timestamp": "2026-05-29T10:44:29+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/977c57acc1d93b877ac47b3ac676fda3043257b0"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "9b8dc44",
+      "message": "Time: 49 ms (10.09%) | Memory: 12.5 MB (22.94%) - LeetSync",
+      "timestamp": "2026-05-29T09:59:57+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/9b8dc44da4238a49c3e02b4b974dab428e863e66"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "6c9367c",
+      "message": "Added README.md file for Minimum Element After Replacement With Digit Sum",
+      "timestamp": "2026-05-29T09:59:55+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/6c9367cd583cccde5291ebecf0235895d0464293"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-29T02:08:41.153927+05:00",
+    "end": "2026-05-30T02:08:41.153927+05:00"
+  },
+  "estimated_hours": 2.6,
+  "ai_insights": "Pattern Detection:\n6 commits across 3 repos in 2.6h - mixed practice/projects. Primary language: TypeScript.\n\nRed Flags:\nVague commit messages in projects: Hygieia-Frontend: 'fixed build errors' - write descriptive commits.\n\nBrutal Truth:\nSolid focused work on Hygieia-Backend, Hygieia-Frontend, LeetCode-Attempts - keep this consistency going."
+}
