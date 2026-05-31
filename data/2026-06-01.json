@@ -1,0 +1,151 @@
+{
+  "date": "2026-06-01",
+  "total_commits": 9,
+  "repositories": {
+    "Hygieia-Frontend": {
+      "commits_count": 9,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 9
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend",
+      "commits": [
+        {
+          "sha": "5d02b60",
+          "message": "update the form feedback card",
+          "timestamp": "2026-05-31T19:01:26+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/5d02b60b43b61cf77aba453c064afd3235af7f6b"
+        },
+        {
+          "sha": "2cf9a42",
+          "message": "update the feedback module ui",
+          "timestamp": "2026-05-31T18:59:10+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/2cf9a427f5b3088dbc88d0a7fadbc081fd6669be"
+        },
+        {
+          "sha": "bd9c15d",
+          "message": "added lab test crud admin side",
+          "timestamp": "2026-05-31T18:37:41+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/bd9c15ddc080297f111e0728a9221b8fbd801508"
+        },
+        {
+          "sha": "1662d36",
+          "message": "imrpoved ux",
+          "timestamp": "2026-05-31T16:53:26+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/1662d3650474a129b5e9355ae597199d043015f5"
+        },
+        {
+          "sha": "2aa6a3a",
+          "message": "added portion size in calories detection",
+          "timestamp": "2026-05-31T16:49:22+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/2aa6a3a993828fe5f947893d3fa7484d1883768f"
+        },
+        {
+          "sha": "d25d1b7",
+          "message": "fix routing",
+          "timestamp": "2026-05-31T13:16:06+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/d25d1b781b59882b79895a312c88e734d1a8fbcc"
+        },
+        {
+          "sha": "a5e3d07",
+          "message": "fixed auth guard",
+          "timestamp": "2026-05-31T13:09:28+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/a5e3d075246d42d39ecc79f032518e5f334b09e1"
+        },
+        {
+          "sha": "a67c1ff",
+          "message": "updated lab completed reports",
+          "timestamp": "2026-05-31T12:54:15+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/a67c1ff6d1697e833d915c035228db13b133e892"
+        },
+        {
+          "sha": "18db787",
+          "message": "added layouts",
+          "timestamp": "2026-05-31T12:13:42+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/18db78747020fd592a74704f572be17c3dafac4c"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 9
+  },
+  "commits_by_hour": {
+    "19": 1,
+    "18": 2,
+    "16": 2,
+    "13": 2,
+    "12": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "5d02b60",
+      "message": "update the form feedback card",
+      "timestamp": "2026-05-31T19:01:26+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/5d02b60b43b61cf77aba453c064afd3235af7f6b"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "2cf9a42",
+      "message": "update the feedback module ui",
+      "timestamp": "2026-05-31T18:59:10+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/2cf9a427f5b3088dbc88d0a7fadbc081fd6669be"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "bd9c15d",
+      "message": "added lab test crud admin side",
+      "timestamp": "2026-05-31T18:37:41+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/bd9c15ddc080297f111e0728a9221b8fbd801508"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "1662d36",
+      "message": "imrpoved ux",
+      "timestamp": "2026-05-31T16:53:26+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/1662d3650474a129b5e9355ae597199d043015f5"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "2aa6a3a",
+      "message": "added portion size in calories detection",
+      "timestamp": "2026-05-31T16:49:22+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/2aa6a3a993828fe5f947893d3fa7484d1883768f"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "d25d1b7",
+      "message": "fix routing",
+      "timestamp": "2026-05-31T13:16:06+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/d25d1b781b59882b79895a312c88e734d1a8fbcc"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "a5e3d07",
+      "message": "fixed auth guard",
+      "timestamp": "2026-05-31T13:09:28+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/a5e3d075246d42d39ecc79f032518e5f334b09e1"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "a67c1ff",
+      "message": "updated lab completed reports",
+      "timestamp": "2026-05-31T12:54:15+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/a67c1ff6d1697e833d915c035228db13b133e892"
+    },
+    {
+      "repo": "Hygieia-Frontend",
+      "sha": "18db787",
+      "message": "added layouts",
+      "timestamp": "2026-05-31T12:13:42+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Frontend/commit/18db78747020fd592a74704f572be17c3dafac4c"
+    }
+  ],
+  "time_range": {
+    "start": "2026-05-31T01:11:01.961955+05:00",
+    "end": "2026-06-01T01:11:01.961955+05:00"
+  },
+  "estimated_hours": 3.74,
+  "ai_insights": "Pattern Detection:\n9 commits on Hy in 3.74h - project development. Primary language: TypeScript. Focused burst.\n\nRed Flags:\nVague commit messages in projects: Hygieia-Frontend: 'fix routing', Hygieia-Frontend: 'fixed auth guard' - write descriptive commits. Still on Hygieia-Frontend for multiple days - push to complete or move on.\n\nBrutal Truth:\nWorking on Hygieia-Frontend with vague commits - describe what you're actually fixing/adding."
+}
