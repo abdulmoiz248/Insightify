@@ -1,0 +1,253 @@
+{
+  "total_commits": 136,
+  "total_hours": 40.91,
+  "active_days": 26,
+  "languages": {
+    "TypeScript": 69,
+    "YAML": 10,
+    "Python": 31,
+    "Markdown": 24,
+    "HTML": 4,
+    "JSON": 4,
+    "Shell": 1,
+    "SQL": 4,
+    "CSS": 2,
+    "Java": 3
+  },
+  "repositories": {
+    "Hygieia-Backend": 45,
+    "Hygieia-Frontend": 34,
+    "Abdul-Moiz": 4,
+    "LeetCode-Attempts": 33,
+    "learning-FastAPI": 5,
+    "Acne-Detection": 1,
+    "Dental-Xray-Detection": 1,
+    "Fashion-Mnist": 1,
+    "Question-Answering-System": 1,
+    "Better-Everyday": 5,
+    "Codegraph": 4,
+    "learning-django": 1,
+    "abdulmoiz248": 1
+  },
+  "commits_by_day": {
+    "2026-05-01": 0,
+    "2026-05-02": 8,
+    "2026-05-03": 16,
+    "2026-05-04": 8,
+    "2026-05-05": 6,
+    "2026-05-06": 8,
+    "2026-05-07": 2,
+    "2026-05-08": 5,
+    "2026-05-09": 3,
+    "2026-05-10": 4,
+    "2026-05-11": 5,
+    "2026-05-12": 7,
+    "2026-05-13": 2,
+    "2026-05-14": 2,
+    "2026-05-15": 0,
+    "2026-05-16": 5,
+    "2026-05-17": 0,
+    "2026-05-18": 0,
+    "2026-05-19": 4,
+    "2026-05-20": 3,
+    "2026-05-21": 3,
+    "2026-05-22": 6,
+    "2026-05-23": 2,
+    "2026-05-24": 0,
+    "2026-05-25": 1,
+    "2026-05-26": 12,
+    "2026-05-27": 12,
+    "2026-05-28": 2,
+    "2026-05-29": 2,
+    "2026-05-30": 6,
+    "2026-05-31": 2
+  },
+  "commits_by_week": {
+    "Week 18": 24,
+    "Week 19": 36,
+    "Week 20": 21,
+    "Week 21": 18,
+    "Week 22": 37
+  },
+  "daily_breakdown": [
+    {
+      "date": "2026-05-01",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-05-02",
+      "commits": 8,
+      "hours": 1.38
+    },
+    {
+      "date": "2026-05-03",
+      "commits": 16,
+      "hours": 2.71
+    },
+    {
+      "date": "2026-05-04",
+      "commits": 8,
+      "hours": 1.43
+    },
+    {
+      "date": "2026-05-05",
+      "commits": 6,
+      "hours": 3.48
+    },
+    {
+      "date": "2026-05-06",
+      "commits": 8,
+      "hours": 3.12
+    },
+    {
+      "date": "2026-05-07",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-05-08",
+      "commits": 5,
+      "hours": 1.89
+    },
+    {
+      "date": "2026-05-09",
+      "commits": 3,
+      "hours": 2.76
+    },
+    {
+      "date": "2026-05-10",
+      "commits": 4,
+      "hours": 0.64
+    },
+    {
+      "date": "2026-05-11",
+      "commits": 5,
+      "hours": 0.94
+    },
+    {
+      "date": "2026-05-12",
+      "commits": 7,
+      "hours": 0.62
+    },
+    {
+      "date": "2026-05-13",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-05-14",
+      "commits": 2,
+      "hours": 1.49
+    },
+    {
+      "date": "2026-05-15",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-05-16",
+      "commits": 5,
+      "hours": 3.67
+    },
+    {
+      "date": "2026-05-17",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-05-18",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-05-19",
+      "commits": 4,
+      "hours": 1.36
+    },
+    {
+      "date": "2026-05-20",
+      "commits": 3,
+      "hours": 2.28
+    },
+    {
+      "date": "2026-05-21",
+      "commits": 3,
+      "hours": 1.12
+    },
+    {
+      "date": "2026-05-22",
+      "commits": 6,
+      "hours": 0.51
+    },
+    {
+      "date": "2026-05-23",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-05-24",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-05-25",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-05-26",
+      "commits": 12,
+      "hours": 2.71
+    },
+    {
+      "date": "2026-05-27",
+      "commits": 12,
+      "hours": 1.97
+    },
+    {
+      "date": "2026-05-28",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-05-29",
+      "commits": 2,
+      "hours": 0.78
+    },
+    {
+      "date": "2026-05-30",
+      "commits": 6,
+      "hours": 2.6
+    },
+    {
+      "date": "2026-05-31",
+      "commits": 2,
+      "hours": 0.95
+    }
+  ],
+  "total_days": 31,
+  "avg_commits_per_day": 4.39,
+  "total_repos": 13,
+  "top_repositories": [
+    "Hygieia-Backend",
+    "Hygieia-Frontend",
+    "LeetCode-Attempts",
+    "learning-FastAPI",
+    "Better-Everyday",
+    "Abdul-Moiz",
+    "Codegraph",
+    "Acne-Detection",
+    "Dental-Xray-Detection",
+    "Fashion-Mnist"
+  ],
+  "longest_streak": 13,
+  "month": "May 2026",
+  "month_str": "2026-05",
+  "ai_insights": "## Learning Progress Check\n26/31 days active (83.9% of the month) - crushing it with consistent practice. 136 commits in 40.91h equals 3.3 commits/hour. Longest streak: 13 days shows your discipline level. Consistent practice builds muscle memory, sporadic coding doesn't.\n\n## Skill Development Analysis\nWorking across 10 repositories with 10 languages (primary: TypeScript). moderate spread - consider finishing a few projects completely. Top projects: Hygieia-Backend, Hygieia-Frontend, LeetCode-Attempts. Deep understanding comes from completing projects, not starting many.\n\n## Reality Check (What's Actually Happening)\n- Touching 10 repos this month - are you learning deeply or just dabbling?\n\n## What You Need to Do\n- Pick your top project (Hygieia-Backend) and finish it completely before touching others\n- Focus on mastering TypeScript before jumping to other languages - depth beats breadth when learning",
+  "chart_paths": [
+    "/home/runner/work/Insightify/Insightify/charts/daily_commits_2026-05.png",
+    "/home/runner/work/Insightify/Insightify/charts/languages_2026-05.png",
+    "/home/runner/work/Insightify/Insightify/charts/top_repos_2026-05.png"
+  ]
+}
