@@ -1,0 +1,121 @@
+{
+  "date": "2026-06-09",
+  "total_commits": 6,
+  "repositories": {
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "9a3c148",
+          "message": "Time: 52 ms (89.91%) | Memory: 29.5 MB (60.53%) - LeetSync",
+          "timestamp": "2026-06-08T12:57:12+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/9a3c14822edd37eaab164eba2eea53d08247b287"
+        },
+        {
+          "sha": "1590383",
+          "message": "Added README.md file for Partition Array According to Given Pivot",
+          "timestamp": "2026-06-08T12:57:10+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/1590383d1be29862c143d39a66f10aca449cefc7"
+        }
+      ]
+    },
+    "Quantization": {
+      "commits_count": 4,
+      "language": "Jupyter Notebook",
+      "languages_used": {
+        "Markdown": 2
+      },
+      "url": "https://github.com/abdulmoiz248/Quantization",
+      "commits": [
+        {
+          "sha": "dac01c1",
+          "message": "added readme.md",
+          "timestamp": "2026-06-08T18:16:37+00:00",
+          "url": "https://github.com/abdulmoiz248/Quantization/commit/dac01c1456bf0acc1dc0eb9eb2c0f12305d1cbf1"
+        },
+        {
+          "sha": "2864a8a",
+          "message": "added quantization aware training",
+          "timestamp": "2026-06-08T18:16:12+00:00",
+          "url": "https://github.com/abdulmoiz248/Quantization/commit/2864a8a24e167b824c4eab7878ecbcf99762e01c"
+        },
+        {
+          "sha": "b0283ef",
+          "message": "added post quantization",
+          "timestamp": "2026-06-08T18:05:06+00:00",
+          "url": "https://github.com/abdulmoiz248/Quantization/commit/b0283efd2ba40bb592198ec37aae14a60473c2cd"
+        },
+        {
+          "sha": "54bf505",
+          "message": "first commit",
+          "timestamp": "2026-06-08T18:04:47+00:00",
+          "url": "https://github.com/abdulmoiz248/Quantization/commit/54bf5056d3f2c4fea9824166816bf0c01568541b"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "Python": 1,
+    "Markdown": 3
+  },
+  "commits_by_hour": {
+    "12": 2,
+    "18": 4
+  },
+  "commit_messages": [
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "9a3c148",
+      "message": "Time: 52 ms (89.91%) | Memory: 29.5 MB (60.53%) - LeetSync",
+      "timestamp": "2026-06-08T12:57:12+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/9a3c14822edd37eaab164eba2eea53d08247b287"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "1590383",
+      "message": "Added README.md file for Partition Array According to Given Pivot",
+      "timestamp": "2026-06-08T12:57:10+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/1590383d1be29862c143d39a66f10aca449cefc7"
+    },
+    {
+      "repo": "Quantization",
+      "sha": "dac01c1",
+      "message": "added readme.md",
+      "timestamp": "2026-06-08T18:16:37+00:00",
+      "url": "https://github.com/abdulmoiz248/Quantization/commit/dac01c1456bf0acc1dc0eb9eb2c0f12305d1cbf1"
+    },
+    {
+      "repo": "Quantization",
+      "sha": "2864a8a",
+      "message": "added quantization aware training",
+      "timestamp": "2026-06-08T18:16:12+00:00",
+      "url": "https://github.com/abdulmoiz248/Quantization/commit/2864a8a24e167b824c4eab7878ecbcf99762e01c"
+    },
+    {
+      "repo": "Quantization",
+      "sha": "b0283ef",
+      "message": "added post quantization",
+      "timestamp": "2026-06-08T18:05:06+00:00",
+      "url": "https://github.com/abdulmoiz248/Quantization/commit/b0283efd2ba40bb592198ec37aae14a60473c2cd"
+    },
+    {
+      "repo": "Quantization",
+      "sha": "54bf505",
+      "message": "first commit",
+      "timestamp": "2026-06-08T18:04:47+00:00",
+      "url": "https://github.com/abdulmoiz248/Quantization/commit/54bf5056d3f2c4fea9824166816bf0c01568541b"
+    }
+  ],
+  "time_range": {
+    "start": "2026-06-08T02:10:59.797216+05:00",
+    "end": "2026-06-09T02:10:59.797216+05:00"
+  },
+  "estimated_hours": 0.7,
+  "ai_insights": "Pattern Detection:\n6 commits across 2 repos in 0.7h - mixed practice/projects. Primary language: Markdown.\n\nRed Flags:\nNone detected - clean, focused work showing good habits.\n\nBrutal Truth:\nSolid focused work on LeetCode-Attempts, Quantization - keep this consistency going."
+}
