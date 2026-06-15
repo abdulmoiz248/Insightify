@@ -1,0 +1,420 @@
+{
+  "date": "2026-06-16",
+  "total_commits": 20,
+  "repositories": {
+    "Abdul-Moiz": {
+      "commits_count": 1,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz",
+      "commits": [
+        {
+          "sha": "99c197c",
+          "message": "feat: update SEO metadata and implement lazy-loading with pagination for project screenshots",
+          "timestamp": "2026-06-15T18:25:25+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/99c197c4d40ed8582dadfa32815f6c46efd1c760"
+        }
+      ]
+    },
+    "AI-Resume-Screener": {
+      "commits_count": 2,
+      "language": "JavaScript",
+      "languages_used": {
+        "JavaScript": 1,
+        "Python": 1,
+        "CSS": 1,
+        "JSON": 1,
+        "Markdown": 2,
+        "HTML": 1
+      },
+      "url": "https://github.com/abdulmoiz248/AI-Resume-Screener",
+      "commits": [
+        {
+          "sha": "69b7eff",
+          "message": "added code",
+          "timestamp": "2026-06-15T14:40:23+00:00",
+          "url": "https://github.com/abdulmoiz248/AI-Resume-Screener/commit/69b7eff1f6f200ae0ea5985ce45def37ae02fa36"
+        },
+        {
+          "sha": "64b8391",
+          "message": "first commit",
+          "timestamp": "2026-06-15T14:39:16+00:00",
+          "url": "https://github.com/abdulmoiz248/AI-Resume-Screener/commit/64b83910cbd9ed47aa7c992dcf20dbec077fcb5a"
+        }
+      ]
+    },
+    "Creator-Analytics-Dashboard": {
+      "commits_count": 2,
+      "language": "TypeScript",
+      "languages_used": {
+        "Python": 1,
+        "JavaScript": 1,
+        "CSS": 1,
+        "TypeScript": 1,
+        "YAML": 1,
+        "JSON": 1,
+        "Markdown": 2,
+        "HTML": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Creator-Analytics-Dashboard",
+      "commits": [
+        {
+          "sha": "80ad1dc",
+          "message": "added code",
+          "timestamp": "2026-06-15T14:58:53+00:00",
+          "url": "https://github.com/abdulmoiz248/Creator-Analytics-Dashboard/commit/80ad1dc8cad6bdcf7c3faeb71f38694d837c2f9b"
+        },
+        {
+          "sha": "40b1975",
+          "message": "first commit",
+          "timestamp": "2026-06-15T14:58:09+00:00",
+          "url": "https://github.com/abdulmoiz248/Creator-Analytics-Dashboard/commit/40b19752027bd7725cd3f62a5414b00f77435920"
+        }
+      ]
+    },
+    "Fuel-Price-Estimator": {
+      "commits_count": 3,
+      "language": "Python",
+      "languages_used": {
+        "Markdown": 2,
+        "PowerShell": 1,
+        "Python": 1,
+        "YAML": 1,
+        "Shell": 1,
+        "HTML": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Fuel-Price-Estimator",
+      "commits": [
+        {
+          "sha": "781184c",
+          "message": "fixed readme file",
+          "timestamp": "2026-06-15T13:54:59+00:00",
+          "url": "https://github.com/abdulmoiz248/Fuel-Price-Estimator/commit/781184c1bde822f8add54cb25423adaee64bbd13"
+        },
+        {
+          "sha": "61d884e",
+          "message": "added code",
+          "timestamp": "2026-06-15T13:54:12+00:00",
+          "url": "https://github.com/abdulmoiz248/Fuel-Price-Estimator/commit/61d884efbb02e348e19d3f51fc4762f2bdc1123e"
+        },
+        {
+          "sha": "37181ce",
+          "message": "first commit",
+          "timestamp": "2026-06-15T13:53:52+00:00",
+          "url": "https://github.com/abdulmoiz248/Fuel-Price-Estimator/commit/37181cec060951b5395b4d6187d5ba424734529c"
+        }
+      ]
+    },
+    "Hygieia-Backend": {
+      "commits_count": 1,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 1,
+        "HTML": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend",
+      "commits": [
+        {
+          "sha": "ad70c5e",
+          "message": "updated email templates according to suggestions",
+          "timestamp": "2026-06-15T15:50:13+00:00",
+          "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/ad70c5e96d26b367291447d5ddc033d7d5a5d052"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 4,
+      "language": "Java",
+      "languages_used": {
+        "Python": 2,
+        "Markdown": 2
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "2aeb05c",
+          "message": "Time: 207 ms (32.00%) | Memory: 90.5 MB (20.86%) - LeetSync",
+          "timestamp": "2026-06-15T13:42:31+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/2aeb05c95d22826a37fea1efd7e7fc76f3d96f37"
+        },
+        {
+          "sha": "93e3147",
+          "message": "Added README.md file for Maximum Twin Sum of a Linked List",
+          "timestamp": "2026-06-15T13:42:29+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/93e31478d66bc7b872abbad25b15e374f489b750"
+        },
+        {
+          "sha": "b491f90",
+          "message": "Time: 123 ms (5.58%) | Memory: 93.2 MB (5.32%) - LeetSync",
+          "timestamp": "2026-06-15T13:20:20+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/b491f90028ea41e4b1672590d6a829fb7689c4b1"
+        },
+        {
+          "sha": "b0638c9",
+          "message": "Added README.md file for Delete the Middle Node of a Linked List",
+          "timestamp": "2026-06-15T13:20:18+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/b0638c9f4e1abcba0ad057be06f101f908a47e8b"
+        }
+      ]
+    },
+    "Partial-Cross-Entropy-Segmentation": {
+      "commits_count": 2,
+      "language": "Jupyter Notebook",
+      "languages_used": {
+        "Markdown": 2
+      },
+      "url": "https://github.com/abdulmoiz248/Partial-Cross-Entropy-Segmentation",
+      "commits": [
+        {
+          "sha": "330a628",
+          "message": "added code",
+          "timestamp": "2026-06-15T14:55:54+00:00",
+          "url": "https://github.com/abdulmoiz248/Partial-Cross-Entropy-Segmentation/commit/330a628f363a99568d2502fad078b37c4680ce5d"
+        },
+        {
+          "sha": "1c4d65b",
+          "message": "first commit",
+          "timestamp": "2026-06-15T14:54:44+00:00",
+          "url": "https://github.com/abdulmoiz248/Partial-Cross-Entropy-Segmentation/commit/1c4d65b846e41da33b1199ee393e192593fadc14"
+        }
+      ]
+    },
+    "TechRadar-Agent": {
+      "commits_count": 2,
+      "language": "Python",
+      "languages_used": {
+        "Python": 1,
+        "YAML": 1,
+        "JSON": 1,
+        "Shell": 1,
+        "Markdown": 2
+      },
+      "url": "https://github.com/abdulmoiz248/TechRadar-Agent",
+      "commits": [
+        {
+          "sha": "252b4bf",
+          "message": "added code",
+          "timestamp": "2026-06-15T13:50:21+00:00",
+          "url": "https://github.com/abdulmoiz248/TechRadar-Agent/commit/252b4bf3a183367efc9e55d03c6b720104c4350d"
+        },
+        {
+          "sha": "c0cd3f7",
+          "message": "first commit",
+          "timestamp": "2026-06-15T13:49:48+00:00",
+          "url": "https://github.com/abdulmoiz248/TechRadar-Agent/commit/c0cd3f7f12f611bce7d1b2510f12380b97744d43"
+        }
+      ]
+    },
+    "Voice-Agent": {
+      "commits_count": 1,
+      "language": "Python",
+      "languages_used": {
+        "YAML": 1,
+        "Python": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Voice-Agent",
+      "commits": [
+        {
+          "sha": "ebb26ca",
+          "message": "update transcription model to small and increase beam size for improved accuracy; add missing-import ignore in recorder.py",
+          "timestamp": "2026-06-15T15:07:00+00:00",
+          "url": "https://github.com/abdulmoiz248/Voice-Agent/commit/ebb26ca88adb85bcba19e479caaadbfcfd74bd0b"
+        }
+      ]
+    },
+    "Weather-Forecast-Tracker": {
+      "commits_count": 2,
+      "language": "Python",
+      "languages_used": {
+        "Python": 1,
+        "YAML": 1,
+        "JSON": 1,
+        "Markdown": 2,
+        "HTML": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Weather-Forecast-Tracker",
+      "commits": [
+        {
+          "sha": "f0a6367",
+          "message": "added entire code",
+          "timestamp": "2026-06-15T14:33:56+00:00",
+          "url": "https://github.com/abdulmoiz248/Weather-Forecast-Tracker/commit/f0a6367b3d6c4ffc6f8b51f7eece1b9ed09dca08"
+        },
+        {
+          "sha": "ae1a7a3",
+          "message": "first commit",
+          "timestamp": "2026-06-15T14:33:31+00:00",
+          "url": "https://github.com/abdulmoiz248/Weather-Forecast-Tracker/commit/ae1a7a3b0c87581f71ba3afcb86c1f27efd6e6f4"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 3,
+    "JavaScript": 2,
+    "Python": 8,
+    "CSS": 2,
+    "JSON": 4,
+    "Markdown": 14,
+    "HTML": 5,
+    "YAML": 5,
+    "PowerShell": 1,
+    "Shell": 2
+  },
+  "commits_by_hour": {
+    "18": 1,
+    "14": 8,
+    "13": 9,
+    "15": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "99c197c",
+      "message": "feat: update SEO metadata and implement lazy-loading with pagination for project screenshots",
+      "timestamp": "2026-06-15T18:25:25+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/99c197c4d40ed8582dadfa32815f6c46efd1c760"
+    },
+    {
+      "repo": "AI-Resume-Screener",
+      "sha": "69b7eff",
+      "message": "added code",
+      "timestamp": "2026-06-15T14:40:23+00:00",
+      "url": "https://github.com/abdulmoiz248/AI-Resume-Screener/commit/69b7eff1f6f200ae0ea5985ce45def37ae02fa36"
+    },
+    {
+      "repo": "AI-Resume-Screener",
+      "sha": "64b8391",
+      "message": "first commit",
+      "timestamp": "2026-06-15T14:39:16+00:00",
+      "url": "https://github.com/abdulmoiz248/AI-Resume-Screener/commit/64b83910cbd9ed47aa7c992dcf20dbec077fcb5a"
+    },
+    {
+      "repo": "Creator-Analytics-Dashboard",
+      "sha": "80ad1dc",
+      "message": "added code",
+      "timestamp": "2026-06-15T14:58:53+00:00",
+      "url": "https://github.com/abdulmoiz248/Creator-Analytics-Dashboard/commit/80ad1dc8cad6bdcf7c3faeb71f38694d837c2f9b"
+    },
+    {
+      "repo": "Creator-Analytics-Dashboard",
+      "sha": "40b1975",
+      "message": "first commit",
+      "timestamp": "2026-06-15T14:58:09+00:00",
+      "url": "https://github.com/abdulmoiz248/Creator-Analytics-Dashboard/commit/40b19752027bd7725cd3f62a5414b00f77435920"
+    },
+    {
+      "repo": "Fuel-Price-Estimator",
+      "sha": "781184c",
+      "message": "fixed readme file",
+      "timestamp": "2026-06-15T13:54:59+00:00",
+      "url": "https://github.com/abdulmoiz248/Fuel-Price-Estimator/commit/781184c1bde822f8add54cb25423adaee64bbd13"
+    },
+    {
+      "repo": "Fuel-Price-Estimator",
+      "sha": "61d884e",
+      "message": "added code",
+      "timestamp": "2026-06-15T13:54:12+00:00",
+      "url": "https://github.com/abdulmoiz248/Fuel-Price-Estimator/commit/61d884efbb02e348e19d3f51fc4762f2bdc1123e"
+    },
+    {
+      "repo": "Fuel-Price-Estimator",
+      "sha": "37181ce",
+      "message": "first commit",
+      "timestamp": "2026-06-15T13:53:52+00:00",
+      "url": "https://github.com/abdulmoiz248/Fuel-Price-Estimator/commit/37181cec060951b5395b4d6187d5ba424734529c"
+    },
+    {
+      "repo": "Hygieia-Backend",
+      "sha": "ad70c5e",
+      "message": "updated email templates according to suggestions",
+      "timestamp": "2026-06-15T15:50:13+00:00",
+      "url": "https://github.com/abdulmoiz248/Hygieia-Backend/commit/ad70c5e96d26b367291447d5ddc033d7d5a5d052"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "2aeb05c",
+      "message": "Time: 207 ms (32.00%) | Memory: 90.5 MB (20.86%) - LeetSync",
+      "timestamp": "2026-06-15T13:42:31+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/2aeb05c95d22826a37fea1efd7e7fc76f3d96f37"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "93e3147",
+      "message": "Added README.md file for Maximum Twin Sum of a Linked List",
+      "timestamp": "2026-06-15T13:42:29+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/93e31478d66bc7b872abbad25b15e374f489b750"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "b491f90",
+      "message": "Time: 123 ms (5.58%) | Memory: 93.2 MB (5.32%) - LeetSync",
+      "timestamp": "2026-06-15T13:20:20+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/b491f90028ea41e4b1672590d6a829fb7689c4b1"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "b0638c9",
+      "message": "Added README.md file for Delete the Middle Node of a Linked List",
+      "timestamp": "2026-06-15T13:20:18+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/b0638c9f4e1abcba0ad057be06f101f908a47e8b"
+    },
+    {
+      "repo": "Partial-Cross-Entropy-Segmentation",
+      "sha": "330a628",
+      "message": "added code",
+      "timestamp": "2026-06-15T14:55:54+00:00",
+      "url": "https://github.com/abdulmoiz248/Partial-Cross-Entropy-Segmentation/commit/330a628f363a99568d2502fad078b37c4680ce5d"
+    },
+    {
+      "repo": "Partial-Cross-Entropy-Segmentation",
+      "sha": "1c4d65b",
+      "message": "first commit",
+      "timestamp": "2026-06-15T14:54:44+00:00",
+      "url": "https://github.com/abdulmoiz248/Partial-Cross-Entropy-Segmentation/commit/1c4d65b846e41da33b1199ee393e192593fadc14"
+    },
+    {
+      "repo": "TechRadar-Agent",
+      "sha": "252b4bf",
+      "message": "added code",
+      "timestamp": "2026-06-15T13:50:21+00:00",
+      "url": "https://github.com/abdulmoiz248/TechRadar-Agent/commit/252b4bf3a183367efc9e55d03c6b720104c4350d"
+    },
+    {
+      "repo": "TechRadar-Agent",
+      "sha": "c0cd3f7",
+      "message": "first commit",
+      "timestamp": "2026-06-15T13:49:48+00:00",
+      "url": "https://github.com/abdulmoiz248/TechRadar-Agent/commit/c0cd3f7f12f611bce7d1b2510f12380b97744d43"
+    },
+    {
+      "repo": "Voice-Agent",
+      "sha": "ebb26ca",
+      "message": "update transcription model to small and increase beam size for improved accuracy; add missing-import ignore in recorder.py",
+      "timestamp": "2026-06-15T15:07:00+00:00",
+      "url": "https://github.com/abdulmoiz248/Voice-Agent/commit/ebb26ca88adb85bcba19e479caaadbfcfd74bd0b"
+    },
+    {
+      "repo": "Weather-Forecast-Tracker",
+      "sha": "f0a6367",
+      "message": "added entire code",
+      "timestamp": "2026-06-15T14:33:56+00:00",
+      "url": "https://github.com/abdulmoiz248/Weather-Forecast-Tracker/commit/f0a6367b3d6c4ffc6f8b51f7eece1b9ed09dca08"
+    },
+    {
+      "repo": "Weather-Forecast-Tracker",
+      "sha": "ae1a7a3",
+      "message": "first commit",
+      "timestamp": "2026-06-15T14:33:31+00:00",
+      "url": "https://github.com/abdulmoiz248/Weather-Forecast-Tracker/commit/ae1a7a3b0c87581f71ba3afcb86c1f27efd6e6f4"
+    }
+  ],
+  "time_range": {
+    "start": "2026-06-15T02:44:25.192847+05:00",
+    "end": "2026-06-16T02:44:25.192847+05:00"
+  },
+  "estimated_hours": 3.0,
+  "ai_insights": "Pattern Detection:\n20 commits across 10 repos in 3.0h - mixed practice/projects. Primary language: Markdown.\n\nRed Flags:\nVague commit messages in projects: AI-Resume-Screener: 'added code', Creator-Analytics-Dashboard: 'added code' - write descriptive commits. Working across 9 projects - focus on completing one.\n\nBrutal Truth:\nJumping between 9 projects - finish ONE complete project instead of having multiple incomplete ones."
+}
