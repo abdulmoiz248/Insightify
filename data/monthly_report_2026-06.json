@@ -1,0 +1,249 @@
+{
+  "total_commits": 67,
+  "total_hours": 15.45,
+  "active_days": 16,
+  "languages": {
+    "TypeScript": 16,
+    "Python": 20,
+    "Markdown": 31,
+    "Jupyter Notebook": 1,
+    "XML": 1,
+    "JSON": 5,
+    "JavaScript": 2,
+    "CSS": 2,
+    "HTML": 5,
+    "YAML": 5,
+    "PowerShell": 1,
+    "Shell": 2,
+    "Java": 2
+  },
+  "repositories": {
+    "Hygieia-Frontend": 9,
+    "LeetCode-Attempts": 29,
+    "Quantization": 5,
+    "Abdul-Moiz": 6,
+    "AI-Resume-Screener": 2,
+    "Creator-Analytics-Dashboard": 2,
+    "Fuel-Price-Estimator": 3,
+    "Hygieia-Backend": 4,
+    "Partial-Cross-Entropy-Segmentation": 2,
+    "TechRadar-Agent": 2,
+    "Voice-Agent": 1,
+    "Weather-Forecast-Tracker": 2
+  },
+  "commits_by_day": {
+    "2026-06-01": 9,
+    "2026-06-02": 2,
+    "2026-06-03": 0,
+    "2026-06-04": 0,
+    "2026-06-05": 2,
+    "2026-06-06": 0,
+    "2026-06-07": 2,
+    "2026-06-08": 0,
+    "2026-06-09": 6,
+    "2026-06-10": 2,
+    "2026-06-11": 1,
+    "2026-06-12": 0,
+    "2026-06-13": 0,
+    "2026-06-14": 7,
+    "2026-06-15": 0,
+    "2026-06-16": 20,
+    "2026-06-17": 5,
+    "2026-06-18": 0,
+    "2026-06-19": 1,
+    "2026-06-20": 2,
+    "2026-06-21": 0,
+    "2026-06-22": 2,
+    "2026-06-23": 2,
+    "2026-06-24": 0,
+    "2026-06-25": 0,
+    "2026-06-26": 2,
+    "2026-06-27": 0,
+    "2026-06-28": 0,
+    "2026-06-29": 0,
+    "2026-06-30": 2
+  },
+  "commits_by_week": {
+    "Week 23": 15,
+    "Week 24": 16,
+    "Week 25": 28,
+    "Week 26": 6,
+    "Week 27": 2
+  },
+  "daily_breakdown": [
+    {
+      "date": "2026-06-01",
+      "commits": 9,
+      "hours": 3.74
+    },
+    {
+      "date": "2026-06-02",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-06-03",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-04",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-05",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-06-06",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-07",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-06-08",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-09",
+      "commits": 6,
+      "hours": 0.7
+    },
+    {
+      "date": "2026-06-10",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-06-11",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-06-12",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-13",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-14",
+      "commits": 7,
+      "hours": 1.14
+    },
+    {
+      "date": "2026-06-15",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-16",
+      "commits": 20,
+      "hours": 3.0
+    },
+    {
+      "date": "2026-06-17",
+      "commits": 5,
+      "hours": 1.37
+    },
+    {
+      "date": "2026-06-18",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-19",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-06-20",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-06-21",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-22",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-06-23",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-06-24",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-25",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-26",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-06-27",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-28",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-29",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-06-30",
+      "commits": 2,
+      "hours": 0.5
+    }
+  ],
+  "total_days": 30,
+  "avg_commits_per_day": 2.23,
+  "total_repos": 12,
+  "top_repositories": [
+    "LeetCode-Attempts",
+    "Hygieia-Frontend",
+    "Abdul-Moiz",
+    "Quantization",
+    "Hygieia-Backend",
+    "Fuel-Price-Estimator",
+    "AI-Resume-Screener",
+    "Creator-Analytics-Dashboard",
+    "Partial-Cross-Entropy-Segmentation",
+    "TechRadar-Agent"
+  ],
+  "longest_streak": 3,
+  "month": "June 2026",
+  "month_str": "2026-06",
+  "ai_insights": "## Learning Progress Check\n16/30 days active (53.3% of the month) - inconsistent - learning happens with daily practice. 67 commits in 15.45h equals 4.3 commits/hour. Longest streak: 3 days shows your discipline level. Consistent practice builds muscle memory, sporadic coding doesn't.\n\n## Skill Development Analysis\nWorking across 10 repositories with 13 languages (primary: Markdown). moderate spread - consider finishing a few projects completely. Top projects: LeetCode-Attempts, Hygieia-Frontend, Abdul-Moiz. Deep understanding comes from completing projects, not starting many.\n\n## Reality Check (What's Actually Happening)\n- Only 16/30 active days - you're not building the daily coding habit that accelerates learning\n- Longest streak is 3 days - where's the discipline? Consistency compounds\n- Touching 10 repos this month - are you learning deeply or just dabbling?\n\n## What You Need to Do\n- Code every single day, even just 30 mins - you're at 53.3%, aim for 80%+\n- Build a 7+ day streak (current: 3) - daily practice is non-negotiable for real skill growth\n- Pick your top project (LeetCode-Attempts) and finish it completely before touching others\n- Focus on mastering Markdown before jumping to other languages - depth beats breadth when learning",
+  "chart_paths": [
+    "/home/runner/work/Insightify/Insightify/charts/daily_commits_2026-06.png",
+    "/home/runner/work/Insightify/Insightify/charts/languages_2026-06.png",
+    "/home/runner/work/Insightify/Insightify/charts/top_repos_2026-06.png"
+  ]
+}
