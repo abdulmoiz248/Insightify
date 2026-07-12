@@ -1,0 +1,162 @@
+{
+  "date": "2026-07-13",
+  "total_commits": 8,
+  "repositories": {
+    "Abdul-Moiz": {
+      "commits_count": 5,
+      "language": "TypeScript",
+      "languages_used": {
+        "JSON": 2,
+        "TypeScript": 5,
+        "SQL": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz",
+      "commits": [
+        {
+          "sha": "bbb4e44",
+          "message": "feat: integrate Supabase for access code verification and job assistant generation",
+          "timestamp": "2026-07-12T18:34:33+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/bbb4e4468124ac815d82ad5b1009ae19cbd2ccc8"
+        },
+        {
+          "sha": "9ff9a7a",
+          "message": "added fyp banner  with imrpoved performance",
+          "timestamp": "2026-07-12T17:59:40+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/9ff9a7a9333650b6279dca18e3aa32e9c7b6fc83"
+        },
+        {
+          "sha": "cd1b7c2",
+          "message": "feat: update education details and enhance email templates with inline icons",
+          "timestamp": "2026-07-12T17:45:55+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/cd1b7c26be8474d335b2c0a6b8e98d49337d4d4e"
+        },
+        {
+          "sha": "a718f29",
+          "message": "fixed book call",
+          "timestamp": "2026-07-12T17:33:12+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/a718f291ac058551f069dbda08bed3b35fe040b0"
+        },
+        {
+          "sha": "8f3b66a",
+          "message": "added a chatbot",
+          "timestamp": "2026-07-12T17:26:50+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/8f3b66a2da13106ab331a7b29ae50880d1f626ae"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "languages_used": {
+        "Java": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "481ece3",
+          "message": "Time: 36 ms (32.64%) | Memory: 76.5 MB (46.36%) - LeetSync",
+          "timestamp": "2026-07-12T17:02:07+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/481ece3b2247f0a49e0d9ce8c0712d68aacc6d32"
+        },
+        {
+          "sha": "e0c8db2",
+          "message": "Added README.md file for Rank Transform of an Array",
+          "timestamp": "2026-07-12T17:02:04+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/e0c8db215d0226962452114731b3ccc5a568bf5b"
+        }
+      ]
+    },
+    "MailMate": {
+      "commits_count": 1,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 1
+      },
+      "url": "https://github.com/abdulmoiz248/MailMate",
+      "commits": [
+        {
+          "sha": "ac7d069",
+          "message": "updated resume",
+          "timestamp": "2026-07-12T17:53:29+00:00",
+          "url": "https://github.com/abdulmoiz248/MailMate/commit/ac7d069763a7428e10aa5719b3bfa4eeb40fa03a"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "JSON": 2,
+    "TypeScript": 6,
+    "SQL": 1,
+    "Java": 1,
+    "Markdown": 1
+  },
+  "commits_by_hour": {
+    "18": 1,
+    "17": 7
+  },
+  "commit_messages": [
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "bbb4e44",
+      "message": "feat: integrate Supabase for access code verification and job assistant generation",
+      "timestamp": "2026-07-12T18:34:33+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/bbb4e4468124ac815d82ad5b1009ae19cbd2ccc8"
+    },
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "9ff9a7a",
+      "message": "added fyp banner  with imrpoved performance",
+      "timestamp": "2026-07-12T17:59:40+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/9ff9a7a9333650b6279dca18e3aa32e9c7b6fc83"
+    },
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "cd1b7c2",
+      "message": "feat: update education details and enhance email templates with inline icons",
+      "timestamp": "2026-07-12T17:45:55+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/cd1b7c26be8474d335b2c0a6b8e98d49337d4d4e"
+    },
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "a718f29",
+      "message": "fixed book call",
+      "timestamp": "2026-07-12T17:33:12+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/a718f291ac058551f069dbda08bed3b35fe040b0"
+    },
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "8f3b66a",
+      "message": "added a chatbot",
+      "timestamp": "2026-07-12T17:26:50+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/8f3b66a2da13106ab331a7b29ae50880d1f626ae"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "481ece3",
+      "message": "Time: 36 ms (32.64%) | Memory: 76.5 MB (46.36%) - LeetSync",
+      "timestamp": "2026-07-12T17:02:07+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/481ece3b2247f0a49e0d9ce8c0712d68aacc6d32"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "e0c8db2",
+      "message": "Added README.md file for Rank Transform of an Array",
+      "timestamp": "2026-07-12T17:02:04+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/e0c8db215d0226962452114731b3ccc5a568bf5b"
+    },
+    {
+      "repo": "MailMate",
+      "sha": "ac7d069",
+      "message": "updated resume",
+      "timestamp": "2026-07-12T17:53:29+00:00",
+      "url": "https://github.com/abdulmoiz248/MailMate/commit/ac7d069763a7428e10aa5719b3bfa4eeb40fa03a"
+    }
+  ],
+  "time_range": {
+    "start": "2026-07-12T01:06:14.646447+05:00",
+    "end": "2026-07-13T01:06:14.646447+05:00"
+  },
+  "estimated_hours": 2.04,
+  "ai_insights": "Pattern Detection:\n8 commits across 3 repos in 2.04h - mixed practice/projects. Primary language: TypeScript.\n\nRed Flags:\nVague commit messages in projects: Abdul-Moiz: 'fixed book call', MailMate: 'updated resume' - write descriptive commits.\n\nBrutal Truth:\nSolid focused work on Abdul-Moiz, LeetCode-Attempts, MailMate - keep this consistency going."
+}
