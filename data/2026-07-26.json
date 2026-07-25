@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-26",
+  "total_commits": 6,
+  "repositories": {
+    "Joblyst": {
+      "commits_count": 4,
+      "language": "Python",
+      "languages_used": {
+        "YAML": 2,
+        "Markdown": 2,
+        "Python": 2,
+        "JSON": 2
+      },
+      "url": "https://github.com/abdulmoiz248/Joblyst",
+      "commits": [
+        {
+          "sha": "9ac6003",
+          "message": "Add firecrawl_rotation_state.json to git commit",
+          "timestamp": "2026-07-25T18:45:54+00:00",
+          "url": "https://github.com/abdulmoiz248/Joblyst/commit/9ac60037b67bb423bf292eebfc975eeb24757360"
+        },
+        {
+          "sha": "afae536",
+          "message": "Implement Firecrawl rotation logic and update job scraping process",
+          "timestamp": "2026-07-25T18:43:21+00:00",
+          "url": "https://github.com/abdulmoiz248/Joblyst/commit/afae536cadbf9a2d1acdbca8a0e8549640451eac"
+        },
+        {
+          "sha": "db61546",
+          "message": "updated github workflow",
+          "timestamp": "2026-07-25T18:17:28+00:00",
+          "url": "https://github.com/abdulmoiz248/Joblyst/commit/db6154642084fa38b7000b30c5fe7d6b3de1f4ab"
+        },
+        {
+          "sha": "70c4750",
+          "message": "Add job board API clients and scraping functionality  - Implemented Ashby Job Board API client for structured JSON job fetching. - Added Firecrawl-based extraction for non-standard ATS career pages, improving resilience against page redesigns. - Created Greenhouse Job Board API client to fetch job listings in a structured format. - Developed Lever Postings API client to retrieve job postings from Lever. - Introduced LinkedIn guest-API scraper to broaden job search capabilities globally. - Added unit tests for freshness and deadline parsing to ensure accurate job data handling.",
+          "timestamp": "2026-07-25T18:13:33+00:00",
+          "url": "https://github.com/abdulmoiz248/Joblyst/commit/70c475093f09edee9632ef8c1fef4a65eab1b5b9"
+        }
+      ]
+    },
+    "LeetCode-Attempts": {
+      "commits_count": 2,
+      "language": "Java",
+      "languages_used": {
+        "Python": 1,
+        "Markdown": 1
+      },
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts",
+      "commits": [
+        {
+          "sha": "cd2daa4",
+          "message": "Time: 3 ms (46.15%) | Memory: 12.4 MB (16.08%) - LeetSync",
+          "timestamp": "2026-07-25T10:04:43+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/cd2daa4c2ad4608117c5decd5abb5cccbd80e550"
+        },
+        {
+          "sha": "175dead",
+          "message": "Added README.md file for Maximum Product of Two Digits",
+          "timestamp": "2026-07-25T10:04:41+00:00",
+          "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/175dead6d52903a9cfd81733249877b6ad36a472"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "YAML": 2,
+    "Markdown": 3,
+    "Python": 3,
+    "JSON": 2
+  },
+  "commits_by_hour": {
+    "18": 4,
+    "10": 2
+  },
+  "commit_messages": [
+    {
+      "repo": "Joblyst",
+      "sha": "9ac6003",
+      "message": "Add firecrawl_rotation_state.json to git commit",
+      "timestamp": "2026-07-25T18:45:54+00:00",
+      "url": "https://github.com/abdulmoiz248/Joblyst/commit/9ac60037b67bb423bf292eebfc975eeb24757360"
+    },
+    {
+      "repo": "Joblyst",
+      "sha": "afae536",
+      "message": "Implement Firecrawl rotation logic and update job scraping process",
+      "timestamp": "2026-07-25T18:43:21+00:00",
+      "url": "https://github.com/abdulmoiz248/Joblyst/commit/afae536cadbf9a2d1acdbca8a0e8549640451eac"
+    },
+    {
+      "repo": "Joblyst",
+      "sha": "db61546",
+      "message": "updated github workflow",
+      "timestamp": "2026-07-25T18:17:28+00:00",
+      "url": "https://github.com/abdulmoiz248/Joblyst/commit/db6154642084fa38b7000b30c5fe7d6b3de1f4ab"
+    },
+    {
+      "repo": "Joblyst",
+      "sha": "70c4750",
+      "message": "Add job board API clients and scraping functionality  - Implemented Ashby Job Board API client for structured JSON job fetching. - Added Firecrawl-based extraction for non-standard ATS career pages, improving resilience against page redesigns. - Created Greenhouse Job Board API client to fetch job listings in a structured format. - Developed Lever Postings API client to retrieve job postings from Lever. - Introduced LinkedIn guest-API scraper to broaden job search capabilities globally. - Added unit tests for freshness and deadline parsing to ensure accurate job data handling.",
+      "timestamp": "2026-07-25T18:13:33+00:00",
+      "url": "https://github.com/abdulmoiz248/Joblyst/commit/70c475093f09edee9632ef8c1fef4a65eab1b5b9"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "cd2daa4",
+      "message": "Time: 3 ms (46.15%) | Memory: 12.4 MB (16.08%) - LeetSync",
+      "timestamp": "2026-07-25T10:04:43+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/cd2daa4c2ad4608117c5decd5abb5cccbd80e550"
+    },
+    {
+      "repo": "LeetCode-Attempts",
+      "sha": "175dead",
+      "message": "Added README.md file for Maximum Product of Two Digits",
+      "timestamp": "2026-07-25T10:04:41+00:00",
+      "url": "https://github.com/abdulmoiz248/LeetCode-Attempts/commit/175dead6d52903a9cfd81733249877b6ad36a472"
+    }
+  ],
+  "time_range": {
+    "start": "2026-07-25T01:11:22.721394+05:00",
+    "end": "2026-07-26T01:11:22.721394+05:00"
+  },
+  "estimated_hours": 1.04,
+  "ai_insights": "Pattern Detection:\n6 commits across 2 repos in 1.04h - mixed practice/projects. Primary language: Markdown.\n\nRed Flags:\nVague commit messages in projects: Joblyst: 'updated github workflow' - write descriptive commits.\n\nBrutal Truth:\nWorking on Joblyst with vague commits - describe what you're actually fixing/adding."
+}
