@@ -1,0 +1,71 @@
+{
+  "date": "2026-08-31",
+  "total_commits": 3,
+  "repositories": {
+    "Abdul-Moiz": {
+      "commits_count": 3,
+      "language": "TypeScript",
+      "languages_used": {
+        "TypeScript": 3,
+        "JSON": 1
+      },
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz",
+      "commits": [
+        {
+          "sha": "4e86e3f",
+          "message": "Add maxDuration constant to chat route",
+          "timestamp": "2026-08-30T11:27:16+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/4e86e3f30dc78711b014cefa7bb31183903a22ee"
+        },
+        {
+          "sha": "47475b9",
+          "message": "added more chat tools",
+          "timestamp": "2026-08-30T11:23:01+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/47475b92dcd93ac90def26d3bd2e6deee86e4cdb"
+        },
+        {
+          "sha": "30b0183",
+          "message": "feat: add MCP server for portfolio, deployable as a Vercel serverless function  Exposes get_projects, get_experience, get_skills, get_education, get_contact_info, and get_resume as MCP tools at /api/mcp so AI assistants (Claude, ChatGPT) can query the portfolio directly. Reuses the existing chatTools handlers instead of duplicating logic.",
+          "timestamp": "2026-08-30T11:01:58+00:00",
+          "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/30b0183ffe834f5647aa5b97b6062e7a12c888a6"
+        }
+      ]
+    }
+  },
+  "languages": {
+    "TypeScript": 3,
+    "JSON": 1
+  },
+  "commits_by_hour": {
+    "11": 3
+  },
+  "commit_messages": [
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "4e86e3f",
+      "message": "Add maxDuration constant to chat route",
+      "timestamp": "2026-08-30T11:27:16+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/4e86e3f30dc78711b014cefa7bb31183903a22ee"
+    },
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "47475b9",
+      "message": "added more chat tools",
+      "timestamp": "2026-08-30T11:23:01+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/47475b92dcd93ac90def26d3bd2e6deee86e4cdb"
+    },
+    {
+      "repo": "Abdul-Moiz",
+      "sha": "30b0183",
+      "message": "feat: add MCP server for portfolio, deployable as a Vercel serverless function  Exposes get_projects, get_experience, get_skills, get_education, get_contact_info, and get_resume as MCP tools at /api/mcp so AI assistants (Claude, ChatGPT) can query the portfolio directly. Reuses the existing chatTools handlers instead of duplicating logic.",
+      "timestamp": "2026-08-30T11:01:58+00:00",
+      "url": "https://github.com/abdulmoiz248/Abdul-Moiz/commit/30b0183ffe834f5647aa5b97b6062e7a12c888a6"
+    }
+  ],
+  "time_range": {
+    "start": "2026-08-30T02:51:10.510203+05:00",
+    "end": "2026-08-31T02:51:10.510203+05:00"
+  },
+  "estimated_hours": 0.92,
+  "ai_insights": "Pattern Detection:\n3 commits on Ab in 0.92h - project development. Primary language: TypeScript. Focused burst.\n\nRed Flags:\nNone detected - clean, focused work showing good habits.\n\nBrutal Truth:\nSolid focused work on Abdul-Moiz - keep this consistency going."
+}
