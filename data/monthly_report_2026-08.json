@@ -1,0 +1,234 @@
+{
+  "total_commits": 37,
+  "total_hours": 7.96,
+  "active_days": 15,
+  "languages": {
+    "Markdown": 22,
+    "TypeScript": 6,
+    "JavaScript": 2,
+    "Python": 9,
+    "JSON": 1
+  },
+  "repositories": {
+    "AI-Agents": 8,
+    "Abdul-Moiz": 6,
+    "LeetCode-Attempts": 19,
+    "System-Design": 4
+  },
+  "commits_by_day": {
+    "2026-08-01": 0,
+    "2026-08-02": 0,
+    "2026-08-03": 0,
+    "2026-08-04": 1,
+    "2026-08-05": 3,
+    "2026-08-06": 1,
+    "2026-08-07": 2,
+    "2026-08-08": 3,
+    "2026-08-09": 1,
+    "2026-08-10": 0,
+    "2026-08-11": 0,
+    "2026-08-12": 2,
+    "2026-08-13": 0,
+    "2026-08-14": 0,
+    "2026-08-15": 0,
+    "2026-08-16": 1,
+    "2026-08-17": 0,
+    "2026-08-18": 0,
+    "2026-08-19": 3,
+    "2026-08-20": 0,
+    "2026-08-21": 2,
+    "2026-08-22": 0,
+    "2026-08-23": 9,
+    "2026-08-24": 0,
+    "2026-08-25": 0,
+    "2026-08-26": 2,
+    "2026-08-27": 0,
+    "2026-08-28": 2,
+    "2026-08-29": 2,
+    "2026-08-30": 0,
+    "2026-08-31": 3
+  },
+  "commits_by_week": {
+    "Week 31": 0,
+    "Week 32": 11,
+    "Week 33": 3,
+    "Week 34": 14,
+    "Week 35": 6,
+    "Week 36": 3
+  },
+  "daily_breakdown": [
+    {
+      "date": "2026-08-01",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-02",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-03",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-04",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-05",
+      "commits": 3,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-06",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-07",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-08",
+      "commits": 3,
+      "hours": 0.54
+    },
+    {
+      "date": "2026-08-09",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-10",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-11",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-12",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-13",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-14",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-15",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-16",
+      "commits": 1,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-17",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-18",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-19",
+      "commits": 3,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-20",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-21",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-22",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-23",
+      "commits": 9,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-24",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-25",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-26",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-27",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-28",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-29",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-08-30",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-08-31",
+      "commits": 3,
+      "hours": 0.92
+    }
+  ],
+  "total_days": 31,
+  "avg_commits_per_day": 1.19,
+  "total_repos": 4,
+  "top_repositories": [
+    "LeetCode-Attempts",
+    "AI-Agents",
+    "Abdul-Moiz",
+    "System-Design"
+  ],
+  "longest_streak": 6,
+  "month": "August 2026",
+  "month_str": "2026-08",
+  "ai_insights": "## Learning Progress Check\n15/31 days active (48.4% of the month) - inconsistent - learning happens with daily practice. 37 commits in 7.96h equals 4.6 commits/hour. Longest streak: 6 days shows your discipline level. Consistent practice builds muscle memory, sporadic coding doesn't.\n\n## Skill Development Analysis\nWorking across 4 repositories with 5 languages (primary: Markdown). good focus - building depth through concentrated effort. Top projects: LeetCode-Attempts, AI-Agents, Abdul-Moiz. Deep understanding comes from completing projects, not starting many.\n\n## Reality Check (What's Actually Happening)\n- Only 15/31 active days - you're not building the daily coding habit that accelerates learning\n\n## What You Need to Do\n- Code every single day, even just 30 mins - you're at 48.4%, aim for 80%+\n- Build a 7+ day streak (current: 6) - daily practice is non-negotiable for real skill growth\n- Focus on mastering Markdown before jumping to other languages - depth beats breadth when learning",
+  "chart_paths": [
+    "/home/runner/work/Insightify/Insightify/charts/daily_commits_2026-08.png",
+    "/home/runner/work/Insightify/Insightify/charts/languages_2026-08.png",
+    "/home/runner/work/Insightify/Insightify/charts/top_repos_2026-08.png"
+  ]
+}
