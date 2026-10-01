@@ -1,0 +1,226 @@
+{
+  "total_commits": 30,
+  "total_hours": 7.03,
+  "active_days": 14,
+  "languages": {
+    "Java": 2,
+    "Python": 13,
+    "Markdown": 16,
+    "HTML": 1,
+    "JavaScript": 1,
+    "JSON": 1,
+    "CSS": 1,
+    "YAML": 1
+  },
+  "repositories": {
+    "LeetCode-Attempts": 28,
+    "PitchLens": 2
+  },
+  "commits_by_day": {
+    "2026-09-01": 2,
+    "2026-09-02": 3,
+    "2026-09-03": 2,
+    "2026-09-04": 2,
+    "2026-09-05": 0,
+    "2026-09-06": 0,
+    "2026-09-07": 2,
+    "2026-09-08": 0,
+    "2026-09-09": 2,
+    "2026-09-10": 2,
+    "2026-09-11": 2,
+    "2026-09-12": 2,
+    "2026-09-13": 0,
+    "2026-09-14": 0,
+    "2026-09-15": 3,
+    "2026-09-16": 0,
+    "2026-09-17": 0,
+    "2026-09-18": 0,
+    "2026-09-19": 0,
+    "2026-09-20": 0,
+    "2026-09-21": 2,
+    "2026-09-22": 0,
+    "2026-09-23": 0,
+    "2026-09-24": 0,
+    "2026-09-25": 2,
+    "2026-09-26": 0,
+    "2026-09-27": 0,
+    "2026-09-28": 2,
+    "2026-09-29": 2,
+    "2026-09-30": 0
+  },
+  "commits_by_week": {
+    "Week 36": 9,
+    "Week 37": 10,
+    "Week 38": 3,
+    "Week 39": 4,
+    "Week 40": 4
+  },
+  "daily_breakdown": [
+    {
+      "date": "2026-09-01",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-02",
+      "commits": 3,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-03",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-04",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-05",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-06",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-07",
+      "commits": 2,
+      "hours": 0.53
+    },
+    {
+      "date": "2026-09-08",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-09",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-10",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-11",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-12",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-13",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-14",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-15",
+      "commits": 3,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-16",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-17",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-18",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-19",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-20",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-21",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-22",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-23",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-24",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-25",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-26",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-27",
+      "commits": 0,
+      "hours": 0.0
+    },
+    {
+      "date": "2026-09-28",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-29",
+      "commits": 2,
+      "hours": 0.5
+    },
+    {
+      "date": "2026-09-30",
+      "commits": 0,
+      "hours": 0.0
+    }
+  ],
+  "total_days": 30,
+  "avg_commits_per_day": 1.0,
+  "total_repos": 2,
+  "top_repositories": [
+    "LeetCode-Attempts",
+    "PitchLens"
+  ],
+  "longest_streak": 4,
+  "month": "September 2026",
+  "month_str": "2026-09",
+  "ai_insights": "## Learning Progress Check\n14/30 days active (46.7% of the month) - inconsistent - learning happens with daily practice. 30 commits in 7.03h equals 4.3 commits/hour. Longest streak: 4 days shows your discipline level. Consistent practice builds muscle memory, sporadic coding doesn't.\n\n## Skill Development Analysis\nWorking across 2 repositories with 8 languages (primary: Markdown). good focus - building depth through concentrated effort. Top projects: LeetCode-Attempts, PitchLens. Deep understanding comes from completing projects, not starting many.\n\n## Reality Check (What's Actually Happening)\n- Only 14/30 active days - you're not building the daily coding habit that accelerates learning\n- Longest streak is 4 days - where's the discipline? Consistency compounds\n\n## What You Need to Do\n- Code every single day, even just 30 mins - you're at 46.7%, aim for 80%+\n- Build a 7+ day streak (current: 4) - daily practice is non-negotiable for real skill growth\n- Focus on mastering Markdown before jumping to other languages - depth beats breadth when learning",
+  "chart_paths": [
+    "/home/runner/work/Insightify/Insightify/charts/daily_commits_2026-09.png",
+    "/home/runner/work/Insightify/Insightify/charts/languages_2026-09.png",
+    "/home/runner/work/Insightify/Insightify/charts/top_repos_2026-09.png"
+  ]
+}
